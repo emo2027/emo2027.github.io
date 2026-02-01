@@ -4,8 +4,8 @@
 title: EMO 2027
 description: "14th International Conference on Evolutionary Multi-Objective Optimization"
 tagline: "5-8 April 2027 | Exeter, UK"
-url: "https://georgedeath.github.io"
-baseurl: "/emo2027"
+url: "https://emo2027.github.io"
+baseurl: ""
 
 # Conference Details
 conference:
