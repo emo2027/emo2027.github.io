@@ -1,0 +1,43 @@
+# EMO 2027 Sponsors
+
+# Confirmed sponsors
+confirmed:
+  - name: "Springer"
+    logo: "springer-logo.svg"
+    url: "https://www.springer.com"
+    tier: "publisher"
+
+  - name: "Lecture Notes in Computer Science"
+    logo: "lncs-logo.png"
+    url: "https://www.springer.com/series/558"
+    tier: "publisher"
+
+# Sponsor tiers
+tiers:
+  platinum:
+    name: "Platinum Sponsors"
+    sponsors: []
+
+  gold:
+    name: "Gold Sponsors"
+    sponsors: []
+
+  silver:
+    name: "Silver Sponsors"
+    sponsors: []
+
+  bronze:
+    name: "Bronze Sponsors"
+    sponsors: []
+
+  publisher:
+    name: "Publishing Partner"
+    sponsors:
+      - "Springer"
+      - "Lecture Notes in Computer Science"
+
+# Call for sponsors
+call_for_sponsors:
+  active: true
+  contact_email: "emo2027@exeter.ac.uk"
+  message: "Interested in sponsoring EMO 2027? Contact us for sponsorship opportunities."

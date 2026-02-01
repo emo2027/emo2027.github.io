@@ -1,0 +1,66 @@
+<section class="sponsors-section">
+  <h2>Sponsors & Partners</h2>
+
+  <!-- Publishing Partners -->
+  {% if site.data.sponsors.confirmed.size > 0 %}
+  <div class="sponsor-tier">
+    <h3>Publishing Partner</h3>
+    <div class="sponsor-logos">
+      {% for sponsor in site.data.sponsors.confirmed %}
+      <a href="{{ sponsor.url }}" target="_blank" rel="noopener" class="sponsor-link">
+        <img src="{{ '/assets/images/sponsors/' | append: sponsor.logo | relative_url }}"
+             alt="{{ sponsor.name }}"
+             class="sponsor-logo"
+             loading="lazy">
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- Platinum Sponsors -->
+  {% if site.data.sponsors.tiers.platinum.sponsors.size > 0 %}
+  <div class="sponsor-tier platinum">
+    <h3>{{ site.data.sponsors.tiers.platinum.name }}</h3>
+    <div class="sponsor-logos">
+      {% for sponsor_name in site.data.sponsors.tiers.platinum.sponsors %}
+      {% assign sponsor = site.data.sponsors.confirmed | where: "name", sponsor_name | first %}
+      <a href="{{ sponsor.url }}" target="_blank" rel="noopener" class="sponsor-link">
+        <img src="{{ '/assets/images/sponsors/' | append: sponsor.logo | relative_url }}"
+             alt="{{ sponsor.name }}"
+             class="sponsor-logo platinum"
+             loading="lazy">
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- Gold Sponsors -->
+  {% if site.data.sponsors.tiers.gold.sponsors.size > 0 %}
+  <div class="sponsor-tier gold">
+    <h3>{{ site.data.sponsors.tiers.gold.name }}</h3>
+    <div class="sponsor-logos">
+      {% for sponsor_name in site.data.sponsors.tiers.gold.sponsors %}
+      {% assign sponsor = site.data.sponsors.confirmed | where: "name", sponsor_name | first %}
+      <a href="{{ sponsor.url }}" target="_blank" rel="noopener" class="sponsor-link">
+        <img src="{{ '/assets/images/sponsors/' | append: sponsor.logo | relative_url }}"
+             alt="{{ sponsor.name }}"
+             class="sponsor-logo gold"
+             loading="lazy">
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- Call for Sponsors -->
+  {% if site.data.sponsors.call_for_sponsors.active %}
+  <div class="sponsor-cta">
+    <p>{{ site.data.sponsors.call_for_sponsors.message }}</p>
+    <a href="mailto:{{ site.data.sponsors.call_for_sponsors.contact_email }}" class="btn btn-secondary">
+      Become a Sponsor
+    </a>
+  </div>
+  {% endif %}
+</section>

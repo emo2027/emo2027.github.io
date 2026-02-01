@@ -1,0 +1,40 @@
+# Navigation menu items for EMO 2027
+
+main:
+  - title: "Home"
+    url: "/"
+
+  - title: "Calls"
+    url: "/calls/"
+
+  - title: "Programme"
+    url: "/program/"
+
+  - title: "Registration"
+    url: "/registration/"
+
+  - title: "Venue"
+    url: "/venue/"
+    children:
+      - title: "Venue & Campus"
+        url: "/venue/"
+      - title: "Accommodation"
+        url: "/accommodation/"
+      - title: "Local Information"
+        url: "/local-info/"
+
+  - title: "Social Events"
+    url: "/social-events/"
+
+  - title: "Awards"
+    url: "/awards/"
+
+  - title: "Organizers"
+    url: "/organizers/"
+
+# Footer links
+footer:
+  - title: "Privacy Policy"
+    url: "/privacy/"
+  - title: "Contact"
+    url: "mailto:emo2027@exeter.ac.uk"

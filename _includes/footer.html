@@ -1,0 +1,60 @@
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>{{ site.conference.name }}</h3>
+        <p>{{ site.conference.full_name }}</p>
+        <p>{{ site.conference.dates }}</p>
+        <p>{{ site.conference.venue }}</p>
+      </div>
+
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="{{ '/calls/' | relative_url }}">Call for Papers</a></li>
+          <li><a href="{{ '/registration/' | relative_url }}">Registration</a></li>
+          <li><a href="{{ '/venue/' | relative_url }}">Venue</a></li>
+          <li><a href="{{ '/organizers/' | relative_url }}">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Connect</h3>
+        <ul class="footer-links">
+          <li>
+            <a href="mailto:emo2027@exeter.ac.uk">
+              <svg class="icon" viewBox="0 0 24 24" width="16" height="16">
+                <path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+              </svg>
+              emo2027@exeter.ac.uk
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/emo2027" target="_blank" rel="noopener">
+              <svg class="icon" viewBox="0 0 24 24" width="16" height="16">
+                <path fill="currentColor" d="M22.46 6c-.85.38-1.78.64-2.75.76 1-.6 1.76-1.55 2.12-2.68-.93.55-1.96.95-3.06 1.17-.88-.94-2.13-1.53-3.51-1.53-2.66 0-4.81 2.16-4.81 4.81 0 .38.04.75.13 1.1-4-.2-7.58-2.11-9.96-5.02-.42.72-.66 1.56-.66 2.46 0 1.68.85 3.16 2.14 4.02-.79-.02-1.53-.24-2.18-.6v.06c0 2.35 1.67 4.31 3.88 4.76-.4.1-.83.16-1.27.16-.31 0-.62-.03-.92-.08.63 1.96 2.45 3.39 4.61 3.43-1.69 1.32-3.83 2.1-6.15 2.1-.4 0-.8-.02-1.19-.07 2.19 1.4 4.78 2.22 7.57 2.22 9.07 0 14.02-7.52 14.02-14.02 0-.21 0-.43-.01-.64.96-.7 1.8-1.56 2.46-2.55z"/>
+              </svg>
+              @emo2027
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Hosted by</h3>
+        <a href="https://www.exeter.ac.uk" target="_blank" rel="noopener" class="host-logo">
+          <img src="{{ '/assets/images/exeter-logo.svg' | relative_url }}" alt="University of Exeter" loading="lazy">
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; {{ 'now' | date: "%Y" }} EMO 2027. All rights reserved.</p>
+      <p>
+        {% for link in site.data.navigation.footer %}
+        <a href="{{ link.url | relative_url }}">{{ link.title }}</a>{% unless forloop.last %} | {% endunless %}
+        {% endfor %}
+      </p>
+    </div>
+  </div>
+</footer>

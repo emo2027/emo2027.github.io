@@ -1,0 +1,60 @@
+# EMO 2027 Organizing Committee
+
+general_chairs:
+  - name: "Jonathan Fieldsend"
+    affiliation: "University of Exeter, UK"
+    email: "J.E.Fieldsend@exeter.ac.uk"
+  - name: "Ke Li"
+    affiliation: "University of Exeter, UK"
+    email: "K.Li@exeter.ac.uk"
+  - name: "Hisao Ishibuchi"
+    affiliation: "Southern University of Science and Technology, China"
+    email: "hisao@sustech.edu.cn"
+
+program_chairs:
+  - name: "Oliver Schutze"
+    affiliation: "CINVESTAV-IPN, Mexico"
+  - name: "Tea Tusar"
+    affiliation: "Jozef Stefan Institute, Slovenia"
+
+tutorial_chairs:
+  - name: "TBD"
+    affiliation: ""
+
+workshop_chairs:
+  - name: "TBD"
+    affiliation: ""
+
+competition_chairs:
+  - name: "TBD"
+    affiliation: ""
+
+publicity_chairs:
+  - name: "TBD"
+    affiliation: ""
+
+local_organization:
+  - name: "Jonathan Fieldsend"
+    affiliation: "University of Exeter, UK"
+    role: "Local Chair"
+  - name: "Ke Li"
+    affiliation: "University of Exeter, UK"
+    role: "Local Chair"
+
+web_chair:
+  - name: "George De Ath"
+    affiliation: "University of Exeter, UK"
+    email: "g.de.ath@exeter.ac.uk"
+
+finance_chair:
+  - name: "TBD"
+    affiliation: ""
+
+# Steering Committee
+steering_committee:
+  - name: "Carlos Coello Coello"
+    affiliation: "CINVESTAV-IPN, Mexico"
+  - name: "Kalyanmoy Deb"
+    affiliation: "Michigan State University, USA"
+  - name: "Hisao Ishibuchi"
+    affiliation: "Southern University of Science and Technology, China"

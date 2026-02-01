@@ -1,0 +1,29 @@
+# Jekyll build output
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Ruby
+.bundle/
+vendor/bundle/
+
+# Node (if using npm for linting)
+node_modules/
+
+# Misc
+*.log
+
+# Project-specific excludes
+2025_site/
+EMO_2027_bid.docx

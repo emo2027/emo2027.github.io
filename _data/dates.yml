@@ -1,0 +1,37 @@
+# Important Dates for EMO 2027
+# All dates are tentative until confirmed
+
+dates:
+  - name: "Paper Submission Deadline"
+    date: "2026-10-15"
+    time: "23:59"
+    timezone: "AoE"
+    description: "Submit full papers via the conference submission system"
+    completed: false
+
+  - name: "Author Notification"
+    date: "2026-12-15"
+    description: "Authors will be notified of acceptance decisions"
+    completed: false
+
+  - name: "Camera-Ready Deadline"
+    date: "2027-01-15"
+    time: "23:59"
+    timezone: "AoE"
+    description: "Final versions of accepted papers due"
+    completed: false
+
+  - name: "Early Registration Deadline"
+    date: "2027-02-15"
+    description: "Register early for discounted rates"
+    completed: false
+
+  - name: "Conference Begins"
+    date: "2027-04-05"
+    description: "Tutorial day and welcome reception"
+    completed: false
+    highlight: true
+
+# Display settings
+show_countdown: true
+countdown_target: "conference_begins"

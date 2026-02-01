@@ -1,0 +1,40 @@
+<div class="countdown-section">
+  <h2>Important Dates</h2>
+  <p class="dates-note">All dates are tentative and subject to change</p>
+
+  <div class="countdown-grid">
+    {% for date in site.data.dates.dates %}
+    <div class="countdown-item{% if date.highlight %} highlighted{% endif %}{% if date.completed %} completed{% endif %}"
+         data-date="{{ date.date }}"
+         {% if date.time %}data-time="{{ date.time }}"{% endif %}>
+      <div class="countdown-header">
+        <h3 class="countdown-name">{{ date.name }}</h3>
+        <span class="countdown-date">{{ date.date | date: "%B %d, %Y" }}{% if date.timezone %} ({{ date.timezone }}){% endif %}</span>
+      </div>
+      {% if date.description %}
+      <p class="countdown-description">{{ date.description }}</p>
+      {% endif %}
+      <div class="countdown-timer" aria-live="polite">
+        <div class="timer-unit">
+          <span class="timer-value days">--</span>
+          <span class="timer-label">Days</span>
+        </div>
+        <div class="timer-unit">
+          <span class="timer-value hours">--</span>
+          <span class="timer-label">Hours</span>
+        </div>
+        <div class="timer-unit">
+          <span class="timer-value minutes">--</span>
+          <span class="timer-label">Min</span>
+        </div>
+        <div class="timer-unit">
+          <span class="timer-value seconds">--</span>
+          <span class="timer-label">Sec</span>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<script src="{{ '/assets/js/countdown.js' | relative_url }}"></script>

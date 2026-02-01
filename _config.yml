@@ -1,0 +1,62 @@
+# EMO 2027 Conference Website
+# https://emo2027.github.io
+
+title: EMO 2027
+description: "14th International Conference on Evolutionary Multi-Objective Optimization"
+tagline: "5-8 April 2027 | Exeter, UK"
+url: "https://emo2027.github.io"
+baseurl: ""
+
+# Conference Details
+conference:
+  name: "EMO 2027"
+  full_name: "14th International Conference on Evolutionary Multi-Objective Optimization"
+  dates: "5-8 April 2027"
+  venue: "XFi Building, University of Exeter"
+  location: "Exeter, United Kingdom"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+  - 2025_site/
+  - EMO_2027_bid.docx
+  - .ruby-version
+  - node_modules/
+  - .mdlrc
+  - .stylelintrc.json
+
+# Include pages directory
+include:
+  - pages
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: "pages"
+    values:
+      layout: "page"
+
+# Plugins (GitHub Pages supported)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Collections
+collections_dir: .
+
+# Search
+search:
+  enabled: true

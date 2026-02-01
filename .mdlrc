@@ -1,0 +1,10 @@
+# Disable rules that don't apply to Jekyll sites with HTML components
+# MD002/MD041 - First header level (Jekyll adds h1 from layout)
+# MD013 - Line length (prose doesn't need line breaks)
+# MD022/MD032 - Blank lines around headers/lists (Jekyll handles fine)
+# MD024 - Duplicate headers (intentional in different sections)
+# MD026 - Trailing punctuation ("Questions?" headers are fine)
+# MD029 - Ordered list prefix (1,2,3 is valid markdown)
+# MD033 - Inline HTML (intentional for Jekyll components)
+# MD036 - Emphasis instead of header (styling choice)
+rules "~MD002", "~MD007", "~MD013", "~MD022", "~MD024", "~MD026", "~MD029", "~MD032", "~MD033", "~MD036", "~MD041"
