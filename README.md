@@ -167,6 +167,10 @@ The site supports all modern browsers and includes:
 - Accessible navigation
 - Print styles
 
+## Outstanding Tasks
+
+See [TODO.md](TODO.md) for a list of content and features that still need to be completed.
+
 ## Contributing
 
 1. Create a feature branch
