@@ -51,7 +51,11 @@
     }
 
     try {
-      const results = searchIndex.search(query + '*');
+      // Search for both exact match and wildcard to handle complete words and partial matches
+      let results = searchIndex.search(query);
+      if (results.length === 0) {
+        results = searchIndex.search(query + '*');
+      }
 
       if (results.length === 0) {
         searchResults.innerHTML = '<div class="search-result-item"><p>No results found.</p></div>';
