@@ -43,50 +43,15 @@ EMO 2027 will be held **{{ site.data.conference.dates.display }}** at the Univer
 
 ## Topics of Interest
 
-We welcome submissions on all aspects of multi-objective optimization, including but not limited to:
+{{ site.data.topics.intro }}
 
-### Theoretical Foundations
-- Convergence analysis and runtime complexity
-- Fitness landscape analysis
-- Problem difficulty and hardness
-- Approximation quality and guarantees
+{% for category in site.data.topics.categories %}
+### {{ category.name }}
+{% for topic in category.topics %}
+- {{ topic }}
+{% endfor %}
 
-### Algorithm Design
-- Novel multi-objective evolutionary algorithms
-- Many-objective optimization algorithms
-- Indicator-based and decomposition-based methods
-- Surrogate-assisted and model-based optimization
-- Hybrid and memetic algorithms
-- Parallel and distributed approaches
-
-### Performance Assessment
-- Quality indicators and metrics
-- Benchmarking methodologies
-- Statistical comparison methods
-- Visualization techniques
-
-### Advanced Topics
-- Preference incorporation and interactive methods
-- Dynamic and time-varying optimization
-- Robust and uncertain optimization
-- Constrained multi-objective optimization
-- Large-scale multi-objective optimization
-- Multi-objective combinatorial optimization
-
-### Machine Learning and EMO
-- Neural network training with multiple objectives
-- AutoML and neural architecture search
-- Explainable multi-objective optimization
-- Learning to optimize
-
-### Applications
-- Engineering design optimization
-- Machine learning and data mining
-- Finance and economics
-- Healthcare and bioinformatics
-- Energy and sustainability
-- Logistics and scheduling
-- Other real-world applications
+{% endfor %}
 
 ## Submission Guidelines
 

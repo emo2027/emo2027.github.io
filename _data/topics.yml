@@ -1,0 +1,53 @@
+# Topics of Interest for EMO 2027 Call for Papers
+
+intro: "We welcome submissions on all aspects of multi-objective optimization, including but not limited to:"
+
+categories:
+  - name: "Theoretical Foundations"
+    topics:
+      - "Convergence analysis and runtime complexity"
+      - "Fitness landscape analysis"
+      - "Problem difficulty and hardness"
+      - "Approximation quality and guarantees"
+
+  - name: "Algorithm Design"
+    topics:
+      - "Novel multi-objective evolutionary algorithms"
+      - "Many-objective optimization algorithms"
+      - "Indicator-based and decomposition-based methods"
+      - "Surrogate-assisted and model-based optimization"
+      - "Hybrid and memetic algorithms"
+      - "Parallel and distributed approaches"
+
+  - name: "Performance Assessment"
+    topics:
+      - "Quality indicators and metrics"
+      - "Benchmarking methodologies"
+      - "Statistical comparison methods"
+      - "Visualization techniques"
+
+  - name: "Advanced Topics"
+    topics:
+      - "Preference incorporation and interactive methods"
+      - "Dynamic and time-varying optimization"
+      - "Robust and uncertain optimization"
+      - "Constrained multi-objective optimization"
+      - "Large-scale multi-objective optimization"
+      - "Multi-objective combinatorial optimization"
+
+  - name: "Machine Learning and EMO"
+    topics:
+      - "Neural network training with multiple objectives"
+      - "AutoML and neural architecture search"
+      - "Explainable multi-objective optimization"
+      - "Learning to optimize"
+
+  - name: "Applications"
+    topics:
+      - "Engineering design optimization"
+      - "Machine learning and data mining"
+      - "Finance and economics"
+      - "Healthcare and bioinformatics"
+      - "Energy and sustainability"
+      - "Logistics and scheduling"
+      - "Other real-world applications"

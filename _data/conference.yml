@@ -23,6 +23,10 @@ venue:
 contact:
   email: "emo2027@exeter.ac.uk"
 
+social:
+  twitter: "emo2027"
+  # bluesky: "emo2027.bsky.social"
+
 format:
   summary: "Single-track programme with themed sessions across EMO, MCDM, and Industry topics"
   detail: "All scientific sessions are single-track and will take place in the Henderson Lecture Theatre."
