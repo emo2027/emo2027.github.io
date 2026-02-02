@@ -44,13 +44,14 @@ Official website for the 14th International Conference on Evolutionary Multi-Cri
 ```
 ├── _config.yml          # Jekyll configuration
 ├── _data/               # Data files (YAML)
-│   ├── conference.yml   # Core conference facts (dates, venue, contact)
+│   ├── conference.yml   # Core conference facts (dates, venue, contact, social)
 │   ├── dates.yml        # Deadlines and countdown items
 │   ├── navigation.yml   # Navigation menu structure
 │   ├── organizers.yml   # Committee members
 │   ├── schedule.yml     # Programme schedule
 │   ├── social_events.yml# Social events content
-│   └── sponsors.yml     # Sponsor information
+│   ├── sponsors.yml     # Sponsor information
+│   └── topics.yml       # Call for Papers topics
 ├── _includes/           # Reusable HTML components
 │   ├── header.html
 │   ├── nav.html
@@ -127,7 +128,11 @@ Edit `_data/organizers.yml` to add or update committee members.
 
 ### Updating Conference Facts
 
-Edit `_data/conference.yml` to update core facts (dates, venue, contact email, location). These values are reused across pages, JSON-LD, and the ICS calendar export.
+Edit `_data/conference.yml` to update core facts (dates, venue, contact email, location, social links). These values are reused across pages, JSON-LD, the footer, and the ICS calendar export.
+
+### Updating Call for Papers Topics
+
+Edit `_data/topics.yml` to update the research topics shown on the Calls page.
 
 ### Updating Social Events
 
