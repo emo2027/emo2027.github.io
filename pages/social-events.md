@@ -21,7 +21,7 @@ EMO 2027 offers an exciting social programme designed to foster networking, coll
 {% endfor %}
 
 {% if schedule_day and schedule_event %}
-**{{ schedule_day.date | date: "%A, %-d %B %Y" }} | {{ schedule_event.time }}**
+**{{ schedule_day.date | date: "%A, %-d %B %Y" }} \| {{ schedule_event.time }}**
 {: .event-datetime }
 {% endif %}
 
