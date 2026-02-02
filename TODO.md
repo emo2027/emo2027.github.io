@@ -4,11 +4,11 @@ This file tracks content and features that need to be completed for the website.
 
 ## Committee Appointments (Organizers Page)
 
-- [ ] Tutorial Chairs
+- [x] Tutorial Chair
 - [ ] Workshop Chairs
 - [ ] Competition Chairs
-- [ ] Publicity Chairs
-- [ ] Finance Chair
+- [x] Publicity Chairs
+- [x] Finance Chair (combined with Local Arrangement)
 - [ ] Program Committee members (mid-2026)
 
 ## Programme
