@@ -18,6 +18,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - CLAUDE.md
+  - TODO.md
   - vendor/
   - 2025_site/
   - EMO_2027_bid.docx
