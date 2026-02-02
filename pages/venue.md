@@ -24,7 +24,7 @@ EMO 2027 will be hosted at the [{{ site.data.conference.venue.name }}]({{ site.d
 
 <div class="info-box notice">
   <p>Explore the Streatham Campus with the University of Exeter's 3D virtual tour:</p>
-  <a href="https://www.exeter.ac.uk/visit/virtual-tour/" class="btn btn-primary">Take the Virtual Tour</a>
+  <a href="https://virtualtourcompany.co.uk/exeter_university/index.html" class="btn btn-primary">Take the Virtual Tour</a>
 </div>
 
 ## Streatham Campus
@@ -34,7 +34,7 @@ The Streatham Campus is the University of Exeter's largest campus, set in 300 ac
 ### Campus Highlights
 
 - **[Reed Hall](https://event.exeter.ac.uk/venues/reed-hall)** - Historic building hosting the conference banquet
-- **[The Forum](https://www.exeter.ac.uk/departments/campusservices/facilitiesoperations/forum/)** - Modern student hub with cafes and services
+- **[The Forum](https://www.exeter.ac.uk/our-campuses/streatham-campus/the-forum/)** - Modern student hub with cafes and services
 - **Beautiful Gardens** - Award-winning botanical gardens and arboretum
 - **Sports Facilities** - Available for attendees during the conference
 
@@ -59,21 +59,21 @@ Please contact us in advance if you have specific accessibility requirements.
 
 ### Campus Parking
 
-Limited parking is available on campus. Visitors should use **[Car Park C](https://www.exeter.ac.uk/staff/car-parking/carparklocations/)**. We recommend using public transport when possible.
+Limited parking is available on campus. Visitors should use **[Car Park C](https://www.exeter.ac.uk/our-campuses/streatham-campus/)**. We recommend using public transport when possible.
 
 ### Campus Map
 
 <div class="info-box notice">
   <p>Download the campus map to help navigate the grounds:</p>
-  <a href="https://www.exeter.ac.uk/visit/maps/" class="btn btn-secondary">Download Campus Map</a>
+  <a href="https://www.exeter.ac.uk/v8media/aboutus/visitus/streatham-campus-map.pdf" class="btn btn-secondary">Download Campus Map</a>
 </div>
 
 ## Nearby Amenities
 
 The XFi Building is conveniently located near:
 
-- **[The Forum](https://www.exeter.ac.uk/departments/campusservices/facilitiesoperations/forum/)** - Student hub with cafes (including Pret and Starbucks)
-- **[The Ram Bar](https://liveevents.exeter.ac.uk/event-venue/the-ram-bar/)** - On-campus pub between the Forum and Great Hall
+- **[The Forum](https://www.exeter.ac.uk/our-campuses/streatham-campus/the-forum/)** - Student hub with cafes (including Pret and Starbucks)
+- **[The Ram Bar](https://www.exeter.ac.uk/departments/campusservices/eatandshop/eatanddrink/therambar/)** - On-campus pub in Devonshire House
 
 ## Conference Dining
 

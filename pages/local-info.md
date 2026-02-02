@@ -125,7 +125,7 @@ April in Exeter typically offers mild spring weather:
 
 ### Near the University
 
-- **[The Ram Bar](https://liveevents.exeter.ac.uk/event-venue/the-ram-bar/)** - On-campus pub
+- **[The Ram Bar](https://www.exeter.ac.uk/departments/campusservices/eatandshop/eatanddrink/therambar/)** - On-campus pub in Devonshire House
 - **New North Road** - Various cafes and takeaways
 - **St David's area** - Pubs and restaurants
 
