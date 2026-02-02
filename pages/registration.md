@@ -2,7 +2,7 @@
 layout: page
 title: Registration
 permalink: /registration/
-description: Register for EMO 2027 - the 14th International Conference on Evolutionary Multi-Objective Optimization.
+description: Register for EMO 2027 - the 14th International Conference on Evolutionary Multi-Criterion Optimization.
 ---
 
 ## Conference Registration
@@ -28,13 +28,13 @@ Full conference registration includes:
 
 - Access to all technical sessions, keynotes, and tutorials
 - Conference materials and proceedings
-- Welcome reception (Saturday evening)
-- Coffee breaks and lunches (Saturday-Tuesday)
-- Conference banquet (Monday evening)
+- Welcome reception (Monday evening)
+- Coffee breaks and lunches (Monday-Thursday)
+- Conference banquet (Wednesday evening)
 
 ### Optional Events
 
-- **Boat Tour** (Monday afternoon) - Additional fee applies
+- **Boat Tour** (Tuesday evening, TBC) - Additional fee applies
 - **Accompanying Person Registration** - Available for social events only
 
 ## Important Dates

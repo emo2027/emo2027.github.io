@@ -29,7 +29,7 @@ The Awards Committee evaluates papers based on:
 
 ### Selection Process
 
-1. Program Committee members nominate outstanding papers during review
+1. Programme Committee members nominate outstanding papers during review
 2. The Awards Committee reviews nominated papers
 3. Finalists are invited to present at a special session
 4. The winner is announced at the conference banquet
@@ -61,7 +61,7 @@ Authors who believe their work deserves recognition may submit a brief statement
 
 ### Nomination by Others
 
-Program Committee members and attendees may nominate papers by contacting the Awards Committee with a brief justification.
+Programme Committee members and attendees may nominate papers by contacting the Awards Committee with a brief justification.
 
 ## Awards Committee
 

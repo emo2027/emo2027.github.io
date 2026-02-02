@@ -4,12 +4,18 @@
 
   <div class="countdown-grid">
     {% for date in site.data.dates.dates %}
+    {% assign is_date = date.date contains '-' %}
     <div class="countdown-item{% if date.highlight %} highlighted{% endif %}{% if date.completed %} completed{% endif %}"
-         data-date="{{ date.date }}"
-         {% if date.time %}data-time="{{ date.time }}"{% endif %}>
+         {% if is_date %}data-date="{{ date.date }}"{% if date.time %} data-time="{{ date.time }}"{% endif %}{% endif %}>
       <div class="countdown-header">
         <h3 class="countdown-name">{{ date.name }}</h3>
-        <span class="countdown-date">{{ date.date | date: "%B %d, %Y" }}{% if date.timezone %} ({{ date.timezone }}){% endif %}</span>
+        <span class="countdown-date">
+          {% if is_date %}
+            {{ date.date | date: "%B %d, %Y" }}
+          {% else %}
+            {{ date.date }}
+          {% endif %}{% if date.timezone %} ({{ date.timezone }}){% endif %}
+        </span>
       </div>
       {% if date.description %}
       <p class="countdown-description">{{ date.description }}</p>

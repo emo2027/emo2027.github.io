@@ -18,7 +18,7 @@ We have arranged accommodation options at various price points to suit all budge
 Holland Hall offers comfortable en-suite accommodation on the Streatham Campus, just a short walk from the conference venue.
 
 - **Room Type**: Single en-suite rooms
-- **Price**: Approximately £45-55 per night (including breakfast)
+- **Price**: To be confirmed
 - **Facilities**: WiFi, shared kitchen, laundry facilities
 - **Distance to Venue**: 5-minute walk
 
@@ -48,16 +48,6 @@ A boutique hotel in a historic building near the cathedral, offering luxury acco
 - **Facilities**: Restaurant, wine bar, courtyard
 - **Website**: [hotelduvin.com](https://www.hotelduvin.com)
 
-### ABode Exeter
-
-**Premium Option**
-
-Contemporary hotel in the heart of Exeter with excellent dining options.
-
-- **Distance to Campus**: 25-minute walk or 10-minute bus ride
-- **Facilities**: Award-winning restaurant, bar, spa treatments
-- **Website**: [abodehotels.co.uk](https://www.abodehotels.co.uk)
-
 ## Budget Options
 
 ### Premier Inn Exeter Central
@@ -67,20 +57,6 @@ Reliable budget chain hotel with good value for money.
 - **Distance to Campus**: 25-minute walk or bus ride
 - **Facilities**: Restaurant, WiFi
 - **Website**: [premierinn.com](https://www.premierinn.com)
-
-### Travelodge Exeter
-
-Another budget-friendly option near the city centre.
-
-- **Distance to Campus**: 30-minute walk or bus ride
-- **Website**: [travelodge.co.uk](https://www.travelodge.co.uk)
-
-### YHA Exeter
-
-Hostel accommodation for those on a tight budget.
-
-- **Room Types**: Dormitory and private rooms available
-- **Website**: [yha.org.uk](https://www.yha.org.uk)
 
 ## Airbnb and Self-Catering
 
@@ -104,9 +80,7 @@ Exeter has many Airbnb and self-catering options throughout the city. When booki
 
 Stagecoach operates regular bus services from the city centre to the Streatham Campus. Routes **D** and **H** stop directly on campus.
 
-- **Single fare**: Approximately £2
-- **Day ticket**: Approximately £4
-- **Bus app**: Download the Stagecoach app for real-time information
+- **Bus app**: Download the Stagecoach app for real-time information and fares
 
 ### By Taxi
 

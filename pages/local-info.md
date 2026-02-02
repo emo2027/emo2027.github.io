@@ -22,7 +22,6 @@ Exeter is a vibrant cathedral city in Devon, South West England. With a rich his
 **Bristol Airport (BRS)**
 - Major regional airport, approximately 80 miles from Exeter
 - Wide range of UK and European flights
-- Regular bus service to Exeter (approximately 2 hours)
 
 **London Airports**
 - Heathrow (LHR), Gatwick (LGW), and Stansted (STN)
@@ -110,15 +109,15 @@ April in Exeter typically offers mild spring weather:
 
 ### Day Trips
 
-**[Dartmoor National Park](https://www.dartmoor.gov.uk/)** (30 minutes)
+**[Dartmoor National Park](https://www.dartmoor.gov.uk/)**
 - Dramatic moorland landscapes
 - Hiking, wildlife, and historic sites
 
-**[Jurassic Coast](https://jurassiccoast.org/)** (45 minutes)
+**[Jurassic Coast](https://jurassiccoast.org/)**
 - UNESCO World Heritage Site
 - Spectacular coastal cliffs and beaches
 
-**[Torbay](https://www.englishriviera.co.uk/)** (45 minutes)
+**[Torbay](https://www.englishriviera.co.uk/)**
 - English Riviera beaches
 - Torquay, Paignton, and Brixham
 
@@ -141,13 +140,12 @@ Exeter offers diverse dining options:
 
 ### Traditional Pubs
 
-- **The Ship Inn** - Historic pub near the cathedral
+- **[The Ship Inn](https://maps.google.com/?q=The+Ship+Inn+Exeter)** - Historic pub near the cathedral
 - **The Old Firehouse** - Known for pizzas and craft beer
 
 ### Vegetarian/Vegan
 
 - **[Herbies](https://herbiesrestaurant.co.uk/)** - Vegetarian restaurant
-- **Plant Cafe** - Vegan options
 - Many restaurants offer vegetarian/vegan menus
 
 ## Practical Information

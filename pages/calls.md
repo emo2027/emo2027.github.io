@@ -2,12 +2,12 @@
 layout: page
 title: Call for Papers
 permalink: /calls/
-description: Submit your research to EMO 2027 - the premier venue for evolutionary multi-objective optimization.
+description: Submit your research to EMO 2027 - the premier venue for evolutionary multi-criterion optimization.
 ---
 
 ## Overview
 
-The 14th International Conference on Evolutionary Multi-Objective Optimization (EMO 2027) invites high-quality submissions presenting original research on all aspects of multi-objective optimization using evolutionary computation and related approaches.
+The 14th International Conference on Evolutionary Multi-Criterion Optimization (EMO 2027) invites high-quality submissions presenting original research on all aspects of multi-criterion optimization using evolutionary computation and related approaches.
 
 EMO 2027 will be held **April 5-8, 2027** at the University of Exeter, United Kingdom.
 
@@ -92,11 +92,7 @@ Papers should not exceed **15 pages** including references and appendices.
 
 ### Review Process
 
-All submissions will undergo a **double-blind peer review** by at least three members of the Program Committee. Authors should ensure their submissions are properly anonymized:
-
-- Remove author names and affiliations from the manuscript
-- Avoid self-references that reveal identity (use "previous work [X]" instead of "our previous work [X]")
-- Remove identifying information from file metadata
+All submissions will undergo peer review by at least three members of the Programme Committee. Details of the review process (including any anonymization requirements) will be announced with the submission system.
 
 ## Publication
 
@@ -143,13 +139,9 @@ We also welcome proposals for **tutorials** on topics relevant to the EMO commun
   <p>Please submit special session and tutorial proposals to <a href="mailto:emo2027@exeter.ac.uk">emo2027@exeter.ac.uk</a></p>
 </div>
 
-## Competition Track
-
-EMO 2027 will feature a **competition track** with benchmarking challenges. Details will be announced in late 2026.
-
 ## Contact
 
-For questions regarding submissions, please contact the Program Chairs:
+For questions regarding submissions, please contact the Programme Chairs:
 
 - **Oliver Schutze** (CINVESTAV-IPN, Mexico)
 - **Tea Tusar** (Jozef Stefan Institute, Slovenia)

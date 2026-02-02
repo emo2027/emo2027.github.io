@@ -6,7 +6,7 @@ title: Home
 <div class="hero-section">
   <h1>EMO 2027</h1>
   <p class="lead">
-    Welcome to the 14th International Conference on Evolutionary Multi-Objective Optimization,
+    Welcome to the 14th International Conference on Evolutionary Multi-Criterion Optimization,
     hosted by the University of Exeter in the beautiful city of Exeter, United Kingdom.
   </p>
   <div class="hero-buttons">
@@ -17,7 +17,7 @@ title: Home
 
 ## About EMO 2027
 
-The **International Conference on Evolutionary Multi-Objective Optimization (EMO)** is the premier venue for researchers and practitioners working on multi-objective and many-objective optimization using evolutionary and nature-inspired computation approaches.
+The **International Conference on Evolutionary Multi-Criterion Optimization (EMO)** is the premier venue for researchers and practitioners working on multi-objective and many-objective optimization using evolutionary and nature-inspired computation approaches.
 
 EMO 2027 will bring together leading experts from academia and industry to present and discuss the latest advances in evolutionary multi-objective optimization, including theoretical foundations, algorithm design, performance assessment, and real-world applications.
 
@@ -25,8 +25,8 @@ EMO 2027 will bring together leading experts from academia and industry to prese
 
 EMO 2027 will feature:
 
-- **1 Tutorial Day** (Saturday, April 5th) - In-depth tutorials on cutting-edge topics
-- **3 Scientific Days** (Sunday-Tuesday, April 6th-8th) - Keynotes, paper presentations, and discussions
+- **1 Tutorial Day** (Monday, April 5th) - In-depth tutorials on cutting-edge topics
+- **3 Scientific Days** (Tuesday-Thursday, April 6th-8th) - Keynotes and single-track sessions across EMO, MCDM, and Industry tracks
 - **Social Events** - Welcome reception, boat tour, and conference banquet
 - **Best Paper Awards** - Recognition of outstanding contributions
 
@@ -73,7 +73,7 @@ EMO 2027 will feature:
 
 ## Venue
 
-EMO 2027 will be held at the **XFi Building** on the University of Exeter's picturesque Streatham Campus. The venue features modern conference facilities including the 350-seat Henderson Lecture Theatre and multiple breakout rooms.
+EMO 2027 will be held at the **XFi Building** on the University of Exeter's picturesque Streatham Campus. The venue features modern conference facilities including the 174-seat Henderson Lecture Theatre and the XFi break-out area for posters and networking.
 
 <a href="{{ '/venue/' | relative_url }}" class="btn btn-secondary">Learn More About the Venue</a>
 

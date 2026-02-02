@@ -2,7 +2,7 @@
 # https://emo2027.github.io
 
 title: EMO 2027
-description: "14th International Conference on Evolutionary Multi-Objective Optimization"
+description: "14th International Conference on Evolutionary Multi-Criterion Optimization"
 tagline: "5-8 April 2027 | Exeter, UK"
 url: "https://emo2027.github.io"
 baseurl: ""
@@ -10,7 +10,7 @@ baseurl: ""
 # Conference Details
 conference:
   name: "EMO 2027"
-  full_name: "14th International Conference on Evolutionary Multi-Objective Optimization"
+  full_name: "14th International Conference on Evolutionary Multi-Criterion Optimization"
   dates: "5-8 April 2027"
   venue: "XFi Building, University of Exeter"
   location: "Exeter, United Kingdom"

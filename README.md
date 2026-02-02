@@ -1,6 +1,6 @@
 # EMO 2027 Conference Website
 
-Official website for the 14th International Conference on Evolutionary Multi-Objective Optimization (EMO 2027), hosted by the University of Exeter, UK.
+Official website for the 14th International Conference on Evolutionary Multi-Criterion Optimization (EMO 2027), hosted by the University of Exeter, UK.
 
 **Live site:** <https://emo2027.github.io>
 

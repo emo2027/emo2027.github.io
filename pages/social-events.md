@@ -11,11 +11,11 @@ EMO 2027 offers an exciting social programme designed to foster networking, coll
 
 ## Welcome Reception
 
-<p class="event-datetime"><strong>Saturday, April 5, 2027 | 18:00 - 20:00</strong></p>
+<p class="event-datetime"><strong>Monday, April 5, 2027 | Evening (TBC)</strong></p>
 
-<p class="event-datetime"><strong>Location: Reed Hall, University of Exeter</strong></p>
+<p class="event-datetime"><strong>Location: XFi Break-out Area, University of Exeter</strong></p>
 
-Kick off EMO 2027 at our welcome reception in the beautiful Reed Hall, a historic Victorian mansion set in stunning gardens on the Streatham Campus.
+Kick off EMO 2027 at our welcome reception in the XFi break-out area on the Streatham Campus.
 
 ### What to Expect
 
@@ -24,21 +24,17 @@ Kick off EMO 2027 at our welcome reception in the beautiful Reed Hall, a histori
 - Informal atmosphere to start the conference
 - Beautiful gardens to explore (weather permitting)
 
-### About Reed Hall
-
-Built in 1867, Reed Hall is a magnificent Grade II listed building that now serves as the University's conference and events venue. Its elegant rooms and picturesque gardens provide a wonderful setting for the reception.
-
 <div class="info-box notice">
   <strong>Included:</strong> The welcome reception is included in the full conference registration.
 </div>
 
 ## Boat Tour on the Exe Estuary
 
-<p class="event-datetime"><strong>Monday, April 7, 2027 | 13:30 - 17:30</strong></p>
+<p class="event-datetime"><strong>Tuesday, April 6, 2027 | Evening (TBC)</strong></p>
 
 <p class="event-datetime"><strong>Departure: Exeter Quay</strong></p>
 
-Join us for a unique excursion along the historic Exe Estuary. This guided boat tour offers stunning views of the Devon coastline and opportunities to spot local wildlife.
+Join us for a private charter boat tour along the River Exe Estuary. We plan to use Stuart Line Cruises (Pride of Exmouth), subject to final confirmation.
 
 ### Tour Highlights
 
@@ -46,24 +42,19 @@ Join us for a unique excursion along the historic Exe Estuary. This guided boat 
 - Views of historic Topsham and the estuary
 - Opportunity to spot birds and marine wildlife
 - Expert commentary on local history and ecology
-- Refreshments on board
+- Refreshments on board (TBC)
 
-### Itinerary
+### Timing
 
-| Time | Activity |
-|------|----------|
-| 13:30 | Meet at Exeter Quay |
-| 14:00 | Boat departs |
-| 14:00-16:30 | Estuary cruise with commentary |
-| 16:30 | Return to Exeter Quay |
-| 17:30 | Free time before banquet |
+Detailed timings will be announced closer to the conference.
 
 ### Practical Information
 
-- **Duration**: Approximately 2.5 hours on the water
+- **Duration**: Approximately 2.5 hours on the water (TBC)
 - **Dress code**: Casual, comfortable clothes; layers recommended
 - **Weather**: Tour operates in most weather conditions; waterproofs advised
 - **Mobility**: Please inform us of any accessibility requirements when booking
+- **Capacity**: Up to 150 (TBC)
 
 <div class="info-box notice">
   <strong>Additional Registration Required:</strong> The boat tour requires separate registration and payment. Space is limited, so early booking is recommended.
@@ -71,7 +62,7 @@ Join us for a unique excursion along the historic Exe Estuary. This guided boat 
 
 ## Conference Banquet
 
-<p class="event-datetime"><strong>Monday, April 7, 2027 | 19:00 - 22:00</strong></p>
+<p class="event-datetime"><strong>Wednesday, April 7, 2027 | Evening (TBC)</strong></p>
 
 <p class="event-datetime"><strong>Location: Reed Hall, University of Exeter</strong></p>
 

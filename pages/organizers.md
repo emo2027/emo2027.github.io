@@ -31,7 +31,7 @@ EMO 2027 is organized by a dedicated team of researchers from around the world. 
   </div>
 </div>
 
-## Program Chairs
+## Programme Chairs
 
 <div class="organizer-section">
   <div class="organizer-grid">
@@ -46,66 +46,128 @@ EMO 2027 is organized by a dedicated team of researchers from around the world. 
   </div>
 </div>
 
-## Local Organization
+## Industry Session Chairs
 
 <div class="organizer-section">
   <div class="organizer-grid">
     <div class="organizer-card">
-      <span class="organizer-name">Jonathan Fieldsend</span>
+      <span class="organizer-name">Ed Keedwell</span>
       <span class="organizer-affiliation">University of Exeter, UK</span>
     </div>
     <div class="organizer-card">
-      <span class="organizer-name">Ke Li</span>
+      <span class="organizer-name">TBC</span>
+      <span class="organizer-affiliation">To be confirmed</span>
+    </div>
+  </div>
+</div>
+
+## MCDM Chairs
+
+<div class="organizer-section">
+  <div class="organizer-grid">
+    <div class="organizer-card">
+      <span class="organizer-name">Tinkle Chugh</span>
+      <span class="organizer-affiliation">University of Exeter, UK</span>
+    </div>
+    <div class="organizer-card">
+      <span class="organizer-name">Qingfu Zhang</span>
+      <span class="organizer-affiliation">City University of Hong Kong</span>
+    </div>
+  </div>
+</div>
+
+## Proceedings Chairs
+
+<div class="organizer-section">
+  <div class="organizer-grid">
+    <div class="organizer-card">
+      <span class="organizer-name">Alma Rahat</span>
+      <span class="organizer-affiliation">Swansea University, UK</span>
+    </div>
+    <div class="organizer-card">
+      <span class="organizer-name">David Walker</span>
       <span class="organizer-affiliation">University of Exeter, UK</span>
     </div>
   </div>
 </div>
 
-## Other Committees
+## Conflict of Interest Chairs
 
 <div class="organizer-section">
-  <h3>Tutorial Chairs</h3>
-  <div class="info-box tbd">
-    <p>To be announced</p>
+  <div class="organizer-grid">
+    <div class="organizer-card">
+      <span class="organizer-name">Sanaz Mostaghim</span>
+      <span class="organizer-affiliation">Otto von Guericke University of Magdeburg, Germany</span>
+    </div>
+    <div class="organizer-card">
+      <span class="organizer-name">Marcella Scoczynski Ribeiro Martins</span>
+      <span class="organizer-affiliation">Federal University of Technology of Parana, Brazil</span>
+    </div>
   </div>
 </div>
 
+## Local Arrangement & Finance Chairs
+
 <div class="organizer-section">
-  <h3>Workshop Chairs</h3>
-  <div class="info-box tbd">
-    <p>To be announced</p>
+  <div class="organizer-grid">
+    <div class="organizer-card">
+      <span class="organizer-name">Aishwaryaprajna</span>
+      <span class="organizer-affiliation">University of Exeter, UK</span>
+    </div>
+    <div class="organizer-card">
+      <span class="organizer-name">Richard Everson</span>
+      <span class="organizer-affiliation">University of Exeter, UK</span>
+    </div>
   </div>
 </div>
 
+## Tutorial Chair
+
 <div class="organizer-section">
-  <h3>Competition Chairs</h3>
-  <div class="info-box tbd">
-    <p>To be announced</p>
+  <div class="organizer-grid">
+    <div class="organizer-card">
+      <span class="organizer-name">Alberto Moraglio</span>
+      <span class="organizer-affiliation">University of Exeter, UK</span>
+    </div>
   </div>
 </div>
 
+## Publicity Chairs
+
 <div class="organizer-section">
-  <h3>Publicity Chairs</h3>
-  <div class="info-box tbd">
-    <p>To be announced</p>
+  <div class="organizer-grid">
+    <div class="organizer-card">
+      <span class="organizer-name">Yaochu Jin</span>
+      <span class="organizer-affiliation">Westlake University, China</span>
+    </div>
+    <div class="organizer-card">
+      <span class="organizer-name">Arnaud Liefooghe</span>
+      <span class="organizer-affiliation">Universite du Littoral Cote d'Opale, France</span>
+    </div>
+    <div class="organizer-card">
+      <span class="organizer-name">Mengjie Zhang</span>
+      <span class="organizer-affiliation">Victoria University of Wellington, New Zealand</span>
+    </div>
+    <div class="organizer-card">
+      <span class="organizer-name">Gary Yen</span>
+      <span class="organizer-affiliation">Oklahoma State University, USA</span>
+    </div>
+    <div class="organizer-card">
+      <span class="organizer-name">Nelishia Pillay</span>
+      <span class="organizer-affiliation">University of Pretoria, South Africa</span>
+    </div>
   </div>
 </div>
 
+## Web Chair
+
 <div class="organizer-section">
-  <h3>Web Chair</h3>
   <div class="organizer-grid">
     <div class="organizer-card">
       <span class="organizer-name">George De Ath</span>
       <span class="organizer-affiliation">University of Exeter, UK</span>
       <span class="organizer-email"><a href="mailto:g.de.ath@exeter.ac.uk">g.de.ath@exeter.ac.uk</a></span>
     </div>
-  </div>
-</div>
-
-<div class="organizer-section">
-  <h3>Finance Chair</h3>
-  <div class="info-box tbd">
-    <p>To be announced</p>
   </div>
 </div>
 
@@ -130,11 +192,11 @@ The EMO conference series is guided by a distinguished steering committee:
   </div>
 </div>
 
-## Program Committee
+## Programme Committee
 
 <div class="info-box tbd">
   <h3>To Be Announced</h3>
-  <p>The full program committee will be announced in mid-2026.</p>
+  <p>The full programme committee will be announced in mid-2026.</p>
 </div>
 
 ## Contact
@@ -147,8 +209,8 @@ For general inquiries about EMO 2027, please contact:
 
 | Topic | Contact |
 |-------|---------|
-| Paper Submissions | Program Chairs |
-| Registration | Local Organization |
+| Paper Submissions | Programme Chairs |
+| Registration | Local Arrangement & Finance Chairs |
 | Sponsorship | General Chairs |
 | Website | Web Chair |
 | General Questions | [emo2027@exeter.ac.uk](mailto:emo2027@exeter.ac.uk) |
