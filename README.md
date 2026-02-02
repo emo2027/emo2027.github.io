@@ -44,16 +44,19 @@ Official website for the 14th International Conference on Evolutionary Multi-Cri
 ```
 ├── _config.yml          # Jekyll configuration
 ├── _data/               # Data files (YAML)
+│   ├── conference.yml   # Core conference facts (dates, venue, contact)
+│   ├── dates.yml        # Deadlines and countdown items
 │   ├── navigation.yml   # Navigation menu structure
 │   ├── organizers.yml   # Committee members
 │   ├── schedule.yml     # Programme schedule
-│   ├── countdown.yml    # Important dates for countdown
+│   ├── social_events.yml# Social events content
 │   └── sponsors.yml     # Sponsor information
 ├── _includes/           # Reusable HTML components
 │   ├── header.html
 │   ├── nav.html
 │   ├── footer.html
 │   ├── countdown.html
+│   ├── event-jsonld.html
 │   └── sponsors.html
 ├── _layouts/            # Page templates
 │   ├── default.html     # Base layout
@@ -62,14 +65,18 @@ Official website for the 14th International Conference on Evolutionary Multi-Cri
 ├── assets/
 │   ├── css/
 │   │   └── style.css    # Main stylesheet
+│   ├── ics/             # Calendar exports (Liquid templates)
 │   ├── js/
 │   │   ├── dark-mode.js # Theme toggle
+│   │   ├── external-links.js # Opens external links in new tab
 │   │   ├── schedule.js  # Programme filtering
-│   │   └── search.js    # Site search
+│   │   ├── search.js    # Site search
+│   │   └── vendor/      # Third-party libraries (lunr)
 │   └── images/          # Logos, banner, etc.
 ├── pages/               # Content pages (Markdown)
 │   ├── accommodation.md
 │   ├── awards.md
+│   ├── at-a-glance.md
 │   ├── calls.md
 │   ├── local-info.md
 │   ├── organizers.md
@@ -100,15 +107,36 @@ Page content here...
 
 ### Updating Navigation
 
-Edit `_data/navigation.yml` to add or modify menu items.
+Edit `_data/navigation.yml` to add or modify menu items. The footer "Contact" link is rendered from `site.data.conference.contact.email` using `type: contact_email`.
 
 ### Updating Important Dates
 
-Edit `_data/countdown.yml` to update conference deadlines shown on the homepage.
+Edit `_data/dates.yml` to update conference deadlines shown on the homepage and used in the Calls/Registration/Awards pages. Use flags:
+- `include_in_countdown`: show on the homepage countdown
+- `include_in_calls`: show in the Calls page
+- `include_in_registration`: show in the Registration page
+- `include_in_calendar`: include in the deadlines ICS file
+
+### Updating Programme Schedule
+
+Edit `_data/schedule.yml` to update the programme schedule. The programme page and social event dates pull from this file (via matching `id` fields).
 
 ### Updating Committee Members
 
 Edit `_data/organizers.yml` to add or update committee members.
+
+### Updating Conference Facts
+
+Edit `_data/conference.yml` to update core facts (dates, venue, contact email, location). These values are reused across pages, JSON-LD, and the ICS calendar export.
+
+### Updating Social Events
+
+Edit `_data/social_events.yml` for the social events page. Event dates/times are taken from `_data/schedule.yml` via matching `id` fields.
+
+### Search and External Links
+
+- Site search uses `search.json` and a local Lunr build in `assets/js/vendor/`.
+- External links are automatically opened in a new tab via `assets/js/external-links.js`.
 
 ### Styling
 
@@ -128,7 +156,7 @@ Dark mode is supported via the `[data-theme="dark"]` selector.
 ### Markdown
 
 ```bash
-mdl *.md pages/*.md
+mdl pages/ index.md
 ```
 
 Install: `gem install mdl`
@@ -136,7 +164,7 @@ Install: `gem install mdl`
 ### CSS
 
 ```bash
-npx stylelint "assets/css/*.css"
+npx stylelint "assets/css/**/*.css"
 ```
 
 ### HTML Validation
@@ -154,6 +182,10 @@ bundle exec jekyll build
 ```
 
 The built site will be in the `_site/` directory.
+
+## Calendar Exports (ICS)
+
+The ICS files in `assets/ics/` are Liquid templates. They are rendered during the Jekyll build and pull data from `_data/conference.yml` and `_data/dates.yml`.
 
 ## Deployment
 
