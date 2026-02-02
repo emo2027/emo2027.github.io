@@ -728,6 +728,8 @@ html.search-unavailable .nav-search {
   display: flex;
   gap: var(--space-md);
   justify-content: center;
+  flex-wrap: wrap;
+  row-gap: var(--space-sm);
 }
 
 .timer-unit {

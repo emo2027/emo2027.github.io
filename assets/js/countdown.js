@@ -13,13 +13,22 @@
    * @returns {Date}
    */
   function parseDate(dateStr, timeStr) {
-    const [year, month, day] = dateStr.split('-').map(Number);
+    const parts = dateStr.split('-').map(Number);
+    if (parts.length < 3 || parts.some(Number.isNaN)) {
+      return null;
+    }
+
+    const [year, month, day] = parts;
     let hours = 23, minutes = 59, seconds = 59; // Default to end of day
 
     if (timeStr) {
       const [h, m] = timeStr.split(':').map(Number);
-      hours = h;
-      minutes = m;
+      if (!Number.isNaN(h)) {
+        hours = h;
+      }
+      if (!Number.isNaN(m)) {
+        minutes = m;
+      }
       seconds = 59;
     }
 
@@ -58,6 +67,7 @@
     if (!dateStr) return;
 
     const targetDate = parseDate(dateStr, timeStr);
+    if (!targetDate) return;
     const timeRemaining = getTimeRemaining(targetDate);
 
     const daysEl = element.querySelector('.days');
