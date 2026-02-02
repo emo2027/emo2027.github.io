@@ -1,16 +1,17 @@
 # EMO 2027 Sponsors
 
 # Confirmed sponsors
-confirmed:
-  - name: "Springer"
-    logo: "springer-logo.svg"
-    url: "https://www.springer.com"
-    tier: "publisher"
-
-  - name: "Lecture Notes in Computer Science"
-    logo: "lncs-logo.png"
-    url: "https://www.springer.com/series/558"
-    tier: "publisher"
+confirmed: []
+# COMMENTED OUT - awaiting official Springer confirmation:
+#  - name: "Springer"
+#    logo: "springer-logo.svg"
+#    url: "https://www.springer.com"
+#    tier: "publisher"
+#
+#  - name: "Lecture Notes in Computer Science"
+#    logo: "lncs-logo.png"
+#    url: "https://www.springer.com/series/558"
+#    tier: "publisher"
 
 # Sponsor tiers
 tiers:
@@ -32,9 +33,10 @@ tiers:
 
   publisher:
     name: "Publishing Partner"
-    sponsors:
-      - "Springer"
-      - "Lecture Notes in Computer Science"
+    sponsors: []
+    # COMMENTED OUT - awaiting official Springer confirmation:
+    #  - "Springer"
+    #  - "Lecture Notes in Computer Science"
 
 # Call for sponsors
 call_for_sponsors:

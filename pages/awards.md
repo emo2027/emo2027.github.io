@@ -84,8 +84,8 @@ Award recipients will receive:
 
 | Milestone | Date |
 |-----------|------|
-| Paper Submission Deadline | October 15, 2026 |
-| Award Nominees Notified | March 2027 |
+| Paper Submission Deadline | TBC |
+| Award Nominees Notified | TBC |
 | Award Ceremony | April 7, 2027 (Banquet) |
 
 ## Questions?

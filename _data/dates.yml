@@ -3,26 +3,22 @@
 
 dates:
   - name: "Paper Submission Deadline"
-    date: "2026-10-15"
-    time: "23:59"
-    timezone: "AoE"
+    date: "TBC"
     description: "Submit full papers via the conference submission system"
     completed: false
 
   - name: "Author Notification"
-    date: "2026-12-15"
+    date: "TBC"
     description: "Authors will be notified of acceptance decisions"
     completed: false
 
   - name: "Camera-Ready Deadline"
-    date: "2027-01-15"
-    time: "23:59"
-    timezone: "AoE"
+    date: "TBC"
     description: "Final versions of accepted papers due"
     completed: false
 
   - name: "Early Registration Deadline"
-    date: "2027-02-15"
+    date: "TBC"
     description: "Register early for discounted rates"
     completed: false
 

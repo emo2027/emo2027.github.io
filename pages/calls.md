@@ -19,9 +19,9 @@ EMO 2027 will be held **April 5-8, 2027** at the University of Exeter, United Ki
 
 | Milestone | Date |
 |-----------|------|
-| Paper Submission Deadline | October 15, 2026 |
-| Author Notification | December 15, 2026 |
-| Camera-Ready Deadline | January 15, 2027 |
+| Paper Submission Deadline | TBC |
+| Author Notification | TBC |
+| Camera-Ready Deadline | TBC |
 | Conference Dates | April 5-8, 2027 |
 
 ## Topics of Interest
@@ -75,11 +75,13 @@ We welcome submissions on all aspects of multi-objective optimization, including
 
 ### Paper Format
 
-Papers must be submitted in **Springer LNCS format** and should not exceed **15 pages** including references and appendices.
+Papers should not exceed **15 pages** including references and appendices.
+<!-- COMMENTED OUT - awaiting official Springer confirmation: Papers must be submitted in **Springer LNCS format** and should not exceed... -->
 
-- LaTeX template: [LNCS Author Guidelines](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines)
 - Papers must be submitted as PDF files
 - All submissions must be original and not under review elsewhere
+- Formatting guidelines will be announced soon
+<!-- COMMENTED OUT - awaiting official Springer confirmation: - LaTeX template: [LNCS Author Guidelines](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines) -->
 
 ### Submission System
 
@@ -98,6 +100,9 @@ All submissions will undergo a **double-blind peer review** by at least three me
 
 ## Publication
 
+Publication details will be announced soon.
+
+<!-- COMMENTED OUT - awaiting official Springer confirmation:
 Accepted papers will be published in **Springer Lecture Notes in Computer Science (LNCS)** and indexed in major databases including:
 
 - Scopus
@@ -106,6 +111,7 @@ Accepted papers will be published in **Springer Lecture Notes in Computer Scienc
 - Google Scholar
 
 Selected high-quality papers may be invited for extension and submission to special issues in leading journals.
+-->
 
 ## Presentation Requirements
 
