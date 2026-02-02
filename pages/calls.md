@@ -160,7 +160,14 @@ We also welcome proposals for **tutorials** on topics relevant to the EMO commun
 
 For questions regarding submissions, please contact the Programme Chairs:
 
+{% assign programme_chairs = site.data.organizers.organizer_sections | where: "title", "Programme Chairs" | first %}
+{% if programme_chairs %}
+{% for chair in programme_chairs.people %}
+- **{{ chair.name }}** ({{ chair.affiliation }}){% if chair.email %} — [{{ chair.email }}](mailto:{{ chair.email }}){% endif %}
+{% endfor %}
+{% else %}
 - **Oliver Schutze** (CINVESTAV-IPN, Mexico)
 - **Tea Tusar** (Jozef Stefan Institute, Slovenia)
+{% endif %}
 
 Email: [{{ site.data.conference.contact.email }}](mailto:{{ site.data.conference.contact.email }})
