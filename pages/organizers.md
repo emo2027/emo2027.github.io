@@ -50,11 +50,30 @@ For general inquiries about EMO 2027, please contact:
 
 ### Specific Inquiries
 
-| Topic | Contact |
-|-------|---------|
-{% for item in contact.topics %}
-| {{ item.topic }} | {% if item.use_conference_email %}[{{ site.data.conference.contact.email }}](mailto:{{ site.data.conference.contact.email }}){% elsif item.email %}[{{ item.email }}](mailto:{{ item.email }}){% else %}{{ item.contact }}{% endif %} |
-{% endfor %}
+<table>
+  <thead>
+    <tr>
+      <th>Topic</th>
+      <th>Contact</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in contact.topics %}
+    <tr>
+      <td>{{ item.topic }}</td>
+      <td>
+        {% if item.use_conference_email %}
+        <a href="mailto:{{ site.data.conference.contact.email }}">{{ site.data.conference.contact.email }}</a>
+        {% elsif item.email %}
+        <a href="mailto:{{ item.email }}">{{ item.email }}</a>
+        {% else %}
+        {{ item.contact }}
+        {% endif %}
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
 
 ## Host Institution
 
