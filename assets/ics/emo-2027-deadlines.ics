@@ -1,0 +1,20 @@
+---
+layout: null
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//{{ site.data.conference.name }}//{{ site.data.conference.name }} Deadlines//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+{% assign deadlines = site.data.dates.dates | where: "include_in_calendar", true %}
+{% for item in deadlines %}
+BEGIN:VTODO
+UID:emo2027-{{ item.name | slugify }}@emo2027.github.io
+DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
+{% if item.date contains '-' %}DUE;VALUE=DATE:{{ item.date | date: "%Y%m%d" }}{% endif %}
+SUMMARY:{{ item.name }}{% unless item.date contains '-' %} (date TBC){% endunless %}
+DESCRIPTION:{% if item.description %}{{ item.description | strip }} {% endif %}Check {{ site.url }}/calls/ for updates.
+STATUS:NEEDS-ACTION
+END:VTODO
+{% endfor %}
+END:VCALENDAR

@@ -2,10 +2,10 @@
   <div class="footer-container">
     <div class="footer-content">
       <div class="footer-section">
-        <h3>{{ site.conference.name }}</h3>
-        <p>{{ site.conference.full_name }}</p>
-        <p>{{ site.conference.dates }}</p>
-        <p>{{ site.conference.venue }}</p>
+        <h3>{{ site.data.conference.name }}</h3>
+        <p>{{ site.data.conference.full_name }}</p>
+        <p>{{ site.data.conference.dates.display }}</p>
+        <p>{{ site.data.conference.venue.name }}, {{ site.data.conference.location.short }}</p>
       </div>
 
       <div class="footer-section">
@@ -22,11 +22,11 @@
         <h3>Connect</h3>
         <ul class="footer-links">
           <li>
-            <a href="mailto:emo2027@exeter.ac.uk">
+            <a href="mailto:{{ site.data.conference.contact.email }}">
               <svg class="icon" viewBox="0 0 24 24" width="16" height="16">
                 <path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
               </svg>
-              emo2027@exeter.ac.uk
+              {{ site.data.conference.contact.email }}
             </a>
           </li>
           <li>
@@ -43,7 +43,7 @@
       <div class="footer-section">
         <h3>Hosted by</h3>
         <a href="https://www.exeter.ac.uk" target="_blank" rel="noopener" class="host-logo">
-          <img src="{{ '/assets/images/exeter-logo.svg' | relative_url }}" alt="University of Exeter" loading="lazy">
+          <img src="{{ '/assets/images/exeter-logo.svg' | relative_url }}" alt="University of Exeter" loading="lazy" decoding="async" width="1109" height="377">
         </a>
       </div>
     </div>
@@ -52,7 +52,11 @@
       <p>&copy; {{ 'now' | date: "%Y" }} EMO 2027. All rights reserved.</p>
       <p>
         {% for link in site.data.navigation.footer %}
-        <a href="{{ link.url | relative_url }}">{{ link.title }}</a>{% unless forloop.last %} | {% endunless %}
+        {% if link.type == "contact_email" %}
+        <a href="mailto:{{ site.data.conference.contact.email }}">{{ link.title }}</a>
+        {% else %}
+        <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
+        {% endif %}{% unless forloop.last %} | {% endunless %}
         {% endfor %}
       </p>
     </div>

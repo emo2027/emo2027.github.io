@@ -1,0 +1,19 @@
+---
+layout: null
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//{{ site.data.conference.name }}//{{ site.data.conference.name }} Website//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:emo2027-conference@emo2027.github.io
+DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
+DTSTART;VALUE=DATE:{{ site.data.conference.dates.start | date: "%Y%m%d" }}
+DTEND;VALUE=DATE:{{ site.data.conference.dates.end_exclusive | date: "%Y%m%d" }}
+SUMMARY:{{ site.data.conference.name }} Conference
+DESCRIPTION:{{ site.data.conference.full_name }}. Hosted by the University of Exeter.
+LOCATION:{{ site.data.conference.venue.name }}, University of Exeter, {{ site.data.conference.location.full }}
+URL:{{ site.url }}/
+END:VEVENT
+END:VCALENDAR

@@ -13,12 +13,13 @@ description: EMO 2027 conference schedule and programme details.
 
 EMO 2027 spans four days with the following structure:
 
-- **Monday, April 5**: Tutorial Day + Welcome Reception
-- **Tuesday, April 6**: Conference Day 1 (Opening, Keynote, EMO/MCDM Sessions, Boat Tour)
-- **Wednesday, April 7**: Conference Day 2 (Keynote, Sessions, Banquet)
-- **Thursday, April 8**: Conference Day 3 (Keynote, Sessions, Awards, Closing)
+<ul>
+  {% for day in site.data.schedule.days %}
+  <li><strong>{{ day.date | date: "%A, %-d %B" }}:</strong> {{ day.overview }}</li>
+  {% endfor %}
+</ul>
 
-All scientific sessions are single-track and will take place in the Henderson Lecture Theatre.
+{{ site.data.conference.format.detail }}
 
 ## Keynote Speakers
 

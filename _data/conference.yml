@@ -1,0 +1,38 @@
+name: "EMO 2027"
+full_name: "14th International Conference on Evolutionary Multi-Criterion Optimization"
+
+location:
+  city: "Exeter"
+  country: "United Kingdom"
+  short: "Exeter, UK"
+  full: "Exeter, United Kingdom"
+
+dates:
+  start: "2027-04-05"
+  end: "2027-04-08"
+  end_exclusive: "2027-04-09"
+  display: "5-8 April 2027"
+
+venue:
+  name: "XFi Building"
+  url: "https://event.exeter.ac.uk/venues/buildingone-and-xfi"
+  campus: "Streatham Campus"
+  room: "Henderson Lecture Theatre"
+  breakout: "XFi Break-out Area"
+
+contact:
+  email: "emo2027@exeter.ac.uk"
+
+format:
+  summary: "Single-track programme with themed sessions across EMO, MCDM, and Industry topics"
+  detail: "All scientific sessions are single-track and will take place in the Henderson Lecture Theatre."
+
+highlights:
+  - title: "1 Tutorial Day"
+    detail: "Monday, 5 April - In-depth tutorials on cutting-edge topics"
+  - title: "3 Scientific Days"
+    detail: "Tuesday-Thursday, 6-8 April - Keynotes and single-track sessions across EMO, MCDM, and Industry topics"
+  - title: "Social Events"
+    detail: "Welcome reception, boat tour, and conference banquet"
+  - title: "Best Paper Awards"
+    detail: "Recognition of outstanding contributions"

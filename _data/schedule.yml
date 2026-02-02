@@ -5,6 +5,7 @@ days:
   - date: "2027-04-05"
     name: "Monday"
     label: "Tutorial Day"
+    overview: "Tutorial Day + Welcome Reception"
     events:
       - time: "09:00-10:30"
         title: "Tutorial 1"
@@ -44,6 +45,7 @@ days:
         speaker: "TBD"
       - time: "Evening (TBC)"
         title: "Welcome Reception"
+        id: "welcome-reception"
         type: "social"
         location: "XFi Break-out Area"
         description: "Welcome drinks and canapes in the XFi break-out area"
@@ -51,6 +53,7 @@ days:
   - date: "2027-04-06"
     name: "Tuesday"
     label: "Conference Day 1"
+    overview: "Conference Day 1 (Opening, Keynote, EMO/MCDM Sessions, Boat Tour)"
     events:
       - time: "08:30-09:00"
         title: "Registration & Coffee"
@@ -93,6 +96,7 @@ days:
         description: "Poster presentations and networking"
       - time: "Evening (TBC)"
         title: "Social Event: Boat Tour"
+        id: "boat-tour"
         type: "social"
         location: "Exeter Quay"
         description: "Private charter boat tour along the Exe Estuary"
@@ -100,6 +104,7 @@ days:
   - date: "2027-04-07"
     name: "Wednesday"
     label: "Conference Day 2"
+    overview: "Conference Day 2 (Keynote, Sessions, Banquet)"
     events:
       - time: "09:00-10:00"
         title: "Keynote 2"
@@ -133,6 +138,7 @@ days:
         location: "Henderson Lecture Theatre"
       - time: "Evening (TBC)"
         title: "Conference Banquet"
+        id: "conference-banquet"
         type: "social"
         location: "Reed Hall"
         description: "Formal dinner with award ceremony"
@@ -140,6 +146,7 @@ days:
   - date: "2027-04-08"
     name: "Thursday"
     label: "Conference Day 3"
+    overview: "Conference Day 3 (Keynote, Sessions, Awards, Closing)"
     events:
       - time: "09:00-10:00"
         title: "Keynote 3"

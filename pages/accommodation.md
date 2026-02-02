@@ -78,7 +78,7 @@ Exeter has many Airbnb and self-catering options throughout the city. When booki
 
 ### By Bus
 
-Stagecoach operates regular bus services from the city centre to the Streatham Campus. Routes **D** and **H** stop directly on campus.
+Stagecoach operates regular bus services from the city centre to the Streatham Campus. The Route 4 / UNI service connects the city centre and campus (see [Stagecoach information](https://www.stagecoachbus.com/promos-and-offers/south-west/getting-to-exeter-university-by-bus)).
 
 - **Bus app**: Download the Stagecoach app for real-time information and fares
 
@@ -87,7 +87,7 @@ Stagecoach operates regular bus services from the city centre to the Streatham C
 Taxis are readily available from the city centre. Approximate fare to campus: £5-8.
 
 - **Apple Central Taxis**: +44 (0)1392 666666
-- **Club Cars**: +44 (0)1392 211211
+- **Ride-hailing**: Uber operates in Exeter (use the Uber app)
 
 ### On Foot
 
@@ -102,4 +102,4 @@ The walk from the city centre to campus takes approximately 20-25 minutes and is
 
 ## Questions?
 
-For accommodation assistance, please contact: [emo2027@exeter.ac.uk](mailto:emo2027@exeter.ac.uk)
+For accommodation assistance, please contact: [{{ site.data.conference.contact.email }}](mailto:{{ site.data.conference.contact.email }})

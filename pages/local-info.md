@@ -125,7 +125,7 @@ April in Exeter typically offers mild spring weather:
 
 ### Near the University
 
-- **The Ram Bar** - On-campus pub
+- **[The Ram Bar](https://liveevents.exeter.ac.uk/event-venue/the-ram-bar/)** - On-campus pub
 - **New North Road** - Various cafes and takeaways
 - **St David's area** - Pubs and restaurants
 
@@ -141,7 +141,7 @@ Exeter offers diverse dining options:
 ### Traditional Pubs
 
 - **[The Ship Inn](https://maps.google.com/?q=The+Ship+Inn+Exeter)** - Historic pub near the cathedral
-- **The Old Firehouse** - Known for pizzas and craft beer
+- **[The Old Firehouse](https://maps.google.com/?q=The+Old+Firehouse+Exeter)** - Known for pizzas and craft beer
 
 ### Vegetarian/Vegan
 
@@ -176,7 +176,7 @@ Exeter offers diverse dining options:
 
 ### Useful Apps
 
-- **Stagecoach** - Local bus times
+- **[Stagecoach](https://www.stagecoachbus.com/)** - Local bus times
 - **Trainline** - Train tickets and times
 - **Citymapper** - Multi-modal transport planning
 - **Google Maps** - Navigation and local information
@@ -185,11 +185,11 @@ Exeter offers diverse dining options:
 
 UK visa requirements vary by nationality. Please check the [UK Government visa website](https://www.gov.uk/check-uk-visa) for requirements specific to your country.
 
-Registered conference participants requiring a visa support letter should contact us at [emo2027@exeter.ac.uk](mailto:emo2027@exeter.ac.uk).
+Registered conference participants requiring a visa support letter should contact us at [{{ site.data.conference.contact.email }}](mailto:{{ site.data.conference.contact.email }}).
 
 ## Contact
 
 For local information queries:
 
-- **Email**: [emo2027@exeter.ac.uk](mailto:emo2027@exeter.ac.uk)
+- **Email**: [{{ site.data.conference.contact.email }}](mailto:{{ site.data.conference.contact.email }})
 - **Visit Exeter** (Tourist Information): [visitexeter.com](https://www.visitexeter.com)

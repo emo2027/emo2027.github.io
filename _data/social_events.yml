@@ -1,0 +1,77 @@
+events:
+  - id: "welcome-reception"
+    title: "Welcome Reception"
+    schedule_id: "welcome-reception"
+    location:
+      label: "Location"
+      name: "XFi Break-out Area"
+      url: "https://event.exeter.ac.uk/venues/buildingone-and-xfi"
+      suffix: "University of Exeter"
+    intro: "Kick off EMO 2027 at our welcome reception in the XFi break-out area on the Streatham Campus."
+    sections:
+      - heading: "What to Expect"
+        items:
+          - "Welcome drinks and canapés"
+          - "Informal atmosphere to start the conference"
+          - "Opportunity to meet fellow attendees and organizers"
+    info_box:
+      style: "notice"
+      label: "Included:"
+      text: "The welcome reception is included in the full conference registration."
+    at_a_glance:
+      label: "Welcome reception"
+      detail: "Planned for the XFi Building (details to follow)"
+
+  - id: "boat-tour"
+    title: "Boat Tour on the Exe Estuary"
+    schedule_id: "boat-tour"
+    location:
+      label: "Departure"
+      name: "Exeter Quayside"
+      url: "https://www.visitexeter.com/things-to-do/exeter-quayside-p1215273"
+    intro: "Join us for a private charter boat tour along the River Exe Estuary. We plan to use Stuart Line Cruises (Pride of Exmouth), subject to final confirmation."
+    sections:
+      - heading: "Tour Highlights"
+        items:
+          - "Scenic cruise along the River Exe and out to the estuary"
+          - "Views of Exeter's waterfront and surrounding countryside"
+          - "On-board bar and refreshments available"
+          - "Opportunity to network in a relaxed setting"
+      - heading: "Logistics"
+        items:
+          - "Duration: approximately 2 hours"
+          - "Guided commentary on local landmarks"
+          - "Optional drinks and snacks available for purchase"
+          - "Departure and return to Exeter Quay"
+    notes:
+      - "Detailed timings will be announced closer to the conference."
+    info_box:
+      style: "warning"
+      label: "Additional Registration Required:"
+      text: "The boat tour requires separate registration and payment. Space is limited, so early booking is recommended."
+
+  - id: "conference-banquet"
+    title: "Conference Banquet"
+    schedule_id: "conference-banquet"
+    location:
+      label: "Location"
+      name: "Reed Hall"
+      url: "https://event.exeter.ac.uk/venues/reed-hall"
+      suffix: "University of Exeter"
+    intro: "The conference banquet is the highlight of the social programme, featuring a formal dinner in the elegant surroundings of Reed Hall."
+    sections:
+      - heading: "Evening Programme"
+        items:
+          - "Welcome reception"
+          - "Formal dinner"
+          - "Awards presentation"
+          - "After-dinner remarks"
+    notes:
+      - "Please indicate any dietary requirements during registration."
+    info_box:
+      style: "notice"
+      label: "Included:"
+      text: "The conference banquet is included in the full conference registration. Additional tickets for accompanying persons are available for purchase."
+    at_a_glance:
+      label: "Conference banquet"
+      detail: "Reed Hall"

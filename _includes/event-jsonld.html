@@ -1,0 +1,25 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "{{ site.data.conference.full_name | escape }}",
+  "description": "{{ site.description | escape }}",
+  "startDate": "{{ site.data.conference.dates.start }}",
+  "endDate": "{{ site.data.conference.dates.end }}",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "url": "{{ '/' | absolute_url }}",
+  "image": [
+    "{{ '/assets/images/banner.png' | absolute_url }}"
+  ],
+  "location": {
+    "@type": "Place",
+    "name": "{{ site.data.conference.venue.name | escape }}",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "{{ site.data.conference.location.city | escape }}",
+      "addressCountry": "GB"
+    }
+  }
+}
+</script>

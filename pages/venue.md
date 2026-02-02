@@ -7,11 +7,11 @@ description: EMO 2027 will be held at the XFi Building, University of Exeter's S
 
 ## XFi Building, University of Exeter
 
-EMO 2027 will be hosted at the **XFi Building** on the University of Exeter's stunning Streatham Campus. This modern facility provides an ideal setting for academic conferences, combining state-of-the-art amenities with beautiful surroundings.
+EMO 2027 will be hosted at the [{{ site.data.conference.venue.name }}]({{ site.data.conference.venue.url }}) on the University of Exeter's stunning Streatham Campus. This modern facility provides an ideal setting for academic conferences, combining state-of-the-art amenities with beautiful surroundings.
 
 ### Main Conference Venue
 
-**Henderson Lecture Theatre**
+**{{ site.data.conference.venue.room }}**
 - Capacity: 174 seats
 - Full AV facilities including projection, sound system, and recording capabilities
 - Accessible seating and hearing loop
@@ -24,7 +24,7 @@ EMO 2027 will be hosted at the **XFi Building** on the University of Exeter's st
 
 <div class="info-box notice">
   <p>Explore the Streatham Campus with the University of Exeter's 3D virtual tour:</p>
-  <a href="https://www.exeter.ac.uk/visit/virtual-tour/" target="_blank" rel="noopener" class="btn btn-primary">Take the Virtual Tour</a>
+  <a href="https://www.exeter.ac.uk/visit/virtual-tour/" class="btn btn-primary">Take the Virtual Tour</a>
 </div>
 
 ## Streatham Campus
@@ -33,8 +33,8 @@ The Streatham Campus is the University of Exeter's largest campus, set in 300 ac
 
 ### Campus Highlights
 
-- **Reed Hall** - Historic building hosting the conference banquet
-- **The Forum** - Modern student hub with cafes and services
+- **[Reed Hall](https://event.exeter.ac.uk/venues/reed-hall)** - Historic building hosting the conference banquet
+- **[The Forum](https://www.exeter.ac.uk/departments/campusservices/facilitiesoperations/forum/)** - Modern student hub with cafes and services
 - **Beautiful Gardens** - Award-winning botanical gardens and arboretum
 - **Sports Facilities** - Available for attendees during the conference
 
@@ -54,29 +54,30 @@ Please contact us in advance if you have specific accessibility requirements.
 ### From Exeter City Centre
 
 - **Walking**: 20-25 minutes uphill walk through pleasant residential areas
-- **Bus**: Regular services from the city centre (routes D, H, and others)
+- **Bus**: Stagecoach Route 4 / UNI service between the city centre and Streatham Campus (see [Stagecoach information](https://www.stagecoachbus.com/promos-and-offers/south-west/getting-to-exeter-university-by-bus))
 - **Taxi**: Approximately 5-10 minutes
 
 ### Campus Parking
 
-Limited parking is available on campus. Visitors should use the **Streatham Car Park** (pay and display). We recommend using public transport when possible.
+Limited parking is available on campus. Visitors should use **[Car Park C](https://www.exeter.ac.uk/staff/car-parking/carparklocations/)**. We recommend using public transport when possible.
 
 ### Campus Map
 
 <div class="info-box notice">
   <p>Download the campus map to help navigate the grounds:</p>
-  <a href="https://www.exeter.ac.uk/visit/maps/" target="_blank" rel="noopener" class="btn btn-secondary">Download Campus Map</a>
+  <a href="https://www.exeter.ac.uk/visit/maps/" class="btn btn-secondary">Download Campus Map</a>
 </div>
 
 ## Nearby Amenities
 
 The XFi Building is conveniently located near:
 
-- **The Forum** - Student hub with cafes (including Pret and Starbucks) and The Ram Bar
+- **[The Forum](https://www.exeter.ac.uk/departments/campusservices/facilitiesoperations/forum/)** - Student hub with cafes (including Pret and Starbucks)
+- **[The Ram Bar](https://liveevents.exeter.ac.uk/event-venue/the-ram-bar/)** - On-campus pub between the Forum and Great Hall
 
 ## Conference Dining
 
-All coffee breaks and lunches will be provided in the **XFi Break-out Area**, adjacent to the main lecture theatre. This setup encourages networking and discussion during breaks.
+All coffee breaks and lunches will be provided in the **{{ site.data.conference.venue.breakout }}**, adjacent to the main lecture theatre. This setup encourages networking and discussion during breaks.
 
 <a href="{{ '/accommodation/' | relative_url }}" class="btn btn-primary">Find Accommodation</a>
 <a href="{{ '/local-info/' | relative_url }}" class="btn btn-secondary">Local Information</a>

@@ -4,6 +4,9 @@ main:
   - title: "Home"
     url: "/"
 
+  - title: "At a Glance"
+    url: "/at-a-glance/"
+
   - title: "Calls"
     url: "/calls/"
 
@@ -37,4 +40,4 @@ footer:
   - title: "Privacy Policy"
     url: "/privacy/"
   - title: "Contact"
-    url: "mailto:emo2027@exeter.ac.uk"
+    type: "contact_email"

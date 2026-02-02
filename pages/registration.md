@@ -39,11 +39,27 @@ Full conference registration includes:
 
 ## Important Dates
 
-| Milestone | Date |
-|-----------|------|
-| Early Registration Deadline | TBD |
-| Regular Registration Deadline | TBD |
-| On-site Registration | April 5-8, 2027 |
+<table>
+  <thead>
+    <tr>
+      <th>Milestone</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% assign registration_dates = site.data.dates.dates | where: "include_in_registration", true %}
+    {% for milestone in registration_dates %}
+    <tr>
+      <td>{{ milestone.name }}</td>
+      <td>{% if milestone.date contains '-' %}{{ milestone.date | date: "%-d %B %Y" }}{% else %}{{ milestone.date }}{% endif %}</td>
+    </tr>
+    {% endfor %}
+    <tr>
+      <td>On-site Registration</td>
+      <td>{{ site.data.conference.dates.display }}</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Author Registration
 
@@ -75,4 +91,4 @@ Registered participants who require a visa support letter for UK entry can reque
 
 For registration inquiries, please contact:
 
-Email: [emo2027@exeter.ac.uk](mailto:emo2027@exeter.ac.uk)
+Email: [{{ site.data.conference.contact.email }}](mailto:{{ site.data.conference.contact.email }})

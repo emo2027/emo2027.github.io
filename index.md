@@ -6,12 +6,13 @@ title: Home
 <div class="hero-section">
   <h1>EMO 2027</h1>
   <p class="lead">
-    Welcome to the 14th International Conference on Evolutionary Multi-Criterion Optimization,
-    hosted by the University of Exeter in the beautiful city of Exeter, United Kingdom.
+    Welcome to the {{ site.data.conference.full_name }},
+    hosted by the University of Exeter in the beautiful city of {{ site.data.conference.location.full }}.
   </p>
   <div class="hero-buttons">
     <a href="{{ '/calls/' | relative_url }}" class="btn btn-primary btn-lg">Call for Papers</a>
     <a href="{{ '/registration/' | relative_url }}" class="btn btn-secondary btn-lg">Register</a>
+    <a href="{{ '/at-a-glance/' | relative_url }}" class="btn btn-accent btn-lg">At a Glance</a>
   </div>
 </div>
 
@@ -25,10 +26,11 @@ EMO 2027 will bring together leading experts from academia and industry to prese
 
 EMO 2027 will feature:
 
-- **1 Tutorial Day** (Monday, April 5th) - In-depth tutorials on cutting-edge topics
-- **3 Scientific Days** (Tuesday-Thursday, April 6th-8th) - Keynotes and single-track sessions across EMO, MCDM, and Industry tracks
-- **Social Events** - Welcome reception, boat tour, and conference banquet
-- **Best Paper Awards** - Recognition of outstanding contributions
+<ul>
+  {% for item in site.data.conference.highlights %}
+  <li><strong>{{ item.title }}:</strong> {{ item.detail }}</li>
+  {% endfor %}
+</ul>
 
 <div class="feature-grid">
   <div class="feature-item">
@@ -73,7 +75,7 @@ EMO 2027 will feature:
 
 ## Venue
 
-EMO 2027 will be held at the **XFi Building** on the University of Exeter's picturesque Streatham Campus. The venue features modern conference facilities including the 174-seat Henderson Lecture Theatre and the XFi break-out area for posters and networking.
+EMO 2027 will be held at the **[{{ site.data.conference.venue.name }}]({{ site.data.conference.venue.url }})** on the University of Exeter's picturesque Streatham Campus. The venue features modern conference facilities including the 174-seat Henderson Lecture Theatre and the XFi break-out area for posters and networking.
 
 <a href="{{ '/venue/' | relative_url }}" class="btn btn-secondary">Learn More About the Venue</a>
 

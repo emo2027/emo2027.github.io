@@ -6,27 +6,48 @@ dates:
     date: "TBC"
     description: "Submit full papers via the conference submission system"
     completed: false
+    include_in_calls: true
+    include_in_calendar: true
+    include_in_countdown: true
 
   - name: "Author Notification"
     date: "TBC"
     description: "Authors will be notified of acceptance decisions"
     completed: false
+    include_in_calls: true
+    include_in_calendar: true
+    include_in_countdown: true
 
   - name: "Camera-Ready Deadline"
     date: "TBC"
     description: "Final versions of accepted papers due"
     completed: false
+    include_in_calls: true
+    include_in_calendar: true
+    include_in_countdown: true
 
   - name: "Early Registration Deadline"
     date: "TBC"
     description: "Register early for discounted rates"
     completed: false
+    include_in_registration: true
+    include_in_calendar: true
+    include_in_countdown: true
+
+  - name: "Regular Registration Deadline"
+    date: "TBC"
+    description: "Final deadline for standard registration rates"
+    completed: false
+    include_in_registration: true
+    include_in_calendar: true
+    include_in_countdown: true
 
   - name: "Conference Begins"
     date: "2027-04-05"
     description: "Tutorial day and welcome reception"
     completed: false
     highlight: true
+    include_in_countdown: true
 
 # Display settings
 show_countdown: true

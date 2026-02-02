@@ -82,14 +82,46 @@ Award recipients will receive:
 
 ## Important Dates
 
-| Milestone | Date |
-|-----------|------|
-| Paper Submission Deadline | TBC |
-| Award Nominees Notified | TBC |
-| Award Ceremony | April 7, 2027 (Banquet) |
+<table>
+  <thead>
+    <tr>
+      <th>Milestone</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% assign paper_deadline = site.data.dates.dates | where: "name", "Paper Submission Deadline" | first %}
+    {% if paper_deadline %}
+      <tr>
+        <td>Paper Submission Deadline</td>
+        <td>{% if paper_deadline.date contains '-' %}{{ paper_deadline.date | date: "%-d %B %Y" }}{% else %}{{ paper_deadline.date }}{% endif %}</td>
+      </tr>
+    {% else %}
+      <tr>
+        <td>Paper Submission Deadline</td>
+        <td>TBC</td>
+      </tr>
+    {% endif %}
+    <tr>
+      <td>Award Nominees Notified</td>
+      <td>TBC</td>
+    </tr>
+    {% assign banquet_date = nil %}
+    {% for day in site.data.schedule.days %}
+      {% assign banquet_event = day.events | where: "id", "conference-banquet" | first %}
+      {% if banquet_event %}
+        {% assign banquet_date = day.date %}
+      {% endif %}
+    {% endfor %}
+    <tr>
+      <td>Award Ceremony</td>
+      <td>{% if banquet_date %}{{ banquet_date | date: "%-d %B %Y" }} (Banquet){% else %}TBC{% endif %}</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Questions?
 
 For questions regarding awards, please contact the Awards Committee:
 
-**Email**: [emo2027@exeter.ac.uk](mailto:emo2027@exeter.ac.uk)
+**Email**: [{{ site.data.conference.contact.email }}](mailto:{{ site.data.conference.contact.email }})

@@ -3,7 +3,8 @@
   <p class="dates-note">All dates are tentative and subject to change</p>
 
   <div class="countdown-grid">
-    {% for date in site.data.dates.dates %}
+    {% assign countdown_dates = site.data.dates.dates | where_exp: "item", "item.include_in_countdown != false" %}
+    {% for date in countdown_dates %}
     {% assign is_date = date.date contains '-' %}
     <div class="countdown-item{% if date.highlight %} highlighted{% endif %}{% if date.completed %} completed{% endif %}"
          {% if is_date %}data-date="{{ date.date }}"{% if date.time %} data-time="{{ date.time }}"{% endif %}{% endif %}>

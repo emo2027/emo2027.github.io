@@ -13,13 +13,37 @@
   let searchOverlay = null;
   let searchToggle = null;
   let searchClose = null;
+  let lastFocusedElement = null;
+
+  function getSearchIndexUrl() {
+    const meta = document.querySelector('meta[name="search-index"]');
+    return meta ? meta.getAttribute('content') : '/search.json';
+  }
+
+  function markSearchUnavailable(reason) {
+    document.documentElement.classList.add('search-unavailable');
+    if (searchOverlay) {
+      searchOverlay.setAttribute('aria-hidden', 'true');
+    }
+    if (searchToggle) {
+      searchToggle.setAttribute('aria-expanded', 'false');
+    }
+    if (reason) {
+      console.warn('Search unavailable:', reason);
+    }
+  }
 
   /**
    * Load search index from JSON
    */
   async function loadSearchIndex() {
+    if (typeof window.lunr === 'undefined') {
+      markSearchUnavailable('Lunr library not loaded');
+      return;
+    }
+
     try {
-      const response = await fetch('/search.json');
+      const response = await fetch(getSearchIndexUrl());
       if (!response.ok) {
         throw new Error('Failed to load search index');
       }
@@ -36,7 +60,7 @@
         }, this);
       });
     } catch (error) {
-      console.warn('Search index not available:', error.message);
+      markSearchUnavailable(error.message);
     }
   }
 
@@ -97,6 +121,11 @@
    */
   function openSearch() {
     searchOverlay.classList.add('active');
+    searchOverlay.setAttribute('aria-hidden', 'false');
+    if (searchToggle) {
+      searchToggle.setAttribute('aria-expanded', 'true');
+    }
+    lastFocusedElement = document.activeElement;
     searchInput.focus();
     document.body.style.overflow = 'hidden';
   }
@@ -106,9 +135,16 @@
    */
   function closeSearch() {
     searchOverlay.classList.remove('active');
+    searchOverlay.setAttribute('aria-hidden', 'true');
+    if (searchToggle) {
+      searchToggle.setAttribute('aria-expanded', 'false');
+    }
     searchInput.value = '';
     searchResults.innerHTML = '';
     document.body.style.overflow = '';
+    if (lastFocusedElement) {
+      lastFocusedElement.focus();
+    }
   }
 
   /**
@@ -135,6 +171,31 @@
     }
   }
 
+  function initDropdownAria() {
+    const dropdownItems = document.querySelectorAll('.has-dropdown');
+    dropdownItems.forEach(function(item) {
+      const trigger = item.querySelector('.nav-link');
+      if (!trigger) return;
+
+      const open = function() {
+        trigger.setAttribute('aria-expanded', 'true');
+      };
+
+      const close = function() {
+        trigger.setAttribute('aria-expanded', 'false');
+      };
+
+      item.addEventListener('mouseenter', open);
+      item.addEventListener('mouseleave', close);
+      item.addEventListener('focusin', open);
+      item.addEventListener('focusout', function(e) {
+        if (!item.contains(e.relatedTarget)) {
+          close();
+        }
+      });
+    });
+  }
+
   /**
    * Initialize search functionality
    */
@@ -147,8 +208,12 @@
 
     // Initialize mobile navigation
     initMobileNav();
+    initDropdownAria();
 
-    if (!searchInput || !searchOverlay) return;
+    if (!searchInput || !searchOverlay) {
+      markSearchUnavailable('Search UI not found');
+      return;
+    }
 
     // Load search index
     loadSearchIndex();

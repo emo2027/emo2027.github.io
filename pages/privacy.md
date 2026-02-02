@@ -12,4 +12,4 @@ description: Privacy policy for EMO 2027 conference website.
 
 For any privacy-related queries in the meantime, please contact:
 
-**Email**: [emo2027@exeter.ac.uk](mailto:emo2027@exeter.ac.uk)
+**Email**: [{{ site.data.conference.contact.email }}](mailto:{{ site.data.conference.contact.email }})

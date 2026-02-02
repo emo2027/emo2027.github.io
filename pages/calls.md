@@ -9,7 +9,7 @@ description: Submit your research to EMO 2027 - the premier venue for evolutiona
 
 The 14th International Conference on Evolutionary Multi-Criterion Optimization (EMO 2027) invites high-quality submissions presenting original research on all aspects of multi-criterion optimization using evolutionary computation and related approaches.
 
-EMO 2027 will be held **April 5-8, 2027** at the University of Exeter, United Kingdom.
+EMO 2027 will be held **{{ site.data.conference.dates.display }}** at the University of Exeter, {{ site.data.conference.location.full }}.
 
 ## Important Dates
 
@@ -17,12 +17,29 @@ EMO 2027 will be held **April 5-8, 2027** at the University of Exeter, United Ki
   <strong>Note:</strong> All dates are tentative and subject to change. Deadlines are at 23:59 AoE (Anywhere on Earth).
 </div>
 
-| Milestone | Date |
-|-----------|------|
-| Paper Submission Deadline | TBC |
-| Author Notification | TBC |
-| Camera-Ready Deadline | TBC |
-| Conference Dates | April 5-8, 2027 |
+<table>
+  <thead>
+    <tr>
+      <th>Milestone</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% assign call_dates = site.data.dates.dates | where: "include_in_calls", true %}
+    {% for milestone in call_dates %}
+    <tr>
+      <td>{{ milestone.name }}</td>
+      <td>{% if milestone.date contains '-' %}{{ milestone.date | date: "%-d %B %Y" }}{% else %}{{ milestone.date }}{% endif %}</td>
+    </tr>
+    {% endfor %}
+    <tr>
+      <td>Conference Dates</td>
+      <td>{{ site.data.conference.dates.display }}</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="{{ '/assets/ics/emo-2027-deadlines.ics' | relative_url }}">Add key deadlines to your calendar (ICS)</a></p>
 
 ## Topics of Interest
 
@@ -136,7 +153,7 @@ We also welcome proposals for **tutorials** on topics relevant to the EMO commun
 
 <div class="info-box notice">
   <h3>Proposal Submission</h3>
-  <p>Please submit special session and tutorial proposals to <a href="mailto:emo2027@exeter.ac.uk">emo2027@exeter.ac.uk</a></p>
+  <p>Please submit special session and tutorial proposals to <a href="mailto:{{ site.data.conference.contact.email }}">{{ site.data.conference.contact.email }}</a></p>
 </div>
 
 ## Contact
@@ -146,4 +163,4 @@ For questions regarding submissions, please contact the Programme Chairs:
 - **Oliver Schutze** (CINVESTAV-IPN, Mexico)
 - **Tea Tusar** (Jozef Stefan Institute, Slovenia)
 
-Email: [emo2027@exeter.ac.uk](mailto:emo2027@exeter.ac.uk)
+Email: [{{ site.data.conference.contact.email }}](mailto:{{ site.data.conference.contact.email }})

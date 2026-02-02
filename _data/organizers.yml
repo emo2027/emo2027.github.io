@@ -1,60 +1,115 @@
 # EMO 2027 Organizing Committee
 
-general_chairs:
-  - name: "Jonathan Fieldsend"
-    affiliation: "University of Exeter, UK"
-    email: "J.E.Fieldsend@exeter.ac.uk"
-  - name: "Ke Li"
-    affiliation: "University of Exeter, UK"
-    email: "K.Li@exeter.ac.uk"
-  - name: "Hisao Ishibuchi"
-    affiliation: "Southern University of Science and Technology, China"
-    email: "hisao@sustech.edu.cn"
+organizer_sections:
+  - title: "General Chairs"
+    people:
+      - name: "Jonathan Fieldsend"
+        affiliation: "University of Exeter, UK"
+        email: "j.e.fieldsend@exeter.ac.uk"
+      - name: "Ke Li"
+        affiliation: "University of Exeter, UK"
+        email: "k.li@exeter.ac.uk"
+      - name: "Hisao Ishibuchi"
+        affiliation: "Southern University of Science and Technology, China"
+        email: "hisao@sustech.edu.cn"
 
-program_chairs:
-  - name: "Oliver Schutze"
-    affiliation: "CINVESTAV-IPN, Mexico"
-  - name: "Tea Tusar"
-    affiliation: "Jozef Stefan Institute, Slovenia"
+  - title: "Programme Chairs"
+    people:
+      - name: "Oliver Schutze"
+        affiliation: "CINVESTAV-IPN, Mexico"
+        email: "schuetze@cs.cinvestav.mx"
+      - name: "Tea Tusar"
+        affiliation: "Jozef Stefan Institute, Slovenia"
+        email: "tea.tusar@ijs.si"
 
-tutorial_chairs:
-  - name: "TBD"
-    affiliation: ""
+  - title: "Industry Session Chairs"
+    people:
+      - name: "Ed Keedwell"
+        affiliation: "University of Exeter, UK"
+        email: "e.c.keedwell@exeter.ac.uk"
+      - name: "TBC"
+        affiliation: "To be confirmed"
 
-workshop_chairs:
-  - name: "TBD"
-    affiliation: ""
+  - title: "MCDM Chairs"
+    people:
+      - name: "Tinkle Chugh"
+        affiliation: "University of Exeter, UK"
+        email: "t.chugh@exeter.ac.uk"
+      - name: "Qingfu Zhang"
+        affiliation: "City University of Hong Kong"
 
-competition_chairs:
-  - name: "TBD"
-    affiliation: ""
+  - title: "Proceedings Chairs"
+    people:
+      - name: "Alma Rahat"
+        affiliation: "Swansea University, UK"
+      - name: "David Walker"
+        affiliation: "University of Exeter, UK"
+        email: "d.j.walker2@exeter.ac.uk"
 
-publicity_chairs:
-  - name: "TBD"
-    affiliation: ""
+  - title: "Conflict of Interest Chairs"
+    people:
+      - name: "Sanaz Mostaghim"
+        affiliation: "Otto von Guericke University of Magdeburg, Germany"
+      - name: "Marcella Scoczynski Ribeiro Martins"
+        affiliation: "Federal University of Technology of Parana, Brazil"
 
-local_organization:
-  - name: "Jonathan Fieldsend"
-    affiliation: "University of Exeter, UK"
-    role: "Local Chair"
-  - name: "Ke Li"
-    affiliation: "University of Exeter, UK"
-    role: "Local Chair"
+  - title: "Local Arrangement & Finance Chairs"
+    people:
+      - name: "Aishwaryaprajna"
+        affiliation: "University of Exeter, UK"
+        email: "aishwaryaprajna@exeter.ac.uk"
+      - name: "Richard Everson"
+        affiliation: "University of Exeter, UK"
+        email: "r.m.everson@exeter.ac.uk"
 
-web_chair:
-  - name: "George De Ath"
-    affiliation: "University of Exeter, UK"
-    email: "g.de.ath@exeter.ac.uk"
+  - title: "Tutorial Chair"
+    people:
+      - name: "Alberto Moraglio"
+        affiliation: "University of Exeter, UK"
+        email: "a.moraglio@exeter.ac.uk"
 
-finance_chair:
-  - name: "TBD"
-    affiliation: ""
+  - title: "Publicity Chairs"
+    people:
+      - name: "Yaochu Jin"
+        affiliation: "Westlake University, China"
+      - name: "Arnaud Liefooghe"
+        affiliation: "Universite du Littoral Cote d'Opale, France"
+      - name: "Mengjie Zhang"
+        affiliation: "Victoria University of Wellington, New Zealand"
+      - name: "Gary Yen"
+        affiliation: "Oklahoma State University, USA"
+      - name: "Nelishia Pillay"
+        affiliation: "University of Pretoria, South Africa"
 
-# Steering Committee
-steering_committee:
-  - name: "Carlos Coello Coello"
-    affiliation: "CINVESTAV-IPN, Mexico"
-  - name: "Kalyanmoy Deb"
-    affiliation: "Michigan State University, USA"
-  - name: "Hisao Ishibuchi"
-    affiliation: "Southern University of Science and Technology, China"
+  - title: "Web Chair"
+    people:
+      - name: "George De Ath"
+        affiliation: "University of Exeter, UK"
+        email: "g.de.ath@exeter.ac.uk"
+
+  - title: "EMO Steering Committee"
+    people:
+      - name: "Carlos Coello Coello"
+        affiliation: "CINVESTAV-IPN, Mexico"
+      - name: "Kalyanmoy Deb"
+        affiliation: "Michigan State University, USA"
+      - name: "Hisao Ishibuchi"
+        affiliation: "Southern University of Science and Technology, China"
+
+contact:
+  topics:
+    - topic: "Paper Submissions"
+      contact: "Programme Chairs"
+    - topic: "Registration"
+      contact: "Local Arrangement & Finance Chairs"
+    - topic: "Sponsorship"
+      contact: "General Chairs"
+    - topic: "Website"
+      contact: "Web Chair"
+    - topic: "General Questions"
+      use_conference_email: true
+
+programme_committee:
+  title: "Programme Committee"
+  heading: "To Be Announced"
+  note: "The full programme committee will be announced in mid-2026."

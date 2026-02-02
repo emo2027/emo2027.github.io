@@ -1,15 +1,15 @@
 <header class="site-header">
   <div class="header-container">
     <a href="{{ '/' | relative_url }}" class="site-logo">
-      <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="{{ site.title }} Logo" class="logo-image">
+      <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="{{ site.title }} Logo" class="logo-image" width="100" height="100" decoding="async">
     </a>
     <div class="site-banner">
-      <img src="{{ '/assets/images/banner.png' | relative_url }}" alt="EMO 2027 Banner - Exeter Cathedral and University" class="banner-image">
+      <img src="{{ '/assets/images/banner.png' | relative_url }}" alt="EMO 2027 Banner - Exeter Cathedral and University" class="banner-image" width="1200" height="300" decoding="async">
     </div>
     <div class="header-info">
-      <h1 class="site-title">{{ site.conference.name }}</h1>
-      <p class="site-tagline">{{ site.conference.full_name }}</p>
-      <p class="site-details">{{ site.conference.dates }} | {{ site.conference.location }}</p>
+      <h1 class="site-title">{{ site.data.conference.name }}</h1>
+      <p class="site-tagline">{{ site.data.conference.full_name }}</p>
+      <p class="site-details">{{ site.data.conference.dates.display }} | {{ site.data.conference.location.short }}</p>
     </div>
   </div>
 </header>

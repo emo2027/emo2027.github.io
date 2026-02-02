@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ page.description | default: site.description }}">
+  <meta name="search-index" content="{{ '/search.json' | relative_url }}">
+  <meta name="twitter:card" content="summary_large_image">
 
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 
@@ -12,6 +14,10 @@
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+  <script>
+    document.documentElement.classList.add('js');
+  </script>
 
   <!-- Dark mode script (runs early to prevent flash) -->
   <script>
@@ -28,6 +34,9 @@
   {% endif %}
 
   {% seo %}
+  {% if page.url == '/' %}
+  {% include event-jsonld.html %}
+  {% endif %}
 </head>
 <body>
   {% include header.html %}
@@ -43,8 +52,9 @@
 
   <!-- Scripts -->
   <script src="{{ '/assets/js/dark-mode.js' | relative_url }}"></script>
-  <script src="https://unpkg.com/lunr/lunr.js"></script>
+  <script src="{{ '/assets/js/vendor/lunr.min.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/external-links.js' | relative_url }}"></script>
   {% if page.layout == 'program' %}
   <script src="{{ '/assets/js/schedule.js' | relative_url }}"></script>
   {% endif %}
