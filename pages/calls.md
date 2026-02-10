@@ -58,16 +58,25 @@ EMO 2027 will be held **{{ site.data.conference.dates.display }}** at the Univer
 
 ## Submission Guidelines
 
-### Paper Format
+### Author Guidelines
 
-Papers should not exceed **15 pages** including references and appendices.
-
-<!-- COMMENTED OUT - awaiting official Springer confirmation: Papers must be submitted in **Springer LNCS format** and should not exceed... -->
+<!-- COMMENTED OUT - awaiting official Springer confirmation: All submissions must be prepared in accordance with Springer LNCS guidelines available at [LNCS Author Guidelines](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines). -->
 
 - Papers must be submitted as PDF files
 - All submissions must be original and not under review elsewhere
 - Formatting guidelines will be announced soon
-<!-- COMMENTED OUT - awaiting official Springer confirmation: - LaTeX template: [LNCS Author Guidelines](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines) -->
+
+### Types of Submissions
+
+The conference will comprise the main EMO track, along with special MCDM and Industry tracks.
+
+**EMO track:** This is the main track of the conference, where traditional full papers (maximum **12 pages excluding references**) should present state-of-the-art results on theory, algorithms, benchmarking, applications and other topics of interest as outlined in the Topics of Interest section.
+
+**MCDM special track:** This track is intended to foster collaborations and knowledge-exchange between the two distinct but related areas of EMO and Multi-criteria Decision-making (MCDM). It recognises the value of methods in either domain that may be less known in the other, but can be of mutual benefit in solving open challenges in both fields. For this track, authors have the option to submit a full paper (maximum **12 pages excluding references**) or an abstract (maximum **2 pages including references if any**), which are MCDM focused. Studies that use non-evolutionary methods are also welcome, but the relevance to the EMO field should be indicated for the benefit of the audience.
+
+**Industry special track:** This track is intended to encourage collaborations and knowledge-exchange between practitioners and academics on topics relevant to the conference. The aim is to improve the collective understanding of the fundamental challenges that occur in real-world applications and work collaboratively towards solving them. To emphasise the involvement of practitioners, at least one author of the submission must be from industry or a non-academic institution (e.g. public service) to qualify for submission in this track. Authors have the option to submit a full paper (maximum **12 pages excluding references**) or an abstract (maximum **2 pages including references if any**), which are focused on industrial/non-academic problems.
+
+The programme committee reserves the right to move a submission to a different track if deemed unsuitable for the track selected during submission.
 
 ### Submission System
 
@@ -78,7 +87,9 @@ Papers should not exceed **15 pages** including references and appendices.
 
 ### Review Process
 
-All submissions will undergo peer review by at least three members of the Programme Committee. Details of the review process (including any anonymization requirements) will be announced with the submission system.
+All full paper submissions (submitted to any track) will undergo standard peer review (at least 2, typically 3 reviews). The review and selection of abstract submissions will be overseen by the MCDM/Industry chairs and 1-2 additional reviewers from the programme committee if needed.
+
+Details of the review process (including any anonymisation requirements) will be announced with the submission system.
 
 ## Publication
 
@@ -99,31 +110,26 @@ Selected high-quality papers may be invited for extension and submission to spec
 
 At least one author of each accepted paper must register for the conference at the **full registration rate** and present the paper in person. Papers without a registered presenter will not be included in the proceedings.
 
-## Special Sessions and Tutorials
+Accepted papers, both full and abstract, will be presented as either oral or poster presentations. Submitting authors will be given an option to specify their preference of presentation mode (oral/poster/either), based on what suits their content the best. The final mode of presentation will be decided by considering the authors' preferences, the number of submissions received/accepted, and the conference scheduling constraints.
 
-### Special Sessions
+<!-- Wording from EMO 2025 call for papers -->
+The presentation mode assigned will in no way be indicative of the quality or the reviews of the paper.
 
-We invite proposals for **special sessions** focusing on emerging topics within the scope of EMO. Special session proposals should include:
+## Awards
 
-- Title and brief description (200-300 words)
-- Names, affiliations, and brief bios of organizers
-- List of potential contributors (if available)
-- Relevance to the EMO community
+At the conference, we will confer an **Outstanding EMO Paper Award** and an **Outstanding EMO Student Paper Award** (honorarium + plaque). Full papers in any track will be eligible for these awards (independently of presentation mode).
 
-### Tutorial Proposals
+## Tutorials
 
-We also welcome proposals for **tutorials** on topics relevant to the EMO community. Tutorial proposals should include:
+We invite proposals for delivering a **tutorial** at EMO 2027. Tutorials are intended to provide a valuable opportunity for attendees, especially students and early career researchers, to learn from domain experts in the field. Tutorials should provide an introduction to interesting research directions and cover the key developments in sufficient breadth. Interactivity in the sessions to engage the audience is encouraged.
 
-- Title and abstract (300-500 words)
-- Intended audience and prerequisites
-- Outline of the tutorial content
-- Duration (half-day or full-day)
-- CV of the presenter(s)
+The tutorial slots are expected to be **75-90 minutes** and delivered in person. To apply, please send a brief proposal to <a href="mailto:{{ site.data.conference.contact.email }}">{{ site.data.conference.contact.email }}</a> containing the following information:
 
-<div class="info-box notice">
-  <h3>Proposal Submission</h3>
-  <p>Please submit special session and tutorial proposals to <a href="mailto:{{ site.data.conference.contact.email }}">{{ site.data.conference.contact.email }}</a></p>
-</div>
+- Title
+- A brief description of the scope and content (~1 page)
+- Name and brief biography of the organiser(s)
+- Email address of the corresponding organiser(s)
+- If the tutorial has been delivered before, please indicate the venue(s) and differences if any
 
 ## Contact
 
