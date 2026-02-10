@@ -23,7 +23,7 @@ events:
           detail: "Planned for the XFi Building (details to follow)"
 
     - id: "boat-tour"
-      title: "Boat Tour on the Exe Estuary"
+      title: "Boat Tour on the River Exe Estuary"
       schedule_id: "boat-tour"
       location:
           label: "Departure"

@@ -27,6 +27,12 @@ social:
   twitter: "TBD"
   # bluesky: "emo2027.bsky.social"
 
+locations:
+  main_room: "Henderson Lecture Theatre"
+  breakout: "XFi Break-out Area"
+  reed_hall: "Reed Hall"
+  exmouth_marina: "Exmouth Marina"
+
 format:
   summary: "Single-track programme with themed sessions across EMO, MCDM, and Industry topics"
   detail: "All scientific sessions are single-track and will take place in the Henderson Lecture Theatre."

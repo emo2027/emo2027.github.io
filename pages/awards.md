@@ -2,16 +2,16 @@
 layout: page
 title: Awards
 permalink: /awards/
-description: EMO 2027 best paper awards and recognition.
+description: EMO 2027 Outstanding Paper awards and recognition.
 ---
 
 ## EMO 2027 Awards
 
-EMO 2027 will present several awards to recognize outstanding contributions to the field of evolutionary multi-objective optimization.
+EMO 2027 will present awards to recognise outstanding contributions to the field of evolutionary multi-objective optimisation.
 
-## Best Paper Award
+## Outstanding EMO Paper Award
 
-The **Best Paper Award** recognizes the highest quality contribution to EMO 2027, as determined by the Awards Committee.
+The **Outstanding EMO Paper Award** recognises the highest quality contribution to EMO 2027, as determined by the Awards Committee.
 
 ### Eligibility
 
@@ -34,9 +34,9 @@ The Awards Committee evaluates papers based on:
 3. Finalists are invited to present at a special session
 4. The winner is announced at the conference banquet
 
-## Best Student Paper Award
+## Outstanding EMO Student Paper Award
 
-The **Best Student Paper Award** recognizes excellent research conducted primarily by a student author.
+The **Outstanding EMO Student Paper Award** recognises excellent research conducted primarily by a student author.
 
 ### Eligibility
 
@@ -47,7 +47,7 @@ The **Best Student Paper Award** recognizes excellent research conducted primari
 
 ### Selection Process
 
-The selection process mirrors that of the Best Paper Award, with additional consideration given to the student's contribution relative to their experience level.
+The selection process mirrors that of the Outstanding EMO Paper Award, with additional consideration given to the student's contribution relative to their experience level.
 
 <div class="info-box notice">
   <strong>Student Authors:</strong> Please indicate student paper status during the submission process and be prepared to provide verification if selected as a finalist.

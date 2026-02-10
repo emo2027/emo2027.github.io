@@ -64,7 +64,7 @@ Full conference registration includes:
 ## Author Registration
 
 <div class="info-box notice">
-  <strong>Important:</strong> At least one author of each accepted paper must register at the <strong>full registration rate</strong> (non-student) by the camera-ready deadline. Papers without a registered presenter will not be included in the proceedings.
+  <strong>Important:</strong> At least one author of each accepted paper must register for the conference at the <strong>full registration rate</strong> and present the paper in person. Papers without a registered presenter will not be included in the proceedings.
 </div>
 
 ## Payment Methods

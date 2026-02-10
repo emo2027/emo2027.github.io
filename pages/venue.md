@@ -19,7 +19,7 @@ EMO 2027 will be hosted at the [{{ site.data.conference.venue.name }}]({{ site.d
 
 **Additional Facilities**
 
-- XFi break-out area for coffee breaks, lunches, posters, and networking
+- {{ site.data.conference.venue.breakout }} for coffee breaks, lunches, posters, and networking
 - High-speed WiFi throughout the building
 
 ### Virtual Tour

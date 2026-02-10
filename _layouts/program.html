@@ -47,16 +47,36 @@ layout: default
 
         <div class="day-events">
           {% for event in day.events %}
+          {% assign social_event = nil %}
+          {% if event.type == "social" and event.id %}
+            {% assign social_event = site.data.social_events.events | where: "id", event.id | first %}
+          {% endif %}
+          {% if social_event %}
+            {% assign event_title = social_event.title %}
+            {% assign event_location = social_event.location.name %}
+            {% assign event_description = social_event.intro %}
+          {% else %}
+            {% assign event_title = event.title %}
+            {% assign event_location = nil %}
+            {% if event.location %}
+              {% if site.data.conference.locations[event.location] %}
+                {% assign event_location = site.data.conference.locations[event.location] %}
+              {% else %}
+                {% assign event_location = event.location %}
+              {% endif %}
+            {% endif %}
+            {% assign event_description = event.description %}
+          {% endif %}
           <div class="event-card" data-type="{{ event.type }}">
             <div class="event-time">{{ event.time }}</div>
             <div class="event-details">
-              <h3 class="event-title">{{ event.title }}</h3>
-              {% if event.location %}
+              <h3 class="event-title">{{ event_title }}</h3>
+              {% if event_location %}
               <p class="event-location">
                 <svg class="icon" viewBox="0 0 24 24" width="16" height="16">
                   <path fill="currentColor" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
                 </svg>
-                {{ event.location }}
+                {{ event_location }}
               </p>
               {% endif %}
               {% if event.speaker and event.speaker != "TBD" %}
@@ -67,8 +87,8 @@ layout: default
                 {{ event.speaker }}
               </p>
               {% endif %}
-              {% if event.description and event.description != "TBD" %}
-              <p class="event-description">{{ event.description }}</p>
+              {% if event_description and event_description != "TBD" %}
+              <p class="event-description">{{ event_description }}</p>
               {% endif %}
               {% if event.tracks %}
               <div class="event-tracks">

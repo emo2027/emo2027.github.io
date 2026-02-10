@@ -75,24 +75,17 @@ EMO 2027 will feature:
 
 ## Venue
 
-EMO 2027 will be held at the **[{{ site.data.conference.venue.name }}]({{ site.data.conference.venue.url }})** on the University of Exeter's picturesque Streatham Campus. The venue features modern conference facilities including the 174-seat Henderson Lecture Theatre and the XFi break-out area for posters and networking.
+EMO 2027 will be held at the **[{{ site.data.conference.venue.name }}]({{ site.data.conference.venue.url }})** on the University of Exeter's picturesque {{ site.data.conference.venue.campus }}. The venue features modern conference facilities including the 174-seat {{ site.data.conference.venue.room }} and the {{ site.data.conference.venue.breakout }} for posters and networking.
 
 <a href="{{ '/venue/' | relative_url }}" class="btn btn-secondary">Learn More About the Venue</a>
 
 ## Topics of Interest
 
-EMO 2027 welcomes submissions on all aspects of evolutionary multi-objective optimization, including but not limited to:
+{{ site.data.topics.intro }}
 
-- Multi-objective and many-objective optimization
-- Theoretical foundations of EMO algorithms
-- Algorithm design and performance assessment
-- Preference-based and interactive methods
-- Real-world applications
-- Benchmarking and test problems
-- Hybrid and memetic approaches
-- Machine learning and EMO
-- Dynamic and robust optimization
-- Large-scale optimization
+{% for category in site.data.topics.categories %}
+- **{{ category.name }}**: {{ category.topics | join: ", " }}
+{% endfor %}
 
 <a href="{{ '/calls/' | relative_url }}" class="btn btn-primary">View Full Call for Papers</a>
 
