@@ -2,7 +2,7 @@
 
 Official website for the 14th International Conference on Evolutionary Multi-Criterion Optimization (EMO 2027), hosted by the University of Exeter, UK.
 
-**Live site:** <https://emo2027.github.io>
+**Live site:** <https://www.emo2027.org>
 
 ## Prerequisites
 
@@ -113,6 +113,7 @@ Edit `_data/navigation.yml` to add or modify menu items. The footer "Contact" li
 ### Updating Important Dates
 
 Edit `_data/dates.yml` to update conference deadlines shown on the homepage and used in the Calls/Registration/Awards pages. Use flags:
+
 - `include_in_countdown`: show on the homepage countdown
 - `include_in_calls`: show in the Calls page
 - `include_in_registration`: show in the Registration page
@@ -148,10 +149,10 @@ Edit `_data/social_events.yml` for the social events page. Event dates/times are
 The site uses CSS custom properties (variables) defined in `assets/css/style.css`. Key variables:
 
 ```css
---color-primary: #003c3c;      /* Exeter dark green */
---color-accent: #00a896;       /* Exeter teal */
---color-bg: #ffffff;           /* Background */
---color-text: #1c1b4b;         /* Text colour */
+--color-primary: #003c3c; /* Exeter dark green */
+--color-accent: #00a896; /* Exeter teal */
+--color-bg: #ffffff; /* Background */
+--color-text: #1c1b4b; /* Text colour */
 ```
 
 Dark mode is supported via the `[data-theme="dark"]` selector.
@@ -199,6 +200,7 @@ The site is automatically deployed to GitHub Pages when changes are pushed to th
 ## Browser Support
 
 The site supports all modern browsers and includes:
+
 - Responsive design (mobile-first)
 - Dark mode (respects system preference)
 - Accessible navigation
@@ -218,7 +220,7 @@ See [TODO.md](TODO.md) for a list of content and features that still need to be 
 
 ## Contact
 
-- **General enquiries:** <emo2027@exeter.ac.uk>
+- **General enquiries:** <emo2027@exeter.ac.uk> (maintained in `_data/conference.yml` → `contact.email`)
 - **Website issues:** <g.de.ath@exeter.ac.uk>
 
 ## License

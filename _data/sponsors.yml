@@ -41,5 +41,5 @@ tiers:
 # Call for sponsors
 call_for_sponsors:
   active: true
-  contact_email: "emo2027@exeter.ac.uk"
+  # contact_email now sourced from _data/conference.yml → contact.email
   message: "Interested in sponsoring EMO 2027? Contact us for sponsorship opportunities."
