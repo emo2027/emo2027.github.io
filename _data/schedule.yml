@@ -48,7 +48,7 @@ days:
         id: "welcome-reception"
         type: "social"
         location: "XFi Break-out Area"
-        description: "Welcome drinks and canapes in the XFi break-out area"
+        description: "Welcome drinks and canapés in the XFi break-out area"
 
   - date: "2027-04-06"
     name: "Tuesday"
@@ -98,7 +98,7 @@ days:
         title: "Social Event: Boat Tour"
         id: "boat-tour"
         type: "social"
-        location: "Exeter Quay"
+        location: "Exmouth Marina"
         description: "Private charter boat tour along the Exe Estuary"
 
   - date: "2027-04-07"
@@ -141,7 +141,7 @@ days:
         id: "conference-banquet"
         type: "social"
         location: "Reed Hall"
-        description: "Formal dinner with award ceremony"
+        description: "Three-course banquet with award ceremony"
 
   - date: "2027-04-08"
     name: "Thursday"
@@ -175,10 +175,10 @@ days:
         type: "break"
         location: "XFi Break-out Area"
       - time: "15:30-16:30"
-        title: "Best Paper Awards & Closing"
+        title: "Outstanding EMO Paper Awards & Closing"
         type: "plenary"
         location: "Henderson Lecture Theatre"
-        description: "Announcement of best paper awards and closing remarks"
+        description: "Announcement of Outstanding EMO Paper awards and closing remarks"
 
 # Event type colors (for display)
 event_types:

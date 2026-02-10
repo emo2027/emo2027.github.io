@@ -59,12 +59,12 @@ events:
           name: "Reed Hall"
           url: "https://event.exeter.ac.uk/venues/reed-hall"
           suffix: "University of Exeter"
-      intro: "The conference banquet is the highlight of the social programme, featuring a formal dinner in the elegant surroundings of Reed Hall."
+      intro: "The conference banquet is the highlight of the social programme, featuring a three-course banquet in the elegant surroundings of Reed Hall."
       sections:
           - heading: "Evening Programme"
             items:
                 - "Welcome reception"
-                - "Formal dinner"
+                - "Three-course banquet dinner"
                 - "Awards presentation"
                 - "After-dinner remarks"
       notes:

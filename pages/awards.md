@@ -76,7 +76,8 @@ The Awards Committee for EMO 2027 consists of distinguished researchers from the
 
 Award recipients will receive:
 
-- Certificate of recognition
+- Honorarium
+- Plaque
 - Award presentation at the conference banquet
 - Recognition on the EMO 2027 website and proceedings
 

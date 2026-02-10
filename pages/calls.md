@@ -142,8 +142,8 @@ For questions regarding submissions, please contact the Programme Chairs:
 - **{{ chair.name }}** ({{ chair.affiliation }}){% if chair.email %} — [{{ chair.email }}](mailto:{{ chair.email }}){% endif %}
   {% endfor %}
   {% else %}
-- **Oliver Schutze** (CINVESTAV-IPN, Mexico)
-- **Tea Tusar** (Jozef Stefan Institute, Slovenia)
+- **Oliver Schütze** (CINVESTAV-IPN, Mexico)
+- **Tea Tušar** (Jožef Stefan Institute, Slovenia)
   {% endif %}
 
 Email: [{{ site.data.conference.contact.email }}](mailto:{{ site.data.conference.contact.email }})

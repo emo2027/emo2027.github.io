@@ -15,11 +15,11 @@ organizer_sections:
 
   - title: "Programme Chairs"
     people:
-      - name: "Oliver Schutze"
+      - name: "Oliver Schütze"
         affiliation: "CINVESTAV-IPN, Mexico"
         email: "schuetze@cs.cinvestav.mx"
-      - name: "Tea Tusar"
-        affiliation: "Jozef Stefan Institute, Slovenia"
+      - name: "Tea Tušar"
+        affiliation: "Jožef Stefan Institute, Slovenia"
         email: "tea.tusar@ijs.si"
 
   - title: "Industry Session Chairs"
@@ -52,7 +52,7 @@ organizer_sections:
       - name: "Sanaz Mostaghim"
         affiliation: "Otto von Guericke University of Magdeburg, Germany"
       - name: "Marcella Scoczynski Ribeiro Martins"
-        affiliation: "Federal University of Technology of Parana, Brazil"
+        affiliation: "Federal University of Technology of Paraná, Brazil"
 
   - title: "Local Arrangement & Finance Chairs"
     people:
@@ -74,7 +74,7 @@ organizer_sections:
       - name: "Yaochu Jin"
         affiliation: "Westlake University, China"
       - name: "Arnaud Liefooghe"
-        affiliation: "Universite du Littoral Cote d'Opale, France"
+        affiliation: "Université du Littoral Côte d'Opale, France"
       - name: "Mengjie Zhang"
         affiliation: "Victoria University of Wellington, New Zealand"
       - name: "Gary Yen"
