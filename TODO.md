@@ -41,7 +41,7 @@ This file tracks content and features that need to be completed for the website.
 
 ## Awards
 
-- [ ] Award details and nomination process
+- [x] Award details and nomination process
 
 ## Privacy Policy
 

@@ -22,7 +22,7 @@ The **Best Paper Award** recognizes the highest quality contribution to EMO 2027
 
 The Awards Committee evaluates papers based on:
 
-1. **Technical Quality** - Rigor of methodology, validity of results
+1. **Technical Quality** - Rigour of methodology, validity of results
 2. **Novelty** - Originality of ideas and approaches
 3. **Significance** - Potential impact on the field
 4. **Clarity** - Quality of presentation and writing

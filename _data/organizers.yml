@@ -27,8 +27,9 @@ organizer_sections:
       - name: "Ed Keedwell"
         affiliation: "University of Exeter, UK"
         email: "e.c.keedwell@exeter.ac.uk"
-      - name: "TBC"
-        affiliation: "To be confirmed"
+      - name: "Sam Kwong"
+        affiliation: "Lingnan University, Hong Kong"
+        email: "samkwong@ln.edu.hk"
 
   - title: "MCDM Chairs"
     people:
