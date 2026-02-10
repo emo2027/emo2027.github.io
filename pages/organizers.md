@@ -10,6 +10,7 @@ description: EMO 2027 organizing committee and contact information.
 EMO 2027 is organized by a dedicated team of researchers from around the world. We are committed to making this conference a memorable and productive experience for all attendees.
 
 {% for section in site.data.organizers.organizer_sections %}
+
 ## {{ section.title }}
 
 {% if section.title == "EMO Steering Committee" %}
@@ -34,6 +35,7 @@ The EMO conference series is guided by a distinguished steering committee:
 {% endfor %}
 
 {% assign programme_committee = site.data.organizers.programme_committee %}
+
 ## {{ programme_committee.title }}
 
 <div class="info-box tbd">

@@ -12,11 +12,13 @@ EMO 2027 will be hosted at the [{{ site.data.conference.venue.name }}]({{ site.d
 ### Main Conference Venue
 
 **{{ site.data.conference.venue.room }}**
+
 - Capacity: 174 seats
 - Full AV facilities including projection, sound system, and recording capabilities
 - Accessible seating and hearing loop
 
 **Additional Facilities**
+
 - XFi break-out area for coffee breaks, lunches, posters, and networking
 - High-speed WiFi throughout the building
 

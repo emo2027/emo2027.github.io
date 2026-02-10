@@ -16,11 +16,11 @@ description: Register for EMO 2027 - the 14th International Conference on Evolut
 
 The following registration fees are tentative and subject to change:
 
-| Category | Early Bird | Regular |
-|----------|------------|---------|
-| Regular (Academic) | TBD | TBD |
-| Student | TBD | TBD |
-| Industry | TBD | TBD |
+| Category           | Early Bird | Regular |
+| ------------------ | ---------- | ------- |
+| Regular (Academic) | TBD        | TBD     |
+| Student            | TBD        | TBD     |
+| Industry           | TBD        | TBD     |
 
 ### What's Included
 

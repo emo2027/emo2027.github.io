@@ -14,16 +14,19 @@ Exeter is a vibrant cathedral city in Devon, South West England. With a rich his
 ### By Air
 
 **Exeter Airport (EXT)**
+
 - Located 5 miles east of the city centre
 - Domestic flights from various UK airports
 - Limited European connections
 - Bus and taxi services to city centre
 
 **Bristol Airport (BRS)**
+
 - Major regional airport, approximately 80 miles from Exeter
 - Wide range of UK and European flights
 
 **London Airports**
+
 - Heathrow (LHR), Gatwick (LGW), and Stansted (STN)
 - Train connections to Exeter (see below)
 
@@ -32,16 +35,19 @@ Exeter is a vibrant cathedral city in Devon, South West England. With a rich his
 Exeter has two main railway stations:
 
 **Exeter St Davids**
+
 - Main intercity station
 - Direct services from London Paddington (approximately 2 hours)
 - Connections to Bristol, Birmingham, and the North
 - Closest station to the university campus
 
 **Exeter Central**
+
 - City centre location
 - Local and regional services
 
 **Useful Links:**
+
 - [National Rail](https://www.nationalrail.co.uk) - Train times and tickets
 - [GWR](https://www.gwr.com) - Main operator for London-Exeter route
 
@@ -61,6 +67,7 @@ Exeter is well-connected by road:
 ### By Coach
 
 **National Express** operates regular services to Exeter from major UK cities.
+
 - [nationalexpress.com](https://www.nationalexpress.com)
 
 ## About Exeter
@@ -90,19 +97,23 @@ April in Exeter typically offers mild spring weather:
 ### Must-See
 
 **[Exeter Cathedral](https://www.exeter-cathedral.org.uk/)**
+
 - Stunning Gothic architecture
 - Longest uninterrupted vaulted ceiling in England
 - Astronomical clock from the 15th century
 
 **[Underground Passages](https://exeter.gov.uk/leisure-and-culture/our-attractions/underground-passages/)**
+
 - Medieval passages beneath the city
 - Guided tours available
 
 **[Royal Albert Memorial Museum (RAMM)](https://rammuseum.org.uk/)**
+
 - Free entry
 - Natural history, world cultures, and local history
 
 **[Exeter Quayside](https://www.visitexeter.com/things-to-do/exeter-quayside-p1215273)**
+
 - Historic waterfront area
 - Cafes, pubs, and antique shops
 - Canal walks and boat hire
@@ -110,14 +121,17 @@ April in Exeter typically offers mild spring weather:
 ### Day Trips
 
 **[Dartmoor National Park](https://www.dartmoor.gov.uk/)**
+
 - Dramatic moorland landscapes
 - Hiking, wildlife, and historic sites
 
 **[Jurassic Coast](https://jurassiccoast.org/)**
+
 - UNESCO World Heritage Site
 - Spectacular coastal cliffs and beaches
 
 **[Torbay](https://www.englishriviera.co.uk/)**
+
 - English Riviera beaches
 - Torquay, Paignton, and Brixham
 

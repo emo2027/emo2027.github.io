@@ -46,10 +46,13 @@ EMO 2027 will be held **{{ site.data.conference.dates.display }}** at the Univer
 {{ site.data.topics.intro }}
 
 {% for category in site.data.topics.categories %}
+
 ### {{ category.name }}
+
 {% for topic in category.topics %}
+
 - {{ topic }}
-{% endfor %}
+  {% endfor %}
 
 {% endfor %}
 
@@ -58,6 +61,7 @@ EMO 2027 will be held **{{ site.data.conference.dates.display }}** at the Univer
 ### Paper Format
 
 Papers should not exceed **15 pages** including references and appendices.
+
 <!-- COMMENTED OUT - awaiting official Springer confirmation: Papers must be submitted in **Springer LNCS format** and should not exceed... -->
 
 - Papers must be submitted as PDF files
@@ -128,11 +132,12 @@ For questions regarding submissions, please contact the Programme Chairs:
 {% assign programme_chairs = site.data.organizers.organizer_sections | where: "title", "Programme Chairs" | first %}
 {% if programme_chairs %}
 {% for chair in programme_chairs.people %}
+
 - **{{ chair.name }}** ({{ chair.affiliation }}){% if chair.email %} — [{{ chair.email }}](mailto:{{ chair.email }}){% endif %}
-{% endfor %}
-{% else %}
+  {% endfor %}
+  {% else %}
 - **Oliver Schutze** (CINVESTAV-IPN, Mexico)
 - **Tea Tusar** (Jozef Stefan Institute, Slovenia)
-{% endif %}
+  {% endif %}
 
 Email: [{{ site.data.conference.contact.email }}](mailto:{{ site.data.conference.contact.email }})
