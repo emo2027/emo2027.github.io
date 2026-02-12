@@ -38,11 +38,12 @@ organizer_sections:
         email: "t.chugh@exeter.ac.uk"
       - name: "Qingfu Zhang"
         affiliation: "City University of Hong Kong"
+        email: "qingfu.zhang@cityu.edu.hk"
 
   - title: "Proceedings Chairs"
     people:
       - name: "Alma Rahat"
-        affiliation: "Swansea University, UK"
+        affiliation: "Loughborough University, UK"
       - name: "David Walker"
         affiliation: "University of Exeter, UK"
         email: "d.j.walker2@exeter.ac.uk"
@@ -51,8 +52,10 @@ organizer_sections:
     people:
       - name: "Sanaz Mostaghim"
         affiliation: "Otto von Guericke University of Magdeburg, Germany"
+        email: "sanaz.mostaghim@ovgu.de"
       - name: "Marcella Scoczynski Ribeiro Martins"
         affiliation: "Federal University of Technology of Paraná, Brazil"
+        email: "marcella@utfpr.edu.br"
 
   - title: "Local Arrangement & Finance Chairs"
     people:
@@ -73,14 +76,19 @@ organizer_sections:
     people:
       - name: "Yaochu Jin"
         affiliation: "Westlake University, China"
+        email: "jinyaochu@westlake.edu.cn"
       - name: "Arnaud Liefooghe"
         affiliation: "Université du Littoral Côte d'Opale, France"
+        email: "arnaud.liefooghe@univ-littoral.fr"
       - name: "Mengjie Zhang"
         affiliation: "Victoria University of Wellington, New Zealand"
+        email: "mengjie.zhang@ecs.vuw.ac.nz"
       - name: "Gary Yen"
         affiliation: "Oklahoma State University, USA"
+        email: "gyen@okstate.edu"
       - name: "Nelishia Pillay"
         affiliation: "University of Pretoria, South Africa"
+        email: "nelishia.pillay@up.ac.za"
 
   - title: "Web Chair"
     people:
