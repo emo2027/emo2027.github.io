@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Organizers
-permalink: /organizers/
-description: EMO 2027 organizing committee and contact information.
+title: Organisers
+permalink: /organisers/
+description: EMO 2027 organising committee and contact information.
 ---
 
-## Organizing Committee
+## Organising Committee
 
 EMO 2027 is organised by a dedicated team of researchers from around the world. We are committed to making this conference a memorable and productive experience for all attendees.
 
@@ -14,8 +14,8 @@ EMO 2027 is organised by a dedicated team of researchers from around the world. 
 ## {{ section.title }}
 
 {% if section.title == "EMO Steering Committee" %}
-The EMO conference series is guided by a distinguished steering committee:
-{% endif %}
+The EMO conference series is guided by a steering committee. For the current membership, please see the <a href="{{ section.external_link.url }}">EMO conference series website</a>.
+{% elsif section.people.size > 0 %}
 
 <div class="organizer-section">
   <div class="organizer-grid">
@@ -32,6 +32,7 @@ The EMO conference series is guided by a distinguished steering committee:
     {% endfor %}
   </div>
 </div>
+{% endif %}
 {% endfor %}
 
 {% assign programme_committee = site.data.organizers.programme_committee %}

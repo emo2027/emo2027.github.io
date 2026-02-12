@@ -76,8 +76,6 @@ The conference will comprise the main EMO track, along with special MCDM and Ind
 
 **Industry special track:** This track is intended to encourage collaborations and knowledge-exchange between practitioners and academics on topics relevant to the conference. The aim is to improve the collective understanding of the fundamental challenges that occur in real-world applications and work collaboratively towards solving them. To emphasise the involvement of practitioners, at least one author of the submission must be from industry or a non-academic institution (e.g. public service) to qualify for submission in this track. Authors have the option to submit a full paper (maximum **12 pages excluding references**) or an abstract (maximum **2 pages including references if any**), which are focused on industrial/non-academic problems.
 
-The programme committee reserves the right to move a submission to a different track if deemed unsuitable for the track selected during submission.
-
 ### Submission System
 
 <div class="info-box tbd">

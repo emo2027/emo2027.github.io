@@ -20,10 +20,15 @@ Exeter is a vibrant cathedral city in Devon, South West England. With a rich his
 - Limited European connections
 - Bus and taxi services to city centre
 
+**Exeter Airport (EXT) via Amsterdam Schiphol**
+
+- KLM operates a daily flight from Amsterdam Schiphol to Exeter (approximately 90 minutes)
+- This is likely the most convenient option for long-haul international travellers: fly into Schiphol and connect to Exeter
+
 **Bristol Airport (BRS)**
 
 - Major regional airport, approximately 80 miles from Exeter
-- Wide range of UK and European flights
+- Wide range of UK and European flights, plus hub connections (Amsterdam Schiphol, Dublin, etc.)
 
 **London Airports**
 
@@ -99,7 +104,7 @@ April in Exeter typically offers mild spring weather:
 **[Exeter Cathedral](https://www.exeter-cathedral.org.uk/)**
 
 - Stunning Gothic architecture
-- Longest uninterrupted vaulted ceiling in England
+- Longest uninterrupted medieval stone vaulted ceiling in the world
 - Astronomical clock from the 15th century
 
 **[Underground Passages](https://exeter.gov.uk/leisure-and-culture/our-attractions/underground-passages/)**
@@ -190,7 +195,7 @@ Exeter offers diverse dining options:
 
 ### Useful Apps
 
-- **[Stagecoach](https://www.stagecoachbus.com/)** - Local bus times
+- **[Stagecoach](https://www.stagecoachbus.com/)** - Local bus times (a night bus also runs half-hourly between midnight and 4 AM from the campus bus stop)
 - **Trainline** - Train tickets and times
 - **Citymapper** - Multi-modal transport planning
 - **Google Maps** - Navigation and local information

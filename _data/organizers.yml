@@ -89,13 +89,10 @@ organizer_sections:
         email: "g.de.ath@exeter.ac.uk"
 
   - title: "EMO Steering Committee"
-    people:
-      - name: "Carlos Coello Coello"
-        affiliation: "CINVESTAV-IPN, Mexico"
-      - name: "Kalyanmoy Deb"
-        affiliation: "Michigan State University, USA"
-      - name: "Hisao Ishibuchi"
-        affiliation: "Southern University of Science and Technology, China"
+    external_link:
+      url: "http://www.emo-online.org/"
+      label: "See the EMO conference series website"
+    people: []
 
 contact:
   topics:

@@ -1,7 +1,7 @@
 ---
 layout: program
 title: Programme
-permalink: /program/
+permalink: /programme/
 description: EMO 2027 conference schedule and programme details.
 ---
 

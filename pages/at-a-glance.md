@@ -30,7 +30,7 @@ description: Key facts, dates, and links for EMO 2027.
 ## Quick Links
 
 - [Call for Papers]({{ '/calls/' | relative_url }})
-- [Programme]({{ '/program/' | relative_url }})
+- [Programme]({{ '/programme/' | relative_url }})
 - [Registration]({{ '/registration/' | relative_url }})
 - [Venue & Campus]({{ '/venue/' | relative_url }})
 - [Accommodation]({{ '/accommodation/' | relative_url }})

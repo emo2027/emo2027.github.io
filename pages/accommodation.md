@@ -17,9 +17,9 @@ We have arranged accommodation options at various price points to suit all budge
 
 Holland Hall offers comfortable en-suite accommodation on the Streatham Campus, just a short walk from the conference venue.
 
-- **Room Type**: Single en-suite rooms
+- **Room Type**: Single en-suite rooms with breakfast (4-star Campus Graded Accreditation by Visit Britain)
 - **Price**: To be confirmed
-- **Facilities**: WiFi, shared kitchen, laundry facilities
+- **Facilities**: Wi-Fi, shared kitchen, laundry facilities
 - **Distance to Venue**: 5-minute walk
 
 <div class="info-box notice">
@@ -28,25 +28,45 @@ Holland Hall offers comfortable en-suite accommodation on the Streatham Campus, 
 
 ## City Centre Hotels
 
+### Exeter Rougemont Hotel
+
+Victorian hotel opposite Exeter Central station (formerly Mercure Exeter Rougemont).
+
+- **Distance to Campus**: 25-minute walk or bus ride
+- **Facilities**: Restaurant, bar, Wi-Fi, parking
+- **Website**: [Exeter Rougemont Hotel](https://www.oyorooms.com/gb/291853/)
+
 ### Mercure Exeter Southgate Hotel
 
-**Mid-Range Option**
-
-A modern 4-star hotel located in the heart of Exeter city centre, close to the cathedral and shopping areas.
+4-star hotel located in the heart of Exeter city centre, close to the cathedral and shopping areas.
 
 - **Distance to Campus**: 25-minute walk or 10-minute bus ride
-- **Facilities**: Restaurant, bar, fitness centre, WiFi
-- **Website**: [mercure.com](https://www.mercure.com)
+- **Facilities**: Restaurant, bar, fitness centre, Wi-Fi
+- **Website**: [Mercure Exeter Southgate Hotel](https://all.accor.com/hotel/6624/index.en.shtml)
+
+### Leonardo Hotel Exeter
+
+4-star city centre hotel.
+
+- **Distance to Campus**: 25-minute walk or bus ride
+- **Facilities**: Restaurant, bar, Wi-Fi
+- **Website**: [Leonardo Hotel Exeter](https://www.leonardo-hotels.com/exeter/leonardo-hotel-exeter)
+
+### Hotel Indigo Exeter
+
+4-star boutique hotel in the city centre.
+
+- **Distance to Campus**: 25-minute walk or bus ride
+- **Facilities**: Restaurant, bar, Wi-Fi
+- **Website**: [Hotel Indigo Exeter](https://www.ihg.com/hotelindigo/hotels/us/en/exeter/extgo/hoteldetail)
 
 ### Hotel du Vin Exeter
 
-**Premium Option**
-
-A boutique hotel in a historic building near the cathedral, offering luxury accommodation with character.
+Boutique hotel in a historic building near the cathedral, offering luxury accommodation with character.
 
 - **Distance to Campus**: 20-minute walk or 10-minute bus ride
 - **Facilities**: Restaurant, wine bar, courtyard
-- **Website**: [hotelduvin.com](https://www.hotelduvin.com)
+- **Website**: [Hotel du Vin Exeter](https://www.hotelduvin.com/locations/exeter/)
 
 ## Budget Options
 
@@ -55,8 +75,8 @@ A boutique hotel in a historic building near the cathedral, offering luxury acco
 Reliable budget chain hotel with good value for money.
 
 - **Distance to Campus**: 25-minute walk or bus ride
-- **Facilities**: Restaurant, WiFi
-- **Website**: [premierinn.com](https://www.premierinn.com)
+- **Facilities**: Restaurant, Wi-Fi
+- **Website**: [Premier Inn Exeter Central St Davids](https://www.premierinn.com/gb/en/hotels/england/devon/exeter/exeter-central-st-davids.html)
 
 ## Airbnb and Self-Catering
 
@@ -80,11 +100,12 @@ Exeter has many Airbnb and self-catering options throughout the city. When booki
 
 Stagecoach operates regular bus services from the city centre to the Streatham Campus. The Route 4 / UNI service connects the city centre and campus (see [Stagecoach information](https://www.stagecoachbus.com/promos-and-offers/south-west/getting-to-exeter-university-by-bus)).
 
+- A night bus also runs half-hourly between midnight and 4 AM from the campus bus stop
 - **Bus app**: Download the Stagecoach app for real-time information and fares
 
 ### By Taxi
 
-Taxis are readily available from the city centre. Approximate fare to campus: £5-8.
+Taxis are readily available from the city centre. Approximate fare to campus: £7-10.
 
 - **Apple Central Taxis**: +44 (0)1392 666666
 - **Ride-hailing**: Uber operates in Exeter (use the Uber app)

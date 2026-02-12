@@ -11,7 +11,7 @@ main:
     url: "/calls/"
 
   - title: "Programme"
-    url: "/program/"
+    url: "/programme/"
 
   - title: "Registration"
     url: "/registration/"
@@ -32,8 +32,8 @@ main:
   - title: "Awards"
     url: "/awards/"
 
-  - title: "Organizers"
-    url: "/organizers/"
+  - title: "Organisers"
+    url: "/organisers/"
 
 # Footer links
 footer:

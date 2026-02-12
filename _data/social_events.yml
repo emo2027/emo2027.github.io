@@ -13,7 +13,7 @@ events:
             items:
                 - "Welcome drinks and canapés"
                 - "Informal atmosphere to start the conference"
-                - "Opportunity to meet fellow attendees and organizers"
+                - "Opportunity to meet fellow attendees and organisers"
       info_box:
           style: "notice"
           label: "Included:"
@@ -40,7 +40,7 @@ events:
                 - "Opportunity to network in a relaxed setting"
           - heading: "Logistics"
             items:
-                - "Duration: approximately 1.5 hours"
+                - "Duration: approximately 3 hours"
                 - "Coach transport provided from the conference venue to Exmouth and back"
                 - "Indoor heated lower deck and open-air upper deck"
                 - "Licensed bar, hot and cold drinks, and snacks available on board"
@@ -63,9 +63,8 @@ events:
       sections:
           - heading: "Evening Programme"
             items:
-                - "Welcome reception"
+                - "Drinks reception"
                 - "Three-course banquet dinner"
-                - "Awards presentation"
                 - "After-dinner remarks"
       notes:
           - "Please indicate any dietary requirements during registration."

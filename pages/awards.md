@@ -15,24 +15,18 @@ The **Outstanding EMO Paper Award** recognises the highest quality contribution 
 
 ### Eligibility
 
-- All papers accepted for publication in the EMO 2027 proceedings are eligible
+- All full papers accepted for publication in the EMO 2027 proceedings are eligible, regardless of track or presentation mode
 - Papers must be presented at the conference by one of the authors
-
-### Selection Criteria
-
-The Awards Committee evaluates papers based on:
-
-1. **Technical Quality** - Rigour of methodology, validity of results
-2. **Novelty** - Originality of ideas and approaches
-3. **Significance** - Potential impact on the field
-4. **Clarity** - Quality of presentation and writing
+- General Chairs, Programme Chairs, and Awards Committee members are not eligible
 
 ### Selection Process
 
-1. Programme Committee members nominate outstanding papers during review
-2. The Awards Committee reviews nominated papers
-3. Finalists are invited to present at a special session
-4. The winner is announced at the conference banquet
+1. Peer reviewers nominate outstanding papers during the review process, with brief justification
+2. The Awards Committee meets to evaluate nominated papers based on their professional judgement
+3. Evaluation is based on paper quality, not presentation quality
+4. The Awards Committee may decline to confer an award in a category if no paper meets the required standard
+5. Programme Chairs ratify the final decisions
+6. The winners are announced at the conference closing ceremony
 
 ## Outstanding EMO Student Paper Award
 
@@ -43,25 +37,15 @@ The **Outstanding EMO Student Paper Award** recognises excellent research conduc
 - The first author must be a registered student at the time of submission
 - The paper must represent work primarily conducted by the student
 - The student must present the paper at the conference
-- A letter from the student's advisor confirming student status is required
+- Student paper status must be declared during the submission process (students must be registered at the time of acceptance, but may have completed their studies by the time of the award)
 
 ### Selection Process
 
-The selection process mirrors that of the Outstanding EMO Paper Award, with additional consideration given to the student's contribution relative to their experience level.
+The selection process mirrors that of the Outstanding EMO Paper Award.
 
 <div class="info-box notice">
-  <strong>Student Authors:</strong> Please indicate student paper status during the submission process and be prepared to provide verification if selected as a finalist.
+  <strong>Student Authors:</strong> Please indicate student paper status during the submission process.
 </div>
-
-## Award Nominations
-
-### Self-Nomination
-
-Authors who believe their work deserves recognition may submit a brief statement (max 200 words) explaining the significance of their contribution. Self-nominations should be sent to the Awards Committee.
-
-### Nomination by Others
-
-Programme Committee members and attendees may nominate papers by contacting the Awards Committee with a brief justification.
 
 ## Awards Committee
 
@@ -76,9 +60,9 @@ The Awards Committee for EMO 2027 consists of distinguished researchers from the
 
 Award recipients will receive:
 
-- Honorarium
+- Certificate for each co-author
+- Honorarium (shared among co-authors)
 - Plaque
-- Award presentation at the conference banquet
 - Recognition on the EMO 2027 website and proceedings
 
 ## Important Dates
@@ -107,16 +91,9 @@ Award recipients will receive:
       <td>Award Nominees Notified</td>
       <td>TBC</td>
     </tr>
-    {% assign banquet_date = nil %}
-    {% for day in site.data.schedule.days %}
-      {% assign banquet_event = day.events | where: "id", "conference-banquet" | first %}
-      {% if banquet_event %}
-        {% assign banquet_date = day.date %}
-      {% endif %}
-    {% endfor %}
     <tr>
       <td>Award Ceremony</td>
-      <td>{% if banquet_date %}{{ banquet_date | date: "%-d %B %Y" }} (Banquet){% else %}TBC{% endif %}</td>
+      <td>{{ site.data.conference.dates.end | date: "%-d %B %Y" }} (Closing Ceremony)</td>
     </tr>
   </tbody>
 </table>
