@@ -188,7 +188,9 @@ img {
 
 .header-banner {
   position: relative;
-  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-md);
   overflow: hidden;
 }
 
