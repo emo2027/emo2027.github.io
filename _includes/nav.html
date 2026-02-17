@@ -8,11 +8,6 @@
     </button>
 
     <ul class="nav-menu" id="nav-menu">
-      <li class="nav-item nav-item-logo">
-        <a href="{{ '/' | relative_url }}" class="nav-logo">
-          <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="{{ site.title }} Logo" class="nav-logo-image" width="50" height="50" decoding="async">
-        </a>
-      </li>
       {% for item in site.data.navigation.main %}
       {% if item.children %}
       {% assign dropdown_id = 'dropdown-' | append: forloop.index %}
@@ -21,6 +16,7 @@
         <a href="{{ item.url | relative_url }}"
            class="nav-link{% if page.url == item.url %} active{% endif %}"
            {% if item.children %}aria-haspopup="true" aria-expanded="false" aria-controls="{{ dropdown_id }}"{% endif %}>
+          {% if item.url == "/" %}<img src="{{ '/assets/images/logo.png' | relative_url }}" alt="{{ site.title }} Logo" class="nav-logo-image" width="50" height="50" decoding="async">{% endif %}
           {{ item.title }}
           {% if item.children %}
           <svg class="dropdown-arrow" viewBox="0 0 24 24" width="12" height="12">

@@ -275,15 +275,10 @@ img {
 }
 
 .nav-logo-image {
-  height: calc(1lh + 2 * var(--space-md));
+  height: 1lh;
   width: auto;
   border-radius: 50%;
-}
-
-.nav-logo {
-  display: flex;
-  align-items: center;
-  padding-right: var(--space-sm);
+  display: none;
 }
 
 .nav-toggle {
@@ -1312,6 +1307,7 @@ tr:hover {
     display: block;
   }
 
+
   .feature-grid {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -1321,10 +1317,16 @@ tr:hover {
   }
 }
 
-/* Large screens - keep countdown at 3 columns max for clean layout */
+/* Large screens */
 @media (min-width: 1200px) {
   .countdown-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .nav-logo-image {
+    display: inline;
+    height: calc((1lh + 2 * var(--space-md)) * 0.9);
+    margin: calc(-1 * var(--space-md) * 0.9) 0;
   }
 }
 
