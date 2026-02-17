@@ -25,9 +25,7 @@ The EMO conference series is guided by a steering committee. For the current mem
       {% if person.affiliation %}
       <span class="organizer-affiliation">{{ person.affiliation }}</span>
       {% endif %}
-      {% if person.email %}
-      <span class="organizer-email"><a href="mailto:{{ person.email }}">{{ person.email }}</a></span>
-      {% endif %}
+      {% comment %}Emails hidden from site but kept in _data/organizers.yml for reference{% endcomment %}
     </div>
     {% endfor %}
   </div>

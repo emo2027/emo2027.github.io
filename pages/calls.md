@@ -137,7 +137,7 @@ For questions regarding submissions, please contact the Programme Chairs:
 {% if programme_chairs %}
 {% for chair in programme_chairs.people %}
 
-- **{{ chair.name }}** ({{ chair.affiliation }}){% if chair.email %} — [{{ chair.email }}](mailto:{{ chair.email }}){% endif %}
+- **{{ chair.name }}** ({{ chair.affiliation }}){% comment %} Email hidden: {% if chair.email %} — [{{ chair.email }}](mailto:{{ chair.email }}){% endif %}{% endcomment %}
   {% endfor %}
   {% else %}
 - **Oliver Schütze** (CINVESTAV-IPN, Mexico)

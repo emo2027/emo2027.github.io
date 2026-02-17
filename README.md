@@ -220,7 +220,7 @@ See [TODO.md](TODO.md) for a list of content and features that still need to be 
 
 ## Contact
 
-- **General enquiries:** <emo2027@exeter.ac.uk> (maintained in `_data/conference.yml` → `contact.email`)
+- **General enquiries:** <TBD@exeter.ac.uk> (maintained in `_data/conference.yml` → `contact.email`)
 - **Website issues:** <g.de.ath@exeter.ac.uk>
 
 ## License
