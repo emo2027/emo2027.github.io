@@ -8,6 +8,11 @@
     </button>
 
     <ul class="nav-menu" id="nav-menu">
+      <li class="nav-item nav-item-logo">
+        <a href="{{ '/' | relative_url }}" class="nav-logo">
+          <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="{{ site.title }} Logo" class="nav-logo-image" width="50" height="50" decoding="async">
+        </a>
+      </li>
       {% for item in site.data.navigation.main %}
       {% if item.children %}
       {% assign dropdown_id = 'dropdown-' | append: forloop.index %}
