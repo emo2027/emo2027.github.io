@@ -1176,16 +1176,32 @@ tr:hover {
   margin-bottom: var(--space-xl);
 }
 
-.hero-section h1 {
-  font-size: var(--font-size-4xl);
-  margin-bottom: var(--space-md);
+.hero-content {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto var(--space-xl);
 }
 
 .hero-section .lead {
   font-size: var(--font-size-xl);
   color: var(--color-text-muted);
-  max-width: 800px;
-  margin: 0 auto var(--space-xl);
+  margin: 0;
+  text-align: center;
+}
+
+.hero-logo-wrap {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: calc(-1 * var(--space-lg));
+  transform: translateX(100%);
+  display: none;
+}
+
+.hero-logo {
+  height: 100%;
+  width: auto;
+  border-radius: 50%;
 }
 
 .hero-buttons {
@@ -1290,6 +1306,10 @@ tr:hover {
 
   .organizer-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .hero-logo-wrap {
+    display: block;
   }
 
   .feature-grid {

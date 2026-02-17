@@ -4,11 +4,15 @@ title: Home
 ---
 
 <div class="hero-section">
-  <h1>EMO 2027</h1>
-  <p class="lead">
-    Welcome to the {{ site.data.conference.full_name }},
-    hosted by the University of Exeter in the beautiful city of {{ site.data.conference.location.full }}.
-  </p>
+  <div class="hero-content">
+    <p class="lead">
+      Welcome to the {{ site.data.conference.full_name }},
+      hosted by the University of Exeter in the beautiful city of {{ site.data.conference.location.full }}.
+    </p>
+    <div class="hero-logo-wrap">
+      <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="{{ site.title }} Logo" class="hero-logo" decoding="async">
+    </div>
+  </div>
   <div class="hero-buttons">
     <a href="{{ '/calls/' | relative_url }}" class="btn btn-primary btn-lg">Call for Papers</a>
     <a href="{{ '/registration/' | relative_url }}" class="btn btn-secondary btn-lg">Register</a>
