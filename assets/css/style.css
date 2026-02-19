@@ -895,15 +895,15 @@ html.search-unavailable .nav-search {
 
 .day-events {
   padding: var(--space-md);
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
   gap: var(--space-md);
 }
 
 .event-card {
   display: grid;
-  grid-template-columns: auto 1fr auto;
-  gap: var(--space-md);
+  grid-column: 1 / -1;
+  grid-template-columns: subgrid;
   padding: var(--space-md);
   background-color: var(--color-bg-alt);
   border-radius: var(--radius-md);
@@ -1312,9 +1312,7 @@ tr:hover {
     grid-template-columns: repeat(4, 1fr);
   }
 
-  .event-card {
-    grid-template-columns: 120px 1fr auto;
-  }
+
 }
 
 /* Large screens */

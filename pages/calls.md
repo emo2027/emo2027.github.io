@@ -70,11 +70,13 @@ EMO 2027 will be held **{{ site.data.conference.dates.display }}** at the Univer
 
 The conference will comprise the main EMO track, along with special MCDM and Industry tracks.
 
-**EMO track:** This is the main track of the conference, where traditional full papers (maximum **12 pages excluding references**) should present state-of-the-art results on theory, algorithms, benchmarking, applications and other topics of interest as outlined in the Topics of Interest section.
+For full papers (in any track), the page limit is **15 pages including references**. For abstract submissions (in any track), the page limit is **2 pages including references**. There is no separate limit for the main body and references.
 
-**MCDM special track:** This track is intended to foster collaborations and knowledge-exchange between the two distinct but related areas of EMO and Multi-criteria Decision-making (MCDM). It recognises the value of methods in either domain that may be less known in the other, but can be of mutual benefit in solving open challenges in both fields. For this track, authors have the option to submit a full paper (maximum **12 pages excluding references**) or an abstract (maximum **2 pages including references if any**), which are MCDM focused. Studies that use non-evolutionary methods are also welcome, but the relevance to the EMO field should be indicated for the benefit of the audience.
+**EMO track:** This is the main track of the conference, where traditional full papers should present state-of-the-art results on theory, algorithms, benchmarking, applications and other topics of interest as outlined in the Topics of Interest section.
 
-**Industry special track:** This track is intended to encourage collaborations and knowledge-exchange between practitioners and academics on topics relevant to the conference. The aim is to improve the collective understanding of the fundamental challenges that occur in real-world applications and work collaboratively towards solving them. To emphasise the involvement of practitioners, at least one author of the submission must be from industry or a non-academic institution (e.g. public service) to qualify for submission in this track. Authors have the option to submit a full paper (maximum **12 pages excluding references**) or an abstract (maximum **2 pages including references if any**), which are focused on industrial/non-academic problems.
+**MCDM special track:** This track is intended to foster collaborations and knowledge-exchange between the two distinct but related areas of EMO and Multi-criteria Decision-making (MCDM). It recognises the value of methods in either domain that may be less known in the other, but can be of mutual benefit in solving open challenges in both fields. For this track, authors have the option to submit a full paper or an abstract, which are MCDM focused. Studies that use non-evolutionary methods are also welcome, but the relevance to the EMO field should be indicated for the benefit of the audience.
+
+**Industry special track:** This track is intended to encourage collaborations and knowledge-exchange between practitioners and academics on topics relevant to the conference. The aim is to improve the collective understanding of the fundamental challenges that occur in real-world applications and work collaboratively towards solving them. To emphasise the involvement of practitioners, at least one author of the submission must be from industry or a non-academic institution (e.g. public service) to qualify for submission in this track. Authors have the option to submit a full paper or an abstract, which are focused on industrial/non-academic problems.
 
 ### Submission System
 
@@ -106,7 +108,7 @@ Selected high-quality papers may be invited for extension and submission to spec
 
 ## Presentation Requirements
 
-At least one author of each accepted paper must register for the conference at the **full registration rate** and present the paper in person. Papers without a registered presenter will not be included in the proceedings.
+Each accepted paper must be covered by at least one co-author's **full registration** by the **early registration deadline (TBC)** and presented in person, or it will not be included in the proceedings. See the [Registration page]({{ '/registration/' | relative_url }}) for more details.
 
 Accepted papers, both full and abstract, will be presented as either oral or poster presentations. Submitting authors will be given an option to specify their preference of presentation mode (oral/poster/either), based on what suits their content the best. The final mode of presentation will be decided by considering the authors' preferences, the number of submissions received/accepted, and the conference scheduling constraints.
 
