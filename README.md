@@ -203,6 +203,19 @@ The ICS files in `assets/ics/` are Liquid templates. They are rendered during th
 
 The site is automatically deployed to GitHub Pages when changes are pushed to the `main` branch.
 
+### CloudFlare Proxy (CDN)
+
+CloudFlare is configured in **proxied mode** (orange cloud) for all DNS records. This means CloudFlare terminates TLS and caches static assets at its edge, improving load times for visitors worldwide.
+
+**Important notes:**
+
+- SSL/TLS mode is set to **"Full"** (not "Full Strict"). Do not change this to "Full Strict" — see below.
+- Because CloudFlare proxies traffic, GitHub Pages **cannot renew its Let's Encrypt certificate** (the ACME challenge never reaches GitHub). This is fine because:
+  - CloudFlare serves its own Universal SSL certificate to visitors
+  - "Full" mode does not validate the origin certificate, so an expired GitHub-side cert still works
+- If you ever **disable CloudFlare proxy** (switch to grey cloud / DNS-only), GitHub Pages will need to issue a new certificate. There may be a brief period where HTTPS doesn't work until the cert is provisioned. Trigger a re-issue from the GitHub Pages settings if needed.
+- If you change SSL mode to **"Full Strict"**, the site will break once the GitHub-side cert expires, because CloudFlare will reject the expired origin cert.
+
 ## Browser Support
 
 The site supports all modern browsers and includes:
