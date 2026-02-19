@@ -45,6 +45,8 @@ GEM
       logger
     faraday-net_http (3.4.2)
       net-http (~> 0.5)
+    faraday-retry (2.4.0)
+      faraday (~> 2.0)
     ffi (1.17.3-aarch64-linux-gnu)
     ffi (1.17.3-aarch64-linux-musl)
     ffi (1.17.3-arm-linux-gnu)
@@ -54,6 +56,7 @@ GEM
     ffi (1.17.3-x86_64-darwin)
     ffi (1.17.3-x86_64-linux-gnu)
     ffi (1.17.3-x86_64-linux-musl)
+    fiddle (1.1.8)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
     github-pages (232)
@@ -295,6 +298,7 @@ GEM
       concurrent-ruby (~> 1.0)
     unicode-display_width (1.8.0)
     uri (1.1.1)
+    wdm (0.2.0)
     webrick (1.9.2)
 
 PLATFORMS
@@ -309,7 +313,10 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  faraday-retry
+  fiddle
   github-pages (~> 232)
+  wdm (>= 0.1.0)
   webrick (~> 1.8)
 
 BUNDLED WITH
