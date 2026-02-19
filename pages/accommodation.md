@@ -7,7 +7,7 @@ description: Accommodation options for EMO 2027 attendees in Exeter, UK.
 
 ## Conference Accommodation
 
-We have arranged accommodation options at various price points to suit all budgets. The conference venue is accessible from all recommended hotels by foot, bus, or taxi.
+The conference venue is accessible from all recommended hotels by foot, bus, or taxi.
 
 ## On-Campus Accommodation
 
@@ -113,13 +113,6 @@ Taxis are readily available from the city centre. Approximate fare to campus: £
 ### On Foot
 
 The walk from the city centre to campus takes approximately 20-25 minutes and is mostly uphill. It's a pleasant walk through residential areas and past St David's Church.
-
-## Conference Rates
-
-<div class="info-box tbd">
-  <h3>Special Rates Coming Soon</h3>
-  <p>We are negotiating special conference rates with selected hotels. Booking links and discount codes will be announced when registration opens.</p>
-</div>
 
 ## Questions?
 

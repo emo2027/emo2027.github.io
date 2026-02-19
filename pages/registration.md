@@ -44,7 +44,7 @@ Full conference registration includes:
 
 ### Optional Events
 
-- **Boat Tour** (Tuesday evening, TBC) - Additional fee applies
+- **Boat Tour** (Tuesday evening, TBC)
 - **Accompanying Person Registration** - Available for social events only
 
 ## Important Dates

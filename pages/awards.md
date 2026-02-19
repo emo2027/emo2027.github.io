@@ -63,7 +63,7 @@ Award recipients will receive:
 - Certificate for each co-author
 - Honorarium (shared among co-authors)
 - Plaque
-- Recognition on the EMO 2027 website and proceedings
+- Recognition on the EMO 2027 website
 
 ## Important Dates
 
