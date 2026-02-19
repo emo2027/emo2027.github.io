@@ -10,7 +10,7 @@ title: Home
       hosted by the University of Exeter in the beautiful city of {{ site.data.conference.location.full }}.
     </p>
     <div class="hero-logo-wrap">
-      <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="{{ site.title }} Logo" class="hero-logo" decoding="async">
+      <img src="{{ '/assets/images/logo.webp' | relative_url }}" alt="{{ site.title }} Logo" class="hero-logo" decoding="async">
     </div>
   </div>
   <div class="hero-buttons">
