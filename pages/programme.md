@@ -1,5 +1,5 @@
 ---
-layout: program
+layout: page
 title: Programme
 permalink: /programme/
 description: EMO 2027 conference schedule and programme details.
@@ -34,6 +34,8 @@ Tutorial proposals are currently being solicited. Confirmed tutorials will be li
 
 <a href="{{ '/calls/' | relative_url }}#special-sessions-and-tutorials" class="btn btn-secondary">Submit a Tutorial Proposal</a>
 
+{% comment %}
 ## Detailed Schedule
 
 Use the filters below to explore the schedule by day or event type.
+{% endcomment %}

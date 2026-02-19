@@ -123,6 +123,12 @@ Edit `_data/dates.yml` to update conference deadlines shown on the homepage and 
 
 Edit `_data/schedule.yml` to update the programme schedule. The programme page and social event dates pull from this file (via matching `id` fields).
 
+**To re-enable the detailed schedule widget** (currently hidden):
+
+1. In `pages/programme.md`, change `layout: page` back to `layout: program`
+2. Remove the `{% comment %}` / `{% endcomment %}` block wrapping the "Detailed Schedule" section
+3. Update or remove the notice box at the top of the page
+
 ### Updating Committee Members
 
 Edit `_data/organizers.yml` to add or update committee members.
