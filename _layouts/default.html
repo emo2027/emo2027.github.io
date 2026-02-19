@@ -30,10 +30,6 @@
     })();
   </script>
 
-  {% if page.layout == 'program' %}
-  <link rel="stylesheet" href="{{ '/assets/css/schedule.css' | relative_url }}">
-  {% endif %}
-
   {% seo %}
   {% if page.url == '/' %}
   {% include event-jsonld.html %}

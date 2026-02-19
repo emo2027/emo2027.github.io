@@ -27,6 +27,8 @@ exclude:
   - node_modules/
   - .mdlrc
   - .stylelintrc.json
+  - assets/images/logo-highres.png
+  - assets/images/banner-highres.png
 
 # Include pages directory
 include:
