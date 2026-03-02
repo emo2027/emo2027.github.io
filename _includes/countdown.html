@@ -6,7 +6,7 @@
     {% assign countdown_dates = site.data.dates.dates | where_exp: "item", "item.include_in_countdown != false" %}
     {% for date in countdown_dates %}
     <div class="countdown-item{% if date.highlight %} highlighted{% endif %}{% if date.completed %} completed{% endif %}"
-         {% if date.date and date.date != "TBC" and date.date != "TBA" and date.date contains '-' %}data-date="{{ date.date }}"{% if date.time %} data-time="{{ date.time }}"{% endif %}{% endif %}>
+         {% if date.date and date.date != "TBC" and date.date != "TBA" and date.date contains '-' %}data-date="{{ date.date }}"{% if date.time %} data-time="{{ date.time }}"{% endif %}{% if date.aoe %} data-aoe="true"{% endif %}{% endif %}>
       <div class="countdown-header">
         <h3 class="countdown-name">{{ date.name }}</h3>
         <span class="countdown-date">

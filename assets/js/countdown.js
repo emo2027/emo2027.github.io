@@ -7,32 +7,41 @@
   'use strict';
 
   /**
-   * Parse a date string and optional time into a Date object
+   * Parse a date string into a target Date object
    * @param {string} dateStr - Date in YYYY-MM-DD format
    * @param {string} timeStr - Optional time in HH:MM format
+   * @param {boolean} isAoE - Whether this is an Anywhere on Earth deadline
    * @returns {Date}
    */
-  function parseDate(dateStr, timeStr) {
+  function parseDate(dateStr, timeStr, isAoE) {
     const parts = dateStr.split('-').map(Number);
     if (parts.length < 3 || parts.some(Number.isNaN)) {
       return null;
     }
 
     const [year, month, day] = parts;
-    let hours = 23, minutes = 59, seconds = 59; // Default to end of day
 
-    if (timeStr) {
-      const [h, m] = timeStr.split(':').map(Number);
-      if (!Number.isNaN(h)) {
-        hours = h;
+    if (isAoE) {
+      // AoE is UTC-12, so 23:59:59 AoE = next day 11:59:59 UTC
+      var hours = 23, minutes = 59;
+      if (timeStr) {
+        var timeParts = timeStr.split(':').map(Number);
+        if (!Number.isNaN(timeParts[0])) hours = timeParts[0];
+        if (!Number.isNaN(timeParts[1])) minutes = timeParts[1];
       }
-      if (!Number.isNaN(m)) {
-        minutes = m;
-      }
-      seconds = 59;
+      return new Date(Date.UTC(year, month - 1, day, hours + 12, minutes, 59));
     }
 
-    return new Date(year, month - 1, day, hours, minutes, seconds);
+    // Non-AoE: midnight UK time (Europe/London)
+    // Determine the UTC offset for London on this date using Intl
+    var testDate = new Date(Date.UTC(year, month - 1, day, 12, 0, 0));
+    var londonHour = parseInt(new Intl.DateTimeFormat('en-GB', {
+      timeZone: 'Europe/London',
+      hour: 'numeric',
+      hour12: false
+    }).format(testDate), 10);
+    var offsetHours = londonHour - 12;
+    return new Date(Date.UTC(year, month - 1, day, -offsetHours, 0, 0));
   }
 
   /**
@@ -63,10 +72,11 @@
   function updateCountdown(element) {
     const dateStr = element.dataset.date;
     const timeStr = element.dataset.time;
+    const isAoE = element.dataset.aoe === 'true';
 
     if (!dateStr) return;
 
-    const targetDate = parseDate(dateStr, timeStr);
+    const targetDate = parseDate(dateStr, timeStr, isAoE);
     if (!targetDate) return;
     const timeRemaining = getTimeRemaining(targetDate);
 

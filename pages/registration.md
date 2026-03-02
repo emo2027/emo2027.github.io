@@ -49,6 +49,10 @@ Full conference registration includes:
 
 ## Important Dates
 
+<div class="info-box notice">
+  <strong>Note:</strong> All deadlines are at 23:59 Anywhere on Earth.
+</div>
+
 <table>
   <thead>
     <tr>
