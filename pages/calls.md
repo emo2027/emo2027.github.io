@@ -14,7 +14,7 @@ EMO 2027 will be held **{{ site.data.conference.dates.display }}** at the Univer
 ## Important Dates
 
 <div class="info-box notice">
-  <strong>Note:</strong> All dates are tentative and subject to change. Deadlines are at 23:59 AoE (Anywhere on Earth).
+  <strong>Note:</strong> All deadlines are at 23:59 Anywhere on Earth.
 </div>
 
 <table>
