@@ -684,9 +684,7 @@ html.search-unavailable .nav-search {
 
 .countdown-header {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: baseline;
+  flex-direction: column;
   gap: var(--space-sm);
   margin-bottom: var(--space-sm);
 }
