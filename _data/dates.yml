@@ -1,9 +1,8 @@
 # Important Dates for EMO 2027
-# All dates are tentative until confirmed
 
 dates:
   - name: "Paper Submission Deadline"
-    date: "TBC"
+    date: "2026-09-28"
     description: "Submit full papers via the conference submission system"
     completed: false
     include_in_calls: true
@@ -11,7 +10,7 @@ dates:
     include_in_countdown: true
 
   - name: "Author Notification"
-    date: "TBC"
+    date: "2026-11-30"
     description: "Authors will be notified of acceptance decisions"
     completed: false
     include_in_calls: true
@@ -19,7 +18,7 @@ dates:
     include_in_countdown: true
 
   - name: "Camera-Ready Deadline"
-    date: "TBC"
+    date: "2026-12-14"
     description: "Final versions of accepted papers due"
     completed: false
     include_in_calls: true
