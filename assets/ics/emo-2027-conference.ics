@@ -7,7 +7,7 @@ PRODID:-//{{ site.data.conference.name }}//{{ site.data.conference.name }} Websi
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:emo2027-conference@emo2027.github.io
+UID:emo2027-conference@emo2027.org
 DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
 DTSTART;VALUE=DATE:{{ site.data.conference.dates.start | date: "%Y%m%d" }}
 DTEND;VALUE=DATE:{{ site.data.conference.dates.end_exclusive | date: "%Y%m%d" }}
