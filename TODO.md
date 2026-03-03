@@ -27,7 +27,7 @@ This file tracks content and features that need to be completed for the website.
 
 ## Call for Papers
 
-- [ ] Submission system link (early 2026)
+- [ ] Submission system link (mid 2026)
 - [ ] Competition track details (late 2026)
 - [ ] Add Springer AI policy and code of conduct references once Springer sponsorship is confirmed (EMO 2025 referenced Springer's AI authorship policy and Book Author Code of Conduct)
 - [ ] Decide whether to include special sessions (EMO 2025 did not have them)
@@ -49,6 +49,11 @@ This file tracks content and features that need to be completed for the website.
 
 - [ ] Full privacy policy text
 
+## Contact & Social Media
+
+- [ ] Conference contact email (currently placeholder in `_data/conference.yml`)
+- [ ] Twitter/X account handle (currently placeholder in `_data/conference.yml`)
+
 ## Technical/Website
 
 - [ ] Add sponsor logos when sponsorships confirmed
@@ -57,4 +62,4 @@ This file tracks content and features that need to be completed for the website.
 
 ---
 
-**Last updated:** February 2026
+**Last updated:** March 2026

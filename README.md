@@ -68,6 +68,7 @@ Official website for the 14th International Conference on Evolutionary Multi-Cri
 │   │   └── style.css    # Main stylesheet
 │   ├── ics/             # Calendar exports (Liquid templates)
 │   ├── js/
+│   │   ├── countdown.js # Countdown timers (AoE-aware)
 │   │   ├── dark-mode.js # Theme toggle
 │   │   ├── external-links.js # Opens external links in new tab
 │   │   ├── schedule.js  # Programme filtering
@@ -76,12 +77,13 @@ Official website for the 14th International Conference on Evolutionary Multi-Cri
 │   └── images/          # Logos, banner, etc.
 ├── pages/               # Content pages (Markdown)
 │   ├── accommodation.md
-│   ├── awards.md
 │   ├── at-a-glance.md
+│   ├── awards.md
 │   ├── calls.md
 │   ├── local-info.md
-│   ├── organizers.md
-│   ├── program.md
+│   ├── organisers.md
+│   ├── privacy.md
+│   ├── programme.md
 │   ├── registration.md
 │   ├── social-events.md
 │   └── venue.md
@@ -244,4 +246,4 @@ See [TODO.md](TODO.md) for a list of content and features that still need to be 
 
 ## License
 
-Content © 2025 EMO 2027 Organizing Committee. All rights reserved.
+Content © 2026 EMO 2027 Organizing Committee. All rights reserved.
