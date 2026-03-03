@@ -32,7 +32,7 @@ EMO 2027 spans four days with the following structure:
 
 Tutorial proposals are currently being solicited. Confirmed tutorials will be listed here once finalised.
 
-<a href="{{ '/calls/' | relative_url }}#special-sessions-and-tutorials" class="btn btn-secondary">Submit a Tutorial Proposal</a>
+<a href="{{ '/calls/' | relative_url }}#tutorials" class="btn btn-secondary">Submit a Tutorial Proposal</a>
 
 {% comment %}
 ## Detailed Schedule
