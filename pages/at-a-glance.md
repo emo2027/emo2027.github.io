@@ -23,10 +23,6 @@ description: Key facts, dates, and links for EMO 2027.
 <a href="{{ '/assets/ics/emo-2027-conference.ics' | relative_url }}" class="btn btn-primary">Download Conference Dates (ICS)</a>
 <a href="{{ '/assets/ics/emo-2027-deadlines.ics' | relative_url }}" class="btn btn-secondary">Download Key Deadlines (ICS)</a>
 
-<div class="info-box notice">
-  <strong>Note:</strong> Deadlines are currently listed as placeholders and will be updated once confirmed.
-</div>
-
 ## Quick Links
 
 - [Call for Papers]({{ '/calls/' | relative_url }})

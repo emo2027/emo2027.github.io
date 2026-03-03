@@ -82,7 +82,7 @@ For full papers (in any track), the page limit is **15 pages including reference
 
 <div class="info-box tbd">
   <h3>Coming Soon</h3>
-  <p>The submission system will be announced in early 2026.</p>
+  <p>The submission system will be announced in mid 2026.</p>
 </div>
 
 ### Review Process
