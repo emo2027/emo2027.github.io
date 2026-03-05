@@ -34,7 +34,7 @@ Regular registration covers up to two (2) papers/abstracts co-authored by the de
 
 ### What's Included
 
-Full conference registration includes:
+Conference registration includes:
 
 - Access to all technical sessions, keynotes, and tutorials
 - Conference materials and proceedings
@@ -78,7 +78,7 @@ Full conference registration includes:
 ## Author Registration
 
 <div class="info-box notice">
-  <strong>Important:</strong> At least one author of each accepted paper must register for the conference at the <strong>full registration rate</strong> and present the paper in person. Papers without a registered presenter will not be included in the proceedings.
+  <strong>Important:</strong> At least one author of each accepted full paper or abstract must be registered and present the work in person. Papers without a registered presenter will not be included in the proceedings.
 </div>
 
 ## Payment Methods

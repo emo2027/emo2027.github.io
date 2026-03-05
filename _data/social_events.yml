@@ -17,7 +17,7 @@ events:
       info_box:
           style: "notice"
           label: "Included:"
-          text: "The welcome reception is included in the full conference registration."
+          text: "The welcome reception is included in the conference registration."
       at_a_glance:
           label: "Welcome reception"
           detail: "Planned for the XFi Building (details to follow)"
@@ -71,7 +71,7 @@ events:
       info_box:
           style: "notice"
           label: "Included:"
-          text: "The conference banquet is included in the full conference registration. Additional tickets for accompanying persons are available for purchase."
+          text: "The conference banquet is included in the conference registration. Additional tickets for accompanying persons are available for purchase."
       at_a_glance:
           label: "Conference banquet"
           detail: "Reed Hall"
