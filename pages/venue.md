@@ -63,6 +63,10 @@ Please contact us in advance if you have specific accessibility requirements.
 
 Limited parking is available on campus. Visitors should use **[Car Park C](https://www.exeter.ac.uk/our-campuses/streatham-campus/)**. We recommend using public transport when possible.
 
+### About Exeter
+
+Exeter is a historic cathedral city in Devon, South West England. The campus is located approximately 1 mile from Exeter St Davids railway station and 6 miles from Exeter Airport. For more about the city, including maps and travel information, see [Visit Exeter](https://visitexeter.com/) and our [Local Information]({{ '/local-info/' | relative_url }}) page.
+
 ### Campus Map
 
 <div class="info-box notice">
