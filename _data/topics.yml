@@ -9,6 +9,7 @@ categories:
       - "Surrogate-based or Bayesian optimization methods"
       - "Machine learning/artificial intelligence-based hybrid methods"
       - "Theoretical foundations of multi-objective optimization"
+      - "Preference-based and interactive methods"
 
   - name: "Assessment, Decision-Making, and Applications"
     topics:
