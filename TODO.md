@@ -53,7 +53,7 @@ This file tracks content and features that need to be completed for the website.
 
 ## Contact & Social Media
 
-- [ ] Conference contact email (currently placeholder in `_data/conference.yml`)
+- [x] Conference contact email (`emo2027@exeter.ac.uk` in `_data/conference.yml`)
 - [ ] Twitter/X account handle (currently placeholder in `_data/conference.yml`)
 
 ## Technical/Website
