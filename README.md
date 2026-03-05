@@ -181,14 +181,6 @@ Install: `gem install mdl`
 npx stylelint "assets/css/**/*.css"
 ```
 
-### HTML Validation
-
-```bash
-bundle exec htmlproofer _site --disable-external --allow-hash-href
-```
-
-Install: `gem install html-proofer`
-
 ## Building for Production
 
 ```bash
