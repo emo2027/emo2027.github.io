@@ -29,7 +29,7 @@
         if (!Number.isNaN(timeParts[0])) hours = timeParts[0];
         if (!Number.isNaN(timeParts[1])) minutes = timeParts[1];
       }
-      return new Date(Date.UTC(year, month - 1, day, hours + 12, minutes, 0));
+      return new Date(Date.UTC(year, month - 1, day, hours + 12, minutes + 1, 0));
     }
 
     // Non-AoE: midnight UK time (Europe/London)
