@@ -7,7 +7,7 @@ description: EMO 2027 Outstanding Paper awards and recognition.
 
 ## EMO 2027 Awards
 
-EMO 2027 will present awards to recognise outstanding contributions to the field of evolutionary multi-objective optimisation.
+EMO 2027 will present awards to recognise outstanding contributions to the field of evolutionary multi-objective optimisation. The best paper awards are kindly supported by [Springer](https://www.springer.com) through the [Lecture Notes in Computer Science](https://www.springer.com/series/558) series.
 
 ## Outstanding EMO Paper Award
 

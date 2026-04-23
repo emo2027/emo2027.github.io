@@ -1,17 +1,25 @@
 # EMO 2027 Sponsors
 
 # Confirmed sponsors
-confirmed: []
-# COMMENTED OUT - awaiting official Springer confirmation:
-#  - name: "Springer"
-#    logo: "springer-logo.svg"
-#    url: "https://www.springer.com"
-#    tier: "publisher"
 #
-#  - name: "Lecture Notes in Computer Science"
-#    logo: "lncs-logo.png"
-#    url: "https://www.springer.com/series/558"
-#    tier: "publisher"
+# `logo` is normally a filename inside /assets/images/sponsors/.
+# If the value starts with "/", the template treats it as an absolute
+# site-relative path (so existing assets elsewhere can be reused).
+confirmed:
+  - name: "Springer"
+    logo: "springer-logo.svg"
+    url: "https://www.springer.com"
+    tier: "publisher"
+
+  - name: "Lecture Notes in Computer Science"
+    logo: "lncs-logo.png"
+    url: "https://link.springer.com/conference/emo"
+    tier: "publisher"
+
+  - name: "University of Exeter"
+    logo: "/assets/images/exeter-logo.svg"
+    url: "https://www.exeter.ac.uk"
+    tier: "host"
 
 # Sponsor tiers
 tiers:
@@ -33,10 +41,14 @@ tiers:
 
   publisher:
     name: "Publishing Partner"
-    sponsors: []
-    # COMMENTED OUT - awaiting official Springer confirmation:
-    #  - "Springer"
-    #  - "Lecture Notes in Computer Science"
+    sponsors:
+      - "Springer"
+      - "Lecture Notes in Computer Science"
+
+  host:
+    name: "Host Institution"
+    sponsors:
+      - "University of Exeter"
 
 # Call for sponsors
 call_for_sponsors:

@@ -1,16 +1,15 @@
 <section class="sponsors-section">
   <h2>Sponsors & Partners</h2>
 
-  <!-- Publishing Partners -->
   {% if site.data.sponsors.confirmed.size > 0 %}
   <div class="sponsor-tier">
-    <h3>Publishing Partner</h3>
     <div class="sponsor-logos">
       {% for sponsor in site.data.sponsors.confirmed %}
-      <a href="{{ sponsor.url }}" target="_blank" rel="noopener" class="sponsor-link">
-        <img src="{{ '/assets/images/sponsors/' | append: sponsor.logo | relative_url }}"
+      {% if sponsor.logo contains '/' %}{% assign sponsor_src = sponsor.logo %}{% else %}{% assign sponsor_src = '/assets/images/sponsors/' | append: sponsor.logo %}{% endif %}
+      <a href="{{ sponsor.url }}" target="_blank" rel="noopener" class="sponsor-link{% if sponsor.tier == 'host' %} sponsor-link-host{% endif %}">
+        <img src="{{ sponsor_src | relative_url }}"
              alt="{{ sponsor.name }}"
-             class="sponsor-logo"
+             class="sponsor-logo{% if sponsor.tier == 'host' %} host{% endif %}"
              loading="lazy">
       </a>
       {% endfor %}

@@ -790,8 +790,9 @@ html.search-unavailable .nav-search {
 }
 
 .sponsor-logo {
-  max-height: 60px;
+  height: 60px;
   width: auto;
+  max-height: 60px;
   filter: grayscale(20%);
   transition: filter var(--transition-fast);
 }
@@ -801,11 +802,22 @@ html.search-unavailable .nav-search {
 }
 
 .sponsor-logo.platinum {
+  height: 80px;
   max-height: 80px;
 }
 
 .sponsor-logo.gold {
+  height: 70px;
   max-height: 70px;
+}
+
+/* Host logo SVG has a white wordmark (designed for dark backgrounds);
+   give the link a dark backdrop so it's readable on the light sponsor strip.
+   Keeps the overall pill height aligned with other logos by using horizontal-only padding. */
+.sponsor-link-host {
+  padding: 0 var(--space-md);
+  background-color: var(--color-primary);
+  border-radius: var(--radius-md);
 }
 
 .sponsor-cta {

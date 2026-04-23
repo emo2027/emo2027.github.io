@@ -60,11 +60,10 @@ EMO 2027 will be held **{{ site.data.conference.dates.display }}** at the Univer
 
 ### Author Guidelines
 
-<!-- COMMENTED OUT - awaiting official Springer confirmation: All submissions must be prepared in accordance with Springer LNCS guidelines available at [LNCS Author Guidelines](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines). -->
-
 - Papers must be submitted as PDF files
 - All submissions must be original and not under review elsewhere
-- Formatting guidelines will be announced soon
+- Papers must be prepared using the Springer LNCS templates (LaTeX or Word), available from the [Springer Instructions for Authors of Proceedings](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines)
+- Authors should also review the [Springer Book Authors' Code of Conduct](https://www.springernature.com/gp/authors/book-authors-code-of-conduct)
 
 ### Types of Submissions
 
@@ -93,18 +92,14 @@ Details of the review process (including any anonymisation requirements) will be
 
 ## Publication
 
-Publication details will be announced soon.
-
-<!-- COMMENTED OUT - awaiting official Springer confirmation:
-Accepted papers will be published in **Springer Lecture Notes in Computer Science (LNCS)** and indexed in major databases including:
+Accepted papers will be published in **Springer [Lecture Notes in Computer Science (LNCS)](https://www.springer.com/series/558)** and indexed in major databases including:
 
 - Scopus
 - Web of Science
 - DBLP
 - Google Scholar
 
-Selected high-quality papers may be invited for extension and submission to special issues in leading journals.
--->
+Proceedings of previous EMO conferences are available via [SpringerLink](https://link.springer.com/conference/emo).
 
 ## Presentation Requirements
 
