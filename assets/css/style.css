@@ -10,14 +10,15 @@
   --color-primary-dark: #002828;
   --color-accent: #00a896;
   --color-accent-light: #00c4b0;
+  --color-heading: var(--color-primary);
 
   /* Background Colors */
   --color-bg: #ffffff;
   --color-bg-alt: #f5f7f7;
-  --color-bg-dark: #1a1a2e;
+  --color-bg-dark: #16161e;
 
   /* Text Colors */
-  --color-text: #1c1b4b;
+  --color-text: #1e1e1e;
   --color-text-muted: #666666;
   --color-text-light: #ffffff;
 
@@ -30,8 +31,8 @@
   --color-social: #e07a5f;
 
   /* Typography */
-  --font-family: Verdana, Arial, sans-serif;
-  --font-family-heading: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+  --font-family-heading: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
 
   /* Font Sizes (fluid typography) */
   --font-size-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
@@ -71,15 +72,23 @@
 
 /* Dark Mode Variables */
 [data-theme="dark"] {
-  --color-bg: #1a1a2e;
-  --color-bg-alt: #252542;
+  --color-bg: #16161e;
+  --color-bg-alt: #20202c;
   --color-text: #e8e8e8;
   --color-text-muted: #a0a0a0;
   --color-border: #3a3a5c;
   --color-shadow: rgba(0, 0, 0, 0.3);
   --color-primary: #00a896;
   --color-primary-light: #00c4b0;
+  /* Retint primary-dark to match the navy body rather than the light-mode
+     green. Header/footer/nav-hover all derive from this token, so keeping it
+     in the body's colour family avoids a visible seam where the footer meets
+     the page. */
+  --color-primary-dark: #14142a;
   --color-accent: #00d4c0;
+  /* Desaturated pale teal for headings: readable on the navy bg without the
+     neon effect of using --color-primary (bright teal) for every h1-h6. */
+  --color-heading: #c8e0db;
 }
 
 /* Reset & Base Styles */
@@ -108,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-heading);
   font-weight: 600;
   line-height: 1.3;
-  color: var(--color-primary);
+  color: var(--color-heading);
   margin-bottom: var(--space-md);
 }
 
@@ -1384,26 +1393,53 @@ tr:hover {
   background-color: var(--color-primary-dark);
 }
 
-/* Dropdown panel background also needs darkening in dark mode for the same reason. */
+/* Dropdown panel: bright teal bg is too saturated — use the dark alt bg with a border. */
 [data-theme="dark"] .dropdown-menu {
-  background-color: var(--color-primary);
+  background-color: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
 }
 
-/* Publisher logos (Springer wordmark is navy) are designed for light backgrounds
-   and lose contrast on the dark-mode section bg. Use a muted gray backdrop in
-   dark mode so logos remain readable without being jarring. Body text inside
-   the section also needs darker colours to stay readable on the light strip. */
-[data-theme="dark"] .sponsors-section {
-  background-color: #c8ccce;
-}
-[data-theme="dark"] .sponsors-section h2 {
-  color: var(--color-primary-dark);
+/* Publisher logos (Springer wordmark is navy) are designed for light backgrounds.
+   Instead of a full-width gray strip, give each logo its own small light pill so
+   the section background stays dark and blends with the page. */
+[data-theme="dark"] .sponsor-link:not(.sponsor-link-host) {
+  background-color: #eeeef2;
+  border-radius: var(--radius-sm);
+  padding: var(--space-sm) var(--space-md);
 }
 [data-theme="dark"] .sponsors-section .sponsor-cta {
-  border-top-color: rgba(0, 0, 0, 0.15);
+  border-top-color: var(--color-border);
 }
-[data-theme="dark"] .sponsors-section .sponsor-cta p {
-  color: #2a2a3a;
+
+/* In dark mode --color-primary collapses to the same teal as --color-accent,
+   so .btn-primary and .btn-accent end up visually identical. Hold the primary
+   button at a distinctly darker teal to preserve the CTA hierarchy. */
+[data-theme="dark"] .btn-primary {
+  background-color: #006659;
+  border-color: #006659;
+}
+[data-theme="dark"] .btn-primary:hover {
+  background-color: #00827a;
+  border-color: #00827a;
+}
+
+/* Icon buttons on the teal nav: hover changes white icon to teal-on-teal (invisible).
+   Use a background pill for hover feedback instead. */
+[data-theme="dark"] .dark-mode-toggle:hover,
+[data-theme="dark"] .search-toggle:hover {
+  color: var(--color-text-light);
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Highlighted countdown card: the 5% teal tint disappears on the dark bg — boost to 12%. */
+[data-theme="dark"] .countdown-item.highlighted {
+  background: linear-gradient(135deg, var(--color-bg-alt) 0%, rgba(0, 196, 176, 0.12) 100%);
+}
+
+/* Page-header divider: bright teal border under a pale teal heading on navy reads as noisy.
+   Use the standard dark-mode border colour for a quieter separator. */
+[data-theme="dark"] .page-header {
+  border-bottom-color: var(--color-border);
 }
 
 /* Reduced Motion */
