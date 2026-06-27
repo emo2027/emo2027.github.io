@@ -22,35 +22,6 @@ events:
           label: "Welcome reception"
           detail: "Planned for the XFi Building (details to follow)"
 
-    - id: "boat-tour"
-      title: "Boat Tour on the River Exe Estuary"
-      schedule_id: "boat-tour"
-      location:
-          label: "Departure"
-          name: "Exmouth Marina"
-          url: "https://www.stuartlinecruises.co.uk"
-      intro: "Join us for a private charter boat tour along the River Exe Estuary. We plan to use Stuart Line Cruises (Pride of Exmouth), subject to final confirmation. The tour departs from Exmouth, with coaches provided from the conference venue."
-      sections:
-          - heading: "Tour Highlights"
-            items:
-                - "Cruise the calm, sheltered waters of the Exe Estuary"
-                - "Views of the historic Powderham Estate, the village of Starcross, and the estuary sandbanks"
-                - "Spot local wildlife including wading birds and seals"
-                - "Live commentary from the skipper on local landmarks and history"
-                - "Opportunity to network in a relaxed setting"
-          - heading: "Logistics"
-            items:
-                - "Duration: approximately 3 hours"
-                - "Coach transport provided from the conference venue to Exmouth and back"
-                - "Indoor heated lower deck and open-air upper deck"
-                - "Licensed bar, hot and cold drinks, and snacks available on board"
-      notes:
-          - "Detailed timings will be announced closer to the conference."
-      info_box:
-          style: "warning"
-          label: "Additional Registration Required:"
-          text: "The boat tour requires separate registration and payment. Space is limited, so early booking is recommended."
-
     - id: "conference-banquet"
       title: "Conference Banquet"
       schedule_id: "conference-banquet"

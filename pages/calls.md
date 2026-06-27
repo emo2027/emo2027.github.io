@@ -81,7 +81,7 @@ For full papers (in any track), the page limit is **15 pages including reference
 
 <div class="info-box tbd">
   <h3>Coming Soon</h3>
-  <p>The submission system will be announced in mid 2026.</p>
+  <p>We will be using the EasyChair system for managing submissions to EMO 2027. The link to the submission site will appear here shortly.</p>
 </div>
 
 ### Review Process
@@ -100,6 +100,8 @@ Accepted papers will be published in **Springer [Lecture Notes in Computer Scien
 - Google Scholar
 
 Proceedings of previous EMO conferences are available via [SpringerLink](https://link.springer.com/conference/emo).
+
+Please note, accepted abstracts will appear in the back matter of proceedings but will not be indexed by Springer in databases, only full papers will be indexed.
 
 ## Presentation Requirements
 

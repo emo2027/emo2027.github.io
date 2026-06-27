@@ -23,10 +23,9 @@ EMO 2027 spans four days with the following structure:
 
 ## Keynote Speakers
 
-<div class="info-box tbd">
-  <h3>To Be Announced</h3>
-  <p>Keynote speakers will be announced in early 2027.</p>
-</div>
+- [**Benjamin Doerr**](https://www.lix.polytechnique.fr/Labo/Benjamin.Doerr/), École Polytechnique, France
+- [**Sanaz Mostaghim**](https://www.ci.ovgu.de/Team/Sanaz+Mostaghim.html), Otto-von-Guericke-Universität Magdeburg, Germany
+- [**Margaret Wiecek**](https://www.clemson.edu/science/academics/departments/mathstat/about/profiles/wmalgor), Clemson University, USA
 
 ## Tutorials
 

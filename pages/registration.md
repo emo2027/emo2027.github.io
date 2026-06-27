@@ -39,12 +39,12 @@ Conference registration includes:
 - Access to all technical sessions, keynotes, and tutorials
 - Conference materials and proceedings
 - Welcome reception (Monday evening)
+- Social outing (Tuesday evening, TBC)
 - Coffee breaks and lunches (Monday-Thursday)
 - Conference banquet (Wednesday evening)
 
 ### Optional Events
 
-- **Boat Tour** (Tuesday evening, TBC)
 - **Accompanying Person Registration** - Available for social events only
 
 ## Important Dates

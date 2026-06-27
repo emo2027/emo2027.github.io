@@ -2,7 +2,7 @@
 layout: page
 title: Social Events
 permalink: /social-events/
-description: Social events at EMO 2027 including the welcome reception, boat tour, and conference banquet.
+description: Social events at EMO 2027 including the welcome reception and conference banquet.
 ---
 
 EMO 2027 offers an exciting social programme designed to foster networking, collaboration, and enjoyment outside of the technical sessions. All social events provide opportunities to explore Exeter's charm while connecting with fellow researchers.

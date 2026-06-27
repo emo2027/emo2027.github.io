@@ -50,7 +50,7 @@ days:
   - date: "2027-04-06"
     name: "Tuesday"
     label: "Conference Day 1"
-    overview: "Conference Day 1 (Opening, Keynote, EMO/MCDM Sessions, Boat Tour)"
+    overview: "Conference Day 1 (Opening, Keynote, EMO/MCDM Sessions, Social Outing)"
     events:
       - time: "08:30-09:00"
         title: "Registration & Coffee"
@@ -92,7 +92,8 @@ days:
         location: "breakout"
         description: "Poster presentations and networking"
       - time: "Evening (TBC)"
-        id: "boat-tour"
+        id: "social-outing"
+        title: "Social Outing"
         type: "social"
 
   - date: "2027-04-07"
