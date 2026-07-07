@@ -24,7 +24,7 @@ contact:
   email: "emo2027@exeter.ac.uk"
 
 social:
-  twitter: "TBD"
+  # twitter: ""  # uncomment and set handle once the account exists
   # bluesky: "emo2027.bsky.social"
 
 locations:
