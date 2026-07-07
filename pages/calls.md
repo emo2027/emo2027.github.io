@@ -118,15 +118,15 @@ At the conference, we will confer an **Outstanding EMO Paper Award** and an **Ou
 
 ## Tutorials
 
-We invite proposals for delivering a **tutorial** at EMO 2027. Tutorials are intended to provide a valuable opportunity for attendees, especially students and early career researchers, to learn from domain experts in the field. Tutorials should provide an introduction to interesting research directions and cover the key developments in sufficient breadth. Interactivity in the sessions to engage the audience is encouraged.
+We invite proposals for delivering a **tutorial** at EMO 2027. Tutorials are intended to provide a valuable opportunity for attendees, especially students and early-career researchers, to learn from domain experts in the field. Tutorials should introduce important, emerging, or established research directions in evolutionary multi-criterion optimization and cover key developments with sufficient breadth. Proposals that include interactive elements to engage the audience are particularly encouraged.
 
 The tutorial slots are expected to be **75-90 minutes** and delivered in person. To apply, please send a brief proposal to <a href="mailto:{{ site.data.conference.contact.email }}">{{ site.data.conference.contact.email }}</a> containing the following information:
 
-- Title
+- Title of the tutorial
 - A brief description of the scope and content (~1 page)
-- Name and brief biography of the organiser(s)
+- Names, affiliations, and brief biographies of the organiser(s)
 - Email address of the corresponding organiser(s)
-- If the tutorial has been delivered before, please indicate the venue(s) and differences if any
+- If the tutorial has been delivered before, the previous venue(s) and a brief description of any differences from the proposed EMO 2027 version
 
 The tutorial proposal and notification deadlines are listed under [Important Dates](#important-dates) above. One instructor/presenter of each accepted tutorial is eligible for a discounted registration — see the [Registration page]({{ '/registration/' | relative_url }}) for details.
 
