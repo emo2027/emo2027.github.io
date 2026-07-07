@@ -13,7 +13,7 @@ This file tracks content and features that need to be completed for the website.
 
 ## Programme
 
-- [ ] Keynote speakers (early 2027)
+- [x] Keynote speakers
 - [ ] Confirmed tutorials
 - [ ] Detailed schedule with paper sessions (after acceptances)
 
