@@ -24,6 +24,8 @@ The following registration fees are tentative and subject to change:
 
 Regular registration covers up to two (2) papers/abstracts co-authored by the delegate. Student registration covers one (1) paper/abstract.
 
+One instructor/presenter of each accepted tutorial will get a discounted registration. A presenter is eligible for only a single tutorial discount, i.e., it is not possible to aggregate discounts from multiple tutorials.
+
 ### Additional Fees
 
 | Item                                | Fee |

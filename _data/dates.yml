@@ -17,6 +17,22 @@ dates:
     include_in_calendar: true
     include_in_countdown: true
 
+  - name: "Tutorial Proposal Deadline"
+    date: "2026-12-02"
+    aoe: true
+    completed: false
+    include_in_calls: true
+    include_in_calendar: true
+    include_in_countdown: false
+
+  - name: "Tutorial Notification"
+    date: "2026-12-11"
+    aoe: true
+    completed: false
+    include_in_calls: true
+    include_in_calendar: true
+    include_in_countdown: false
+
   - name: "Camera-Ready Deadline"
     date: "2026-12-14"
     aoe: true

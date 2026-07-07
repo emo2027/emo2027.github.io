@@ -128,6 +128,8 @@ The tutorial slots are expected to be **75-90 minutes** and delivered in person.
 - Email address of the corresponding organiser(s)
 - If the tutorial has been delivered before, please indicate the venue(s) and differences if any
 
+The tutorial proposal and notification deadlines are listed under [Important Dates](#important-dates) above. One instructor/presenter of each accepted tutorial is eligible for a discounted registration — see the [Registration page]({{ '/registration/' | relative_url }}) for details.
+
 ## Contact
 
 For questions regarding submissions, please contact the Programme Chairs:
