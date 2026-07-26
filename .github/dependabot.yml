@@ -1,0 +1,9 @@
+version: 2
+updates:
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    # github-pages pins most gem versions exactly; only the gem itself
+    # and unpinned transitive deps will produce update PRs.
+    open-pull-requests-limit: 5
