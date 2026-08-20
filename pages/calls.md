@@ -5,6 +5,11 @@ permalink: /calls/
 description: Submit your research to EMO 2027 - the premier venue for evolutionary multi-criterion optimization.
 ---
 
+<div class="info-box notice">
+  <p>Submissions to EMO 2027 are managed through EasyChair. Please submit your paper or abstract via the link below.</p>
+  <a href="https://easychair.org/my/conference?conf=emo2027" class="btn btn-primary">Submit via EasyChair</a>
+</div>
+
 ## Overview
 
 The 14th International Conference on Evolutionary Multi-Criterion Optimization (EMO 2027) invites high-quality submissions presenting original research on all aspects of multi-criterion optimization using evolutionary computation and related approaches.
@@ -76,13 +81,6 @@ For full papers (in any track), the page limit is **15 pages including reference
 **MCDM special track:** This track is intended to foster collaborations and knowledge-exchange between the two distinct but related areas of EMO and Multi-criteria Decision-making (MCDM). It recognises the value of methods in either domain that may be less known in the other, but can be of mutual benefit in solving open challenges in both fields. For this track, authors have the option to submit a full paper or an abstract, which are MCDM focused. Studies that use non-evolutionary methods are also welcome, but the relevance to the EMO field should be indicated for the benefit of the audience.
 
 **Industry special track:** This track is intended to encourage collaborations and knowledge-exchange between practitioners and academics on topics relevant to the conference. The aim is to improve the collective understanding of the fundamental challenges that occur in real-world applications and work collaboratively towards solving them. To emphasise the involvement of practitioners, at least one author of the submission must be from industry or a non-academic institution (e.g. public service) to qualify for submission in this track. Authors have the option to submit a full paper or an abstract, which are focused on industrial/non-academic problems.
-
-### Submission System
-
-<div class="info-box notice">
-  <p>Submissions to EMO 2027 are managed through EasyChair. Please submit your paper or abstract via the link below.</p>
-  <a href="https://easychair.org/my/conference?conf=emo2027" class="btn btn-primary">Submit via EasyChair</a>
-</div>
 
 ### Review Process
 
