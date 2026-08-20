@@ -27,7 +27,7 @@ This file tracks content and features that need to be completed for the website.
 
 ## Call for Papers
 
-- [ ] Submission system link (mid 2026)
+- [x] Submission system link (EasyChair)
 - [x] Paper templates — link to Springer LNCS format (.docx and .tex) once confirmed
 - [ ] Competition track details (late 2026)
 - [x] Add Springer AI policy and code of conduct references once Springer sponsorship is confirmed (EMO 2025 referenced Springer's AI authorship policy and Book Author Code of Conduct)

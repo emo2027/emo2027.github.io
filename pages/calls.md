@@ -79,9 +79,9 @@ For full papers (in any track), the page limit is **15 pages including reference
 
 ### Submission System
 
-<div class="info-box tbd">
-  <h3>Coming Soon</h3>
-  <p>We will be using the EasyChair system for managing submissions to EMO 2027. The link to the submission site will appear here shortly.</p>
+<div class="info-box notice">
+  <p>Submissions to EMO 2027 are managed through EasyChair. Please submit your paper or abstract via the link below.</p>
+  <a href="https://easychair.org/my/conference?conf=emo2027" class="btn btn-primary">Submit via EasyChair</a>
 </div>
 
 ### Review Process
