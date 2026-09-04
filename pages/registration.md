@@ -36,7 +36,7 @@ Each regular registration covers up to two (2) papers/abstracts co-authored by t
 
 ### Student Registration
 
-Student registration gives access to everything included in a regular registration, but covers only one (1) paper/abstract; a second can be covered at an additional charge of £160. To qualify for the student rate:
+Student registration gives access to everything included in a regular registration, but covers only one (1) paper/abstract; a second can be covered at an additional charge of £160, but in such a situation we recommend a regular registration, which would be marginally cheaper overall. To qualify for the student rate:
 
 - the registered student must be enrolled in a full-time undergraduate or postgraduate degree at the time of registration;
 - the registered student should be the presenter of the paper at the conference (unless the paper is already covered under a different registration);
