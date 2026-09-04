@@ -21,7 +21,7 @@ This file tracks content and features that need to be completed for the website.
 
 - [x] Registration fees (Regular, Student, Tutorial Speaker - Early Bird & Standard)
 - [x] Early registration deadline
-- [ ] Regular registration deadline (may be needed for catering limits; Jonathan checking with EMO 2025 team)
+- [ ] Standard registration deadline (may be needed for catering limits; Jonathan checking with EMO 2025 team)
 - [ ] Registration system link (Event Exeter moving to Cvent from 1 October 2026)
 - [x] Cancellation policy
 - [ ] Payment methods (unknown until Cvent is live; Amex uncertain)

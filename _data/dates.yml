@@ -58,7 +58,7 @@ dates:
     include_in_calendar: true
     include_in_countdown: true
 
-  - name: "Regular Registration Deadline"
+  - name: "Standard Registration Deadline"
     date: "TBC"
     aoe: true
     completed: false
