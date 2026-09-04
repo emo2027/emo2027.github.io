@@ -103,7 +103,7 @@ Please note, accepted abstracts will appear in the back matter of proceedings bu
 
 ## Presentation Requirements
 
-Each accepted full paper or abstract must be covered by at least one co-author's **registration** and presented in person, or it will not be included in the proceedings. See the [Registration page]({{ '/registration/' | relative_url }}) for more details.
+Each accepted full paper or abstract must be covered by the **registration** of at least one co-author who will present the work at the conference, or it will not be included in the proceedings. This registration must be completed by the author registration deadline listed under [Important Dates](#important-dates) above. See the [Registration page]({{ '/registration/' | relative_url }}) for fees and conditions.
 
 Accepted papers, both full and abstract, will be presented as either oral or poster presentations. Submitting authors will be given an option to specify their preference of presentation mode (oral/poster/either), based on what suits their content the best. The final mode of presentation will be decided by considering the authors' preferences, the number of submissions received/accepted, and the conference scheduling constraints.
 
