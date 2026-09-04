@@ -41,8 +41,17 @@ dates:
     include_in_calendar: true
     include_in_countdown: true
 
+  - name: "Author Registration Deadline"
+    date: "2027-01-04"
+    aoe: true
+    completed: false
+    include_in_calls: true
+    include_in_registration: true
+    include_in_calendar: true
+    include_in_countdown: true
+
   - name: "Early Registration Deadline"
-    date: "TBC"
+    date: "2027-01-14"
     aoe: true
     completed: false
     include_in_registration: true
