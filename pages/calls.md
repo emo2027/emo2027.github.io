@@ -68,6 +68,7 @@ EMO 2027 will be held **{{ site.data.conference.dates.display }}** at the Univer
 - Papers must be submitted as PDF files
 - All submissions must be original and not under review elsewhere
 - Papers must be prepared using the Springer LNCS templates (LaTeX or Word), available from the [Springer Instructions for Authors of Proceedings](https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines)
+- The submission and review process is double-anonymised, so please exclude author names and any other identifying information from the paper at the review stage
 - Authors should also review the [Springer Book Authors' Code of Conduct](https://www.springernature.com/gp/authors/book-authors-code-of-conduct)
 
 ### Types of Submissions
@@ -86,7 +87,7 @@ For full papers (in any track), the page limit is **15 pages including reference
 
 All full paper submissions (submitted to any track) will undergo standard peer review (at least 2, typically 3 reviews). The review and selection of abstract submissions will be overseen by the MCDM/Industry chairs and 1-2 additional reviewers from the programme committee if needed.
 
-Details of the review process (including any anonymisation requirements) will be announced with the submission system.
+The review process is double-anonymised; see the author guidelines above for what to exclude from your submission.
 
 ## Publication
 
