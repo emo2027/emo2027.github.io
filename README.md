@@ -114,7 +114,7 @@ Edit `_data/navigation.yml` to add or modify menu items. The footer "Contact" li
 
 ### Updating Important Dates
 
-Edit `_data/dates.yml` to update conference deadlines shown on the homepage and used in the Calls/Registration/Awards pages. Each entry has a stable `id`, used as the ICS calendar UID and for lookups from pages. Keep the `id` unchanged when renaming an entry (e.g. "Paper Submission Deadline" to "Extended Paper Submission Deadline") so calendars people have already imported update in place rather than gaining a duplicate. Use flags:
+Edit `_data/dates.yml` to update conference deadlines shown on the homepage and used in the Calls/Registration/Awards pages. Each entry has a stable `id`, used as the ICS calendar UID and for lookups from pages. Keep the `id` unchanged when renaming an entry (e.g. "Paper Submission Deadline" to "Paper Submission Deadline (Extended)") so calendars people have already imported update in place rather than gaining a duplicate. Use flags:
 
 - `include_in_countdown`: show on the homepage countdown
 - `include_in_calls`: show in the Calls page
