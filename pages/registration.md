@@ -87,7 +87,7 @@ Additional tickets for the welcome reception and conference dinner, e.g. for acc
 
 ## Author Registration
 
-{% assign author_registration = site.data.dates.dates | where: "name", "Author Registration Deadline" | first %}
+{% assign author_registration = site.data.dates.dates | where: "id", "author-registration-deadline" | first %}
 
 <div class="info-box warning">
   <strong>Important:</strong> To be included in the proceedings, each accepted paper/abstract must be covered under a registration of at least one of the authors who will present the work at the conference. This registration must be completed by the author registration deadline (<strong>{{ author_registration.date | date: "%-d %B %Y" }}, AoE</strong>).
