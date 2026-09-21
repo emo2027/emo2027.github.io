@@ -1,8 +1,8 @@
 # Important Dates for EMO 2027
 
 dates:
-  - name: "Paper Submission Deadline"
-    date: "2026-09-28"
+  - name: "Extended Paper Submission Deadline"
+    date: "2026-10-12"
     aoe: true
     completed: false
     include_in_calls: true

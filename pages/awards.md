@@ -75,10 +75,10 @@ Award recipients will receive:
     </tr>
   </thead>
   <tbody>
-    {% assign paper_deadline = site.data.dates.dates | where: "name", "Paper Submission Deadline" | first %}
+    {% assign paper_deadline = site.data.dates.dates | where: "name", "Extended Paper Submission Deadline" | first %}
     {% if paper_deadline %}
       <tr>
-        <td>Paper Submission Deadline</td>
+        <td>{{ paper_deadline.name }}</td>
         <td>{% if paper_deadline.date contains '-' %}{{ paper_deadline.date | date: "%-d %B %Y" }}{% else %}{{ paper_deadline.date }}{% endif %}</td>
       </tr>
     {% else %}
