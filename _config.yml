@@ -6,7 +6,6 @@ description: "14th International Conference on Evolutionary Multi-Criterion Opti
 url: "https://www.emo2027.org"
 baseurl: ""
 logo: /assets/images/logo.webp
-image: /assets/images/banner.webp
 
 # Build settings
 markdown: kramdown
