@@ -14,7 +14,7 @@ DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
 {% if item.date contains '-' %}DUE;VALUE=DATE:{{ item.date | date: "%Y%m%d" }}{% endif %}
 SUMMARY:{{ item.name }}{% unless item.date contains '-' %} (date TBC){% endunless %}
 DESCRIPTION:{% if item.aoe %}Deadline: 23:59 Anywhere on Earth. {% endif %}{% if item.description %}{{ item.description | strip }} {% endif %}Check {{ site.url }}/calls/ for updates.
-STATUS:NEEDS-ACTION
+STATUS:{% if item.completed %}COMPLETED{% else %}NEEDS-ACTION{% endif %}
 END:VTODO
 {% endfor %}
 END:VCALENDAR

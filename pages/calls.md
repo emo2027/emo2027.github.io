@@ -2,12 +2,12 @@
 layout: page
 title: Call for Papers
 permalink: /calls/
-description: Submit your research to EMO 2027 - the premier venue for evolutionary multi-criterion optimization.
+description: Call for papers for EMO 2027 - the premier venue for evolutionary multi-criterion optimization.
 ---
 
 <div class="info-box notice">
-  <p>Submissions to EMO 2027 are managed through EasyChair. Please submit your paper or abstract via the link below.</p>
-  <a href="https://easychair.org/my/conference?conf=emo2027" class="btn btn-primary">Submit via EasyChair</a>
+  <p>Submissions to EMO 2027 are managed through EasyChair.</p>
+  <a href="https://easychair.org/my/conference?conf=emo2027" class="btn btn-primary">Log in to EasyChair</a>
 </div>
 
 ## Overview
@@ -32,7 +32,7 @@ EMO 2027 will be held **{{ site.data.conference.dates.display }}** at the Univer
   <tbody>
     {% assign call_dates = site.data.dates.dates | where: "include_in_calls", true %}
     {% for milestone in call_dates %}
-    <tr>
+    <tr{% if milestone.completed %} class="completed"{% endif %}>
       <td>{{ milestone.name }}</td>
       <td>{% if milestone.date contains '-' %}{{ milestone.date | date: "%-d %B %Y" }}{% else %}{{ milestone.date }}{% endif %}</td>
     </tr>

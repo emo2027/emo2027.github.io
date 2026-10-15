@@ -5,7 +5,7 @@ dates:
     id: "paper-submission-deadline"
     date: "2026-10-12"
     aoe: true
-    completed: false
+    completed: true
     include_in_calls: true
     include_in_calendar: true
     include_in_countdown: true

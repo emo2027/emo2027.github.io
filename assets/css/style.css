@@ -1145,6 +1145,10 @@ tr:hover {
   background-color: var(--color-bg-alt);
 }
 
+tr.completed td {
+  text-decoration: line-through;
+}
+
 /* ========================
    Footer Styles
    ======================== */
