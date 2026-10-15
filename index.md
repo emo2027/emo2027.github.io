@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: EMO 2027
 ---
 
 <div class="hero-section">
