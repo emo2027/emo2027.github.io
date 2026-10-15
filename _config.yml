@@ -42,6 +42,13 @@ defaults:
       type: "pages"
     values:
       layout: "page"
+      # Link preview image (og:image / twitter:image) for every page.
+      # 1200x630, made from banner-highres.png padded with the banner background colour.
+      image:
+        path: /assets/images/social-card.jpg
+        width: 1200
+        height: 630
+        alt: "Illustration of Exeter Cathedral beside the text: International Conference on Evolutionary Multi-Criterion Optimization, 5-8 April, 2027, Exeter, UK"
   - scope:
       path: "pages"
     values:
